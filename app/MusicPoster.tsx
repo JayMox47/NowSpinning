@@ -166,7 +166,7 @@ export default function MusicPoster() {
         }
       } catch { if (!disposed) setConnected(isSpotifyConnected()); }
     };
-    poll(); const interval = window.setInterval(poll, Math.max(config.pollIntervalMs, 15000));
+    poll(); const interval = window.setInterval(poll, Math.max(config.pollIntervalMs, 5000));
     return () => { disposed = true; window.clearInterval(interval); };
   }, [config, mode, showAlbum, showStandby]);
 

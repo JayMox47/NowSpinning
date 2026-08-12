@@ -8,6 +8,6 @@ window.MUSIC_FRAME_CONFIG = {
     "6mUdeDZCsExyJLMdAfDuwh",
   ],
   // Spotify Development Mode has a shared request quota; 15s is responsive without exhausting it.
-  pollIntervalMs: 15000,
+  pollIntervalMs: 5000,
   carouselIntervalMs: 30000,
 };

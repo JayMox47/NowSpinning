@@ -48,16 +48,34 @@ export default function MusicPoster() {
 
   const updateAccent = useCallback((candidate: SpotifyAlbum) => {
     const url = candidate.images?.[0]?.url;
-    if (!url) { document.documentElement.style.setProperty("--accent", "#d36135"); return; }
-    const image = new Image(); image.crossOrigin = "anonymous"; image.src = url;
+    if (!url) return;
+    const image = new window.Image(); image.crossOrigin = "anonymous"; image.src = url;
     image.onload = () => {
       try {
-        const canvas = document.createElement("canvas"); canvas.width = canvas.height = 24;
+        const canvas = document.createElement("canvas"); canvas.width = canvas.height = 36;
         const ctx = canvas.getContext("2d", { willReadFrequently: true }); if (!ctx) return;
-        ctx.drawImage(image, 0, 0, 24, 24); const pixels = ctx.getImageData(0, 0, 24, 24).data;
-        let r = 0, g = 0, b = 0, count = 0;
-        for (let i = 0; i < pixels.length; i += 16) { const lum = (pixels[i] + pixels[i+1] + pixels[i+2]) / 3; if (lum > 28 && lum < 235) { r += pixels[i]; g += pixels[i+1]; b += pixels[i+2]; count++; } }
-        if (count) document.documentElement.style.setProperty("--accent", `rgb(${r/count}, ${g/count}, ${b/count})`);
+        ctx.drawImage(image, 0, 0, 36, 36);
+        const pixels = ctx.getImageData(0, 0, 36, 36).data;
+        const buckets = new Map<string, { r: number; g: number; b: number; count: number; saturation: number }>();
+        for (let i = 0; i < pixels.length; i += 16) {
+          const r = pixels[i], g = pixels[i + 1], b = pixels[i + 2];
+          const max = Math.max(r, g, b), min = Math.min(r, g, b), saturation = max - min;
+          const key = `${Math.round(r / 32)},${Math.round(g / 32)},${Math.round(b / 32)}`;
+          const bucket = buckets.get(key) || { r: 0, g: 0, b: 0, count: 0, saturation: 0 };
+          bucket.r += r; bucket.g += g; bucket.b += b; bucket.count++; bucket.saturation += saturation;
+          buckets.set(key, bucket);
+        }
+        const palette = [...buckets.values()].map(color => ({
+          r: Math.round(color.r / color.count), g: Math.round(color.g / color.count), b: Math.round(color.b / color.count),
+          score: color.count * (1 + color.saturation / color.count / 90),
+        })).sort((a, b) => b.score - a.score);
+        const first = palette[0];
+        const second = palette.find(color => Math.hypot(color.r - first.r, color.g - first.g, color.b - first.b) > 75) || palette[1] || first;
+        const soften = (color: typeof first) => `rgb(${Math.round(color.r * .62)}, ${Math.round(color.g * .62)}, ${Math.round(color.b * .62)})`;
+        const root = document.documentElement;
+        root.style.setProperty("--color-one", soften(first));
+        root.style.setProperty("--color-two", soften(second));
+        root.style.setProperty("--accent", `rgb(${second.r}, ${second.g}, ${second.b})`);
       } catch { /* A remote image may disallow canvas reads; keep the current accent. */ }
     };
   }, []);
@@ -131,20 +149,19 @@ export default function MusicPoster() {
 
   return (
     <main className={`kiosk ${controlsVisible || drawerOpen ? "controls-active" : "controls-hidden"}`}>
-      <div className="ambient" />
       <header className="topline">
-        <div className="brand"><span className="brand-dot" /> NOW SPINNING <span className="edition">FRAME 01</span></div>
-        <div className="status"><span className={`signal ${mode}`} /> {mode === "live" ? "LIVE FROM SPOTIFY" : mode === "pinned" ? "MANUAL SELECTION" : "STANDBY EDITION"}</div>
+        <div className="brand">NOW SPINNING</div>
+        <div className="status"><span className={`signal ${mode}`} /> {mode === "live" ? "LIVE" : mode === "pinned" ? "PINNED" : "STANDBY"}</div>
       </header>
 
       <section className="poster" aria-live="polite">
-        <div className="art-wrap"><AlbumArt album={album} /><div className="vinyl-rings" /></div>
+        <div className="art-wrap"><AlbumArt album={album} /></div>
         <section className="album-info">
-          <div className="title-block"><p className="eyebrow">ALBUM / {year}</p><h1>{album.name}</h1><p className="artist">{album.artists.map(a => a.name).join(", ")}</p></div>
-          <dl className="metadata"><div><dt>Released</dt><dd>{year}</dd></div><div><dt>Genre / Label</dt><dd>{detail}</dd></div><div><dt>Format</dt><dd>{album.total_tracks || tracks.length} tracks</dd></div></dl>
+          <div className="title-block"><h1>{album.name}</h1><p className="artist">{album.artists.map(a => a.name).join(", ")}</p></div>
+          <p className="album-meta">{year} <span>·</span> {detail}</p>
         </section>
         <section className="track-section">
-          <div className="track-heading"><span>TRACK LISTING</span><span>{String(tracks.length).padStart(2, "0")} CUTS</span></div>
+          <div className="track-heading"><span>TRACKS</span><span>{String(tracks.length).padStart(2, "0")}</span></div>
           <ol className="tracklist">{tracks.map((track, index) => <li key={`${track.id}-${index}`}><span className="track-number">{String(track.track_number || index + 1).padStart(2, "0")}</span><span>{track.name}</span></li>)}</ol>
         </section>
       </section>

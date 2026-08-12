@@ -18,6 +18,10 @@ const demoAlbum: SpotifyAlbum = {
 };
 
 type DisplayMode = "live" | "standby" | "pinned";
+type DrawerView = "rotation" | "pin";
+
+const ALBUMS_KEY = "music-frame.standby-albums";
+const INTERVAL_KEY = "music-frame.rotation-interval";
 
 const AlbumArt = ({ album }: { album: SpotifyAlbum }) => {
   const src = album.images?.[0]?.url;
@@ -35,12 +39,17 @@ export default function MusicPoster() {
   const [mode, setMode] = useState<DisplayMode>("standby");
   const [connected, setConnected] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [drawerView, setDrawerView] = useState<DrawerView>("rotation");
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SpotifyAlbum[]>([]);
   const [searching, setSearching] = useState(false);
   const [controlsVisible, setControlsVisible] = useState(true);
   const [notice, setNotice] = useState("");
   const [isPinned, setIsPinned] = useState(false);
+  const [currentTrackId, setCurrentTrackId] = useState<string | null>(null);
+  const [standbyIds, setStandbyIds] = useState<string[]>([]);
+  const [standbyAlbums, setStandbyAlbums] = useState<SpotifyAlbum[]>([]);
+  const [rotationMs, setRotationMs] = useState(30000);
   const pinned = useRef<SpotifyAlbum | null>(null);
   const standbyIndex = useRef(0);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -83,15 +92,33 @@ export default function MusicPoster() {
   const showAlbum = useCallback((next: SpotifyAlbum, nextMode: DisplayMode) => { setAlbum(next); setMode(nextMode); updateAccent(next); }, [updateAccent]);
 
   const showStandby = useCallback(async () => {
-    if (!config || !connected || !config.standbyAlbumIds.length) { showAlbum(demoAlbum, "standby"); return; }
-    const id = config.standbyAlbumIds[standbyIndex.current++ % config.standbyAlbumIds.length];
+    setCurrentTrackId(null);
+    if (!config || !connected || !standbyIds.length) { showAlbum(demoAlbum, "standby"); return; }
+    const id = standbyIds[standbyIndex.current++ % standbyIds.length];
     try { const next = await getAlbum(id, config); if (next) showAlbum(next, "standby"); } catch { showAlbum(demoAlbum, "standby"); }
-  }, [config, connected, showAlbum]);
+  }, [config, connected, showAlbum, standbyIds]);
 
   useEffect(() => {
     if (!config) return;
+    Promise.resolve().then(() => {
+      try {
+        const savedAlbums = JSON.parse(localStorage.getItem(ALBUMS_KEY) || "null");
+        setStandbyIds(Array.isArray(savedAlbums) ? savedAlbums : config.standbyAlbumIds);
+        const savedInterval = Number(localStorage.getItem(INTERVAL_KEY));
+        setRotationMs(savedInterval >= 10000 ? savedInterval : config.carouselIntervalMs);
+      } catch { setStandbyIds(config.standbyAlbumIds); }
+    });
     completeSpotifyLogin(config).catch(() => setNotice("Spotify sign-in could not be completed.")).finally(() => setConnected(isSpotifyConnected()));
   }, [config]);
+
+  useEffect(() => {
+    if (!config || !connected || !standbyIds.length) { Promise.resolve().then(() => setStandbyAlbums([])); return; }
+    let disposed = false;
+    Promise.all(standbyIds.map(id => getAlbum(id, config).catch(() => null))).then(items => {
+      if (!disposed) setStandbyAlbums(items.filter((item): item is SpotifyAlbum => Boolean(item)));
+    });
+    return () => { disposed = true; };
+  }, [config, connected, standbyIds]);
 
   useEffect(() => {
     if (!config) return;
@@ -102,9 +129,13 @@ export default function MusicPoster() {
         const playing = await getCurrentlyPlaying(config);
         const current = playing?.item?.album;
         if (!disposed && playing?.is_playing && current) {
+          setCurrentTrackId(playing.item?.id || null);
           const full = current.tracks?.items?.length ? current : await getAlbum(current.id, config);
           if (full) showAlbum(full, "live");
-        } else if (!disposed && mode === "live") await showStandby();
+        } else if (!disposed) {
+          setCurrentTrackId(null);
+          if (mode === "live") await showStandby();
+        }
       } catch { if (!disposed) setConnected(isSpotifyConnected()); }
     };
     poll(); const interval = window.setInterval(poll, config.pollIntervalMs);
@@ -113,9 +144,9 @@ export default function MusicPoster() {
 
   useEffect(() => {
     if (!config) return;
-    const interval = window.setInterval(() => { if (!pinned.current && mode !== "live") showStandby(); }, config.carouselIntervalMs);
+    const interval = window.setInterval(() => { if (!pinned.current && mode !== "live") showStandby(); }, rotationMs);
     return () => window.clearInterval(interval);
-  }, [config, mode, showStandby]);
+  }, [config, mode, rotationMs, showStandby]);
 
   useEffect(() => {
     const reveal = () => { setControlsVisible(true); if (hideTimer.current) clearTimeout(hideTimer.current); hideTimer.current = setTimeout(() => { if (!drawerOpen) setControlsVisible(false); }, 3000); };
@@ -143,6 +174,13 @@ export default function MusicPoster() {
   };
   const pinAlbum = (chosen: SpotifyAlbum) => { pinned.current = chosen; setIsPinned(true); showAlbum(chosen, "pinned"); setDrawerOpen(false); };
   const resumeAuto = () => { pinned.current = null; setIsPinned(false); setDrawerOpen(false); showStandby(); };
+  const saveStandbyIds = (ids: string[]) => { setStandbyIds(ids); localStorage.setItem(ALBUMS_KEY, JSON.stringify(ids)); };
+  const addToRotation = (chosen: SpotifyAlbum) => {
+    if (standbyIds.includes(chosen.id)) { setNotice("That album is already in the rotation."); return; }
+    saveStandbyIds([...standbyIds, chosen.id]); setQuery(""); setResults([]);
+  };
+  const removeFromRotation = (id: string) => saveStandbyIds(standbyIds.filter(albumId => albumId !== id));
+  const changeRotation = (milliseconds: number) => { setRotationMs(milliseconds); localStorage.setItem(INTERVAL_KEY, String(milliseconds)); };
   const tracks = album.tracks?.items || [];
   const posterStyle = { "--track-rows": Math.ceil(tracks.length / 2) } as CSSProperties;
   const year = album.release_date?.slice(0, 4) || "—";
@@ -158,12 +196,12 @@ export default function MusicPoster() {
         </section>
         <section className="track-section">
           <div className="track-heading"><span>TRACKS</span><span>{String(tracks.length).padStart(2, "0")}</span></div>
-          <ol className="tracklist">{tracks.map((track, index) => <li key={`${track.id}-${index}`}><span className="track-number">{String(track.track_number || index + 1).padStart(2, "0")}</span><span>{track.name}</span></li>)}</ol>
+          <ol className="tracklist">{tracks.map((track, index) => <li className={currentTrackId === track.id ? "playing" : ""} key={`${track.id}-${index}`}><span className="track-number">{currentTrackId === track.id ? <span className="playing-glyph" aria-label="Currently playing"><i /><i /><i /></span> : String(track.track_number || index + 1).padStart(2, "0")}</span><span>{track.name}</span></li>)}</ol>
         </section>
       </section>
 
       <nav className="controls" aria-label="Display controls">
-        <button onClick={() => setDrawerOpen(true)} aria-label="Open album selector"><span>＋</span> SELECT ALBUM</button>
+        <button onClick={() => { setDrawerView("rotation"); setDrawerOpen(true); }} aria-label="Open rotation settings"><span>≡</span> ROTATION</button>
         <button onClick={toggleConnection}><span className="spotify-glyph">●</span> {connected ? "DISCONNECT" : "CONNECT SPOTIFY"}</button>
         <button className="icon-button" onClick={toggleFullscreen} aria-label="Toggle fullscreen">⛶</button>
       </nav>
@@ -171,14 +209,17 @@ export default function MusicPoster() {
       {notice && <button className="notice" onClick={() => setNotice("")}>{notice} <span>×</span></button>}
       <button className={`drawer-backdrop ${drawerOpen ? "open" : ""}`} onClick={() => setDrawerOpen(false)} aria-label="Close album selector" />
       <aside className={`drawer ${drawerOpen ? "open" : ""}`} aria-hidden={!drawerOpen}>
-        <div className="drawer-head"><div><p className="eyebrow">MANUAL OVERRIDE</p><h2>Choose a record</h2></div><button className="close" onClick={() => setDrawerOpen(false)} aria-label="Close selector">×</button></div>
-        <label className="search"><span>⌕</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder={connected ? "Search Spotify albums…" : "Connect Spotify to search…"} disabled={!connected} /></label>
-        {isPinned && <button className="resume" onClick={resumeAuto}>Resume automatic display <span>→</span></button>}
+        <div className="drawer-head"><div><p className="eyebrow">DISPLAY LIBRARY</p><h2>{drawerView === "rotation" ? "Album rotation" : "Pin an album"}</h2></div><button className="close" onClick={() => setDrawerOpen(false)} aria-label="Close selector">×</button></div>
+        <div className="drawer-tabs"><button className={drawerView === "rotation" ? "active" : ""} onClick={() => { setDrawerView("rotation"); setQuery(""); }}>Rotation</button><button className={drawerView === "pin" ? "active" : ""} onClick={() => { setDrawerView("pin"); setQuery(""); }}>Manual pin</button></div>
+        {drawerView === "rotation" && <div className="frequency"><label htmlFor="rotation-frequency">Change album every</label><select id="rotation-frequency" value={rotationMs} onChange={event => changeRotation(Number(event.target.value))}><option value={15000}>15 seconds</option><option value={30000}>30 seconds</option><option value={60000}>1 minute</option><option value={120000}>2 minutes</option><option value={300000}>5 minutes</option><option value={600000}>10 minutes</option></select></div>}
+        {drawerView === "rotation" && <div className="rotation-list">{standbyAlbums.length ? standbyAlbums.map(item => <div className="rotation-item" key={item.id}><span className="result-art">{item.images?.[2]?.url && <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized />}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")}</small></span><button onClick={() => removeFromRotation(item.id)} aria-label={`Remove ${item.name} from rotation`}>×</button></div>) : <p className="empty">Your rotation is empty. Add an album below.</p>}</div>}
+        <label className="search"><span>⌕</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder={connected ? drawerView === "rotation" ? "Add an album…" : "Search Spotify albums…" : "Connect Spotify to search…"} disabled={!connected} /></label>
+        {drawerView === "pin" && isPinned && <button className="resume" onClick={resumeAuto}>Resume automatic display <span>→</span></button>}
         <div className="results">
           {searching && <p className="empty">Searching the shelves…</p>}
-          {!searching && !query && <p className="empty">Search by album or artist, then pin a record to keep it on screen.</p>}
+          {!searching && !query && drawerView === "pin" && <p className="empty">Search by album or artist, then pin a record to keep it on screen.</p>}
           {!searching && query && !results.length && <p className="empty">No albums found.</p>}
-          {results.map(item => <button className="result" key={item.id} onClick={async () => { if (!config) return; const full = await getAlbum(item.id, config); if (full) pinAlbum(full); }}><span className="result-art">{item.images?.[2]?.url ? <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized /> : "♪"}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")} · {item.release_date?.slice(0,4)}</small></span><b>＋</b></button>)}
+          {results.map(item => <button className="result" key={item.id} onClick={async () => { if (drawerView === "rotation") { addToRotation(item); return; } if (!config) return; const full = await getAlbum(item.id, config); if (full) pinAlbum(full); }}><span className="result-art">{item.images?.[2]?.url ? <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized /> : "♪"}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")} · {item.release_date?.slice(0,4)}</small></span><b>＋</b></button>)}
         </div>
         <footer className="drawer-footer"><span className={`signal ${connected ? "live" : "standby"}`} /> {connected ? "SPOTIFY CONNECTED" : "SPOTIFY NOT CONNECTED"}</footer>
       </aside>

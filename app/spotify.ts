@@ -2,6 +2,8 @@ import type { MusicFrameConfig } from "./config";
 
 const TOKEN_KEY = "music-frame.spotify-token";
 const VERIFIER_KEY = "music-frame.pkce-verifier";
+const albumCache = new Map<string, SpotifyAlbum>();
+let rateLimitedUntil = 0;
 
 export type SpotifyImage = { url: string; width?: number; height?: number };
 export type SpotifyTrack = { id: string; name: string; track_number: number; disc_number: number; duration_ms: number };
@@ -98,6 +100,7 @@ async function accessToken(config: MusicFrameConfig, forceRefresh = false) {
 }
 
 async function api<T>(path: string, config: MusicFrameConfig): Promise<T | null> {
+  if (Date.now() < rateLimitedUntil) return null;
   const token = await accessToken(config);
   if (!token) return null;
   let response = await fetch(`https://api.spotify.com/v1${path}`, { headers: { Authorization: `Bearer ${token}` } });
@@ -109,6 +112,11 @@ async function api<T>(path: string, config: MusicFrameConfig): Promise<T | null>
     if (response.status === 204) return null;
   }
   if (response.status === 401) { disconnectSpotify(); return null; }
+  if (response.status === 429) {
+    const retrySeconds = Number(response.headers.get("Retry-After")) || 30;
+    rateLimitedUntil = Date.now() + retrySeconds * 1000;
+    return null;
+  }
   if (!response.ok) throw new Error(`Spotify API error ${response.status}`);
   return response.json();
 }
@@ -118,7 +126,11 @@ export async function getCurrentlyPlaying(config: MusicFrameConfig) {
 }
 
 export async function getAlbum(id: string, config: MusicFrameConfig) {
-  return api<SpotifyAlbum>(`/albums/${encodeURIComponent(id)}`, config);
+  const cached = albumCache.get(id);
+  if (cached) return cached;
+  const album = await api<SpotifyAlbum>(`/albums/${encodeURIComponent(id)}`, config);
+  if (album) albumCache.set(id, album);
+  return album;
 }
 
 export async function searchAlbums(query: string, config: MusicFrameConfig) {

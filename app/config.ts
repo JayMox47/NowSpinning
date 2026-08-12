@@ -12,6 +12,6 @@ export const getConfig = (): MusicFrameConfig => ({
   spotifyClientId: window.MUSIC_FRAME_CONFIG?.spotifyClientId || "",
   redirectUri: window.MUSIC_FRAME_CONFIG?.redirectUri || window.location.origin + window.location.pathname,
   standbyAlbumIds: window.MUSIC_FRAME_CONFIG?.standbyAlbumIds || [],
-  pollIntervalMs: window.MUSIC_FRAME_CONFIG?.pollIntervalMs || 5000,
+  pollIntervalMs: window.MUSIC_FRAME_CONFIG?.pollIntervalMs || 15000,
   carouselIntervalMs: window.MUSIC_FRAME_CONFIG?.carouselIntervalMs || 30000,
 });

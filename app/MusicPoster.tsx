@@ -126,9 +126,17 @@ export default function MusicPoster() {
   useEffect(() => {
     if (!config || !connected || !standbyIds.length) { Promise.resolve().then(() => setStandbyAlbums([])); return; }
     let disposed = false;
-    Promise.all(standbyIds.map(id => getAlbum(id, config).catch(() => null))).then(items => {
-      if (!disposed) setStandbyAlbums(items.filter((item): item is SpotifyAlbum => Boolean(item)));
-    });
+    const loadAlbums = async () => {
+      const items: SpotifyAlbum[] = [];
+      for (const id of standbyIds) {
+        if (disposed) return;
+        const item = await getAlbum(id, config).catch(() => null);
+        if (item) items.push(item);
+        await new Promise(resolve => setTimeout(resolve, 400));
+      }
+      if (!disposed) setStandbyAlbums(items);
+    };
+    loadAlbums();
     return () => { disposed = true; };
   }, [config, connected, standbyIds]);
 
@@ -150,7 +158,7 @@ export default function MusicPoster() {
         }
       } catch { if (!disposed) setConnected(isSpotifyConnected()); }
     };
-    poll(); const interval = window.setInterval(poll, config.pollIntervalMs);
+    poll(); const interval = window.setInterval(poll, Math.max(config.pollIntervalMs, 15000));
     return () => { disposed = true; window.clearInterval(interval); };
   }, [config, mode, showAlbum, showStandby]);
 
@@ -189,7 +197,7 @@ export default function MusicPoster() {
   const saveStandbyIds = (ids: string[]) => { setStandbyIds(ids); localStorage.setItem(ALBUMS_KEY, JSON.stringify(ids)); };
   const addToRotation = (chosen: SpotifyAlbum) => {
     if (standbyIds.includes(chosen.id)) { setNotice("That album is already in the rotation."); return; }
-    saveStandbyIds([...standbyIds, chosen.id]); setQuery(""); setResults([]);
+    saveStandbyIds([...standbyIds, chosen.id]); setStandbyAlbums(current => [...current, chosen]); setQuery(""); setResults([]);
   };
   const removeFromRotation = (id: string) => saveStandbyIds(standbyIds.filter(albumId => albumId !== id));
   const changeRotation = (milliseconds: number) => { setRotationMs(milliseconds); localStorage.setItem(INTERVAL_KEY, String(milliseconds)); };
@@ -231,7 +239,7 @@ export default function MusicPoster() {
           {searching && <p className="empty">Searching the shelves…</p>}
           {!searching && !query && drawerView === "pin" && <p className="empty">Search by album or artist, then pin a record to keep it on screen.</p>}
           {!searching && query && !results.length && <p className="empty">No albums found.</p>}
-          {results.map(item => <button className="result" key={item.id} onClick={async () => { if (drawerView === "rotation") { addToRotation(item); return; } if (!config) return; const full = await getAlbum(item.id, config); if (full) pinAlbum(full); }}><span className="result-art">{item.images?.[2]?.url ? <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized /> : "♪"}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")} · {item.release_date?.slice(0,4)}</small></span><b>＋</b></button>)}
+          {results.map(item => <button className="result" key={item.id} onClick={async () => { if (drawerView === "rotation") { addToRotation(item); return; } if (!config) return; const full = await getAlbum(item.id, config); if (full) pinAlbum(full); else setNotice("Spotify is temporarily rate-limiting requests. Try again shortly."); }}><span className="result-art">{item.images?.[2]?.url ? <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized /> : "♪"}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")} · {item.release_date?.slice(0,4)}</small></span><b>＋</b></button>)}
         </div>
         <footer className="drawer-footer"><span className={`signal ${connected ? "live" : "standby"}`} /> {connected ? "SPOTIFY CONNECTED" : "SPOTIFY NOT CONNECTED"}</footer>
       </aside>

@@ -7,6 +7,7 @@ window.MUSIC_FRAME_CONFIG = {
     "4LH4d3cOWNNsVw41Gqt2kv",
     "6mUdeDZCsExyJLMdAfDuwh",
   ],
-  pollIntervalMs: 5000,
+  // Spotify Development Mode has a shared request quota; 15s is responsive without exhausting it.
+  pollIntervalMs: 15000,
   carouselIntervalMs: 30000,
 };

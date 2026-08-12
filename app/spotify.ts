@@ -82,10 +82,10 @@ export async function completeSpotifyLogin(config: MusicFrameConfig) {
 export function isSpotifyConnected() { return Boolean(readToken()?.refresh_token || readToken()?.access_token); }
 export function disconnectSpotify() { localStorage.removeItem(TOKEN_KEY); }
 
-async function accessToken(config: MusicFrameConfig) {
+async function accessToken(config: MusicFrameConfig, forceRefresh = false) {
   const token = readToken();
   if (!token) return null;
-  if (token.expires_at > Date.now()) return token.access_token;
+  if (!forceRefresh && token.expires_at > Date.now()) return token.access_token;
   if (!token.refresh_token) { disconnectSpotify(); return null; }
   try {
     const payload = await tokenRequest(new URLSearchParams({
@@ -100,8 +100,14 @@ async function accessToken(config: MusicFrameConfig) {
 async function api<T>(path: string, config: MusicFrameConfig): Promise<T | null> {
   const token = await accessToken(config);
   if (!token) return null;
-  const response = await fetch(`https://api.spotify.com/v1${path}`, { headers: { Authorization: `Bearer ${token}` } });
+  let response = await fetch(`https://api.spotify.com/v1${path}`, { headers: { Authorization: `Bearer ${token}` } });
   if (response.status === 204) return null;
+  if (response.status === 401) {
+    const refreshed = await accessToken(config, true);
+    if (!refreshed) return null;
+    response = await fetch(`https://api.spotify.com/v1${path}`, { headers: { Authorization: `Bearer ${refreshed}` } });
+    if (response.status === 204) return null;
+  }
   if (response.status === 401) { disconnectSpotify(); return null; }
   if (!response.ok) throw new Error(`Spotify API error ${response.status}`);
   return response.json();

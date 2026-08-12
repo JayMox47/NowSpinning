@@ -117,18 +117,19 @@ h1 { max-width: 560px; margin: 0; font-size: clamp(33px, 6vw, 52px); font-weight
   .drawer { padding: 28px 20px 20px; }
 }
 @media (orientation: landscape) and (min-width: 1000px) {
+  .kiosk { display: flex; align-items: center; justify-content: center; }
   .poster {
     display: grid;
     grid-template-columns: min(70vh, 48vw, 720px) minmax(360px, 1fr);
-    grid-template-rows: auto 1fr;
-    align-content: center;
-    align-items: end;
+    grid-template-rows: auto auto;
+    align-items: center;
     column-gap: clamp(56px, 6vw, 112px);
     width: min(calc(100% - 112px), 1380px);
-    min-height: 100svh;
+    min-height: 0;
+    margin: auto;
     padding: 48px 0;
   }
-  .art-wrap { grid-row: 1 / 3; width: 100%; max-width: 720px; }
+  .art-wrap { grid-row: 1 / 3; align-self: center; width: 100%; max-width: 720px; }
   .album-info { grid-template-columns: 1fr; gap: 20px; padding: 0 0 26px; }
   .album-meta { text-align: left; }
   .track-section { align-self: start; padding-top: 22px; }

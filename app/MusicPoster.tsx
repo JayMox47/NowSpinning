@@ -1,8 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
 import Image from "next/image";
-import { getConfig } from "./config";
+import { getConfig, type MusicFrameConfig } from "./config";
 import { beginSpotifyLogin, completeSpotifyLogin, disconnectSpotify, getAlbum, getCurrentlyPlaying, isSpotifyConnected, searchAlbums, type SpotifyAlbum } from "./spotify";
 
 const demoAlbum: SpotifyAlbum = {
@@ -50,10 +50,22 @@ export default function MusicPoster() {
   const [standbyIds, setStandbyIds] = useState<string[]>([]);
   const [standbyAlbums, setStandbyAlbums] = useState<SpotifyAlbum[]>([]);
   const [rotationMs, setRotationMs] = useState(30000);
+  const [config, setConfig] = useState<MusicFrameConfig | null>(null);
   const pinned = useRef<SpotifyAlbum | null>(null);
   const standbyIndex = useRef(0);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const config = useMemo(() => typeof window === "undefined" ? null : getConfig(), []);
+
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    let attempts = 0;
+    const loadConfig = () => {
+      const next = getConfig();
+      if (next.spotifyClientId || attempts++ >= 20) setConfig(next);
+      else timer = setTimeout(loadConfig, 100);
+    };
+    timer = setTimeout(loadConfig, 0);
+    return () => { if (timer) clearTimeout(timer); };
+  }, []);
 
   const updateAccent = useCallback((candidate: SpotifyAlbum) => {
     const url = candidate.images?.[0]?.url;

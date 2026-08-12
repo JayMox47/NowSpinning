@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import Image from "next/image";
 import { getConfig } from "./config";
 import { beginSpotifyLogin, completeSpotifyLogin, disconnectSpotify, getAlbum, getCurrentlyPlaying, isSpotifyConnected, searchAlbums, type SpotifyAlbum } from "./spotify";
@@ -144,17 +144,13 @@ export default function MusicPoster() {
   const pinAlbum = (chosen: SpotifyAlbum) => { pinned.current = chosen; setIsPinned(true); showAlbum(chosen, "pinned"); setDrawerOpen(false); };
   const resumeAuto = () => { pinned.current = null; setIsPinned(false); setDrawerOpen(false); showStandby(); };
   const tracks = album.tracks?.items || [];
+  const posterStyle = { "--track-rows": Math.ceil(tracks.length / 2) } as CSSProperties;
   const year = album.release_date?.slice(0, 4) || "—";
   const detail = album.genres?.[0] || album.label || album.album_type || "Album";
 
   return (
     <main className={`kiosk ${controlsVisible || drawerOpen ? "controls-active" : "controls-hidden"}`}>
-      <header className="topline">
-        <div className="brand">NOW SPINNING</div>
-        <div className="status"><span className={`signal ${mode}`} /> {mode === "live" ? "LIVE" : mode === "pinned" ? "PINNED" : "STANDBY"}</div>
-      </header>
-
-      <section className="poster" aria-live="polite">
+      <section className="poster" aria-live="polite" style={posterStyle}>
         <div className="art-wrap"><AlbumArt album={album} /></div>
         <section className="album-info">
           <div className="title-block"><h1>{album.name}</h1><p className="artist">{album.artists.map(a => a.name).join(", ")}</p></div>

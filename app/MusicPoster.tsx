@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
+import { useCallback, useEffect, useRef, useState, type CSSProperties, type FormEvent } from "react";
 import Image from "next/image";
 import { getConfig, type MusicFrameConfig } from "./config";
 import { beginSpotifyLogin, completeSpotifyLogin, disconnectSpotify, getAlbum, getCurrentlyPlaying, isSpotifyConnected, type SpotifyAlbum } from "./spotify";
@@ -42,6 +42,7 @@ export default function MusicPoster() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [drawerView, setDrawerView] = useState<DrawerView>("rotation");
   const [query, setQuery] = useState("");
+  const [lastSearch, setLastSearch] = useState("");
   const [results, setResults] = useState<SpotifyAlbum[]>([]);
   const [searching, setSearching] = useState(false);
   const [controlsVisible, setControlsVisible] = useState(true);
@@ -181,17 +182,6 @@ export default function MusicPoster() {
     return () => ["mousemove", "touchstart", "keydown"].forEach(event => window.removeEventListener(event, reveal));
   }, [drawerOpen]);
 
-  useEffect(() => {
-    if (!config) return;
-    const timer = setTimeout(async () => {
-      if (!query.trim()) { setResults([]); return; }
-      setSearching(true);
-      try { setResults(await searchCatalog(query)); } catch { setNotice("Album search is temporarily unavailable."); }
-      finally { setSearching(false); }
-    }, 350);
-    return () => clearTimeout(timer);
-  }, [config, query]);
-
   const toggleFullscreen = () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen();
   const toggleConnection = () => {
     if (!config) return;
@@ -202,13 +192,22 @@ export default function MusicPoster() {
   const pinAlbum = (chosen: SpotifyAlbum) => { pinned.current = chosen; setIsPinned(true); showAlbum(chosen, "pinned"); setDrawerOpen(false); };
   const resumeAuto = () => { pinned.current = null; setIsPinned(false); setDrawerOpen(false); showStandby(); };
   const saveStandbyIds = (ids: string[]) => { setStandbyIds(ids); localStorage.setItem(ALBUMS_KEY, JSON.stringify(ids)); };
+  const submitSearch = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const term = query.trim();
+    if (!term || searching) return;
+    setSearching(true); setLastSearch(term); setResults([]);
+    try { setResults(await searchCatalog(term)); }
+    catch { setNotice("Album search is temporarily unavailable."); }
+    finally { setSearching(false); }
+  };
   const addToRotation = async (chosen: SpotifyAlbum) => {
     if (standbyIds.includes(chosen.id)) { setNotice("That album is already in the rotation."); return; }
     setSearching(true);
     try {
       const full = await loadCatalogAlbum(chosen.id) || chosen;
       await cacheAlbum(full);
-      saveStandbyIds([...standbyIds, full.id]); setStandbyAlbums(current => [...current, full]); setQuery(""); setResults([]);
+      saveStandbyIds([...standbyIds, full.id]); setStandbyAlbums(current => [...current, full]); setQuery(""); setLastSearch(""); setResults([]);
     } catch { setNotice("That album could not be downloaded. Please try again."); }
     finally { setSearching(false); }
   };
@@ -244,15 +243,15 @@ export default function MusicPoster() {
       <button className={`drawer-backdrop ${drawerOpen ? "open" : ""}`} onClick={() => setDrawerOpen(false)} aria-label="Close album selector" />
       <aside className={`drawer ${drawerOpen ? "open" : ""}`} aria-hidden={!drawerOpen}>
         <div className="drawer-head"><div><p className="eyebrow">DISPLAY LIBRARY</p><h2>{drawerView === "rotation" ? "Album rotation" : "Pin an album"}</h2></div><button className="close" onClick={() => setDrawerOpen(false)} aria-label="Close selector">×</button></div>
-        <div className="drawer-tabs"><button className={drawerView === "rotation" ? "active" : ""} onClick={() => { setDrawerView("rotation"); setQuery(""); }}>Rotation</button><button className={drawerView === "pin" ? "active" : ""} onClick={() => { setDrawerView("pin"); setQuery(""); }}>Manual pin</button></div>
+        <div className="drawer-tabs"><button className={drawerView === "rotation" ? "active" : ""} onClick={() => { setDrawerView("rotation"); setQuery(""); setLastSearch(""); setResults([]); }}>Rotation</button><button className={drawerView === "pin" ? "active" : ""} onClick={() => { setDrawerView("pin"); setQuery(""); setLastSearch(""); setResults([]); }}>Manual pin</button></div>
         {drawerView === "rotation" && <div className="frequency"><label htmlFor="rotation-frequency">Change album every</label><select id="rotation-frequency" value={rotationMs} onChange={event => changeRotation(Number(event.target.value))}><option value={15000}>15 seconds</option><option value={30000}>30 seconds</option><option value={60000}>1 minute</option><option value={120000}>2 minutes</option><option value={300000}>5 minutes</option><option value={600000}>10 minutes</option></select></div>}
         {drawerView === "rotation" && <div className="rotation-list">{standbyAlbums.length ? standbyAlbums.map(item => <div className="rotation-item" key={item.id}><span className="result-art">{item.images?.[2]?.url && <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized />}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")}</small></span><button onClick={() => removeFromRotation(item.id)} aria-label={`Remove ${item.name} from rotation`}>×</button></div>) : <p className="empty">Your rotation is empty. Add an album below.</p>}</div>}
-        <label className="search"><span>⌕</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder={drawerView === "rotation" ? "Add an album or artist…" : "Search albums to pin…"} /></label>
+        <form className="search" onSubmit={submitSearch}><span aria-hidden="true">⌕</span><input aria-label="Search albums" value={query} onChange={e => setQuery(e.target.value)} placeholder={drawerView === "rotation" ? "Add an album or artist…" : "Search albums to pin…"} /><button type="submit" disabled={searching || !query.trim()}>Search</button></form>
         {drawerView === "pin" && isPinned && <button className="resume" onClick={resumeAuto}>Resume automatic display <span>→</span></button>}
         <div className="results">
           {searching && <p className="empty">Searching the shelves…</p>}
-          {!searching && !query && drawerView === "pin" && <p className="empty">Search by album or artist, then pin a record to keep it on screen.</p>}
-          {!searching && query && !results.length && <p className="empty">No albums found.</p>}
+          {!searching && !lastSearch && drawerView === "pin" && <p className="empty">Search by album or artist, then pin a record to keep it on screen.</p>}
+          {!searching && lastSearch && !results.length && <p className="empty">No albums found for “{lastSearch}”.</p>}
           {results.map(item => <button className="result" key={item.id} onClick={async () => { if (drawerView === "rotation") { await addToRotation(item); return; } setSearching(true); try { const full = await loadCatalogAlbum(item.id); if (full) pinAlbum(full); else setNotice("That album could not be loaded."); } catch { setNotice("That album could not be loaded. Please try again."); } finally { setSearching(false); } }}><span className="result-art">{item.images?.[1]?.url ? <Image src={item.images[1].url} alt="" width={54} height={54} unoptimized /> : "♪"}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")} · {item.release_date?.slice(0,4)}</small></span><b>＋</b></button>)}
         </div>
         <footer className="drawer-footer"><span className={`signal ${connected ? "live" : "standby"}`} /> ALBUM LIBRARY WORKS OFFLINE · {connected ? "SPOTIFY CONNECTED" : "SPOTIFY NOT CONNECTED"}</footer>

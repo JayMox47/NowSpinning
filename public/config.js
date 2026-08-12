@@ -1,6 +1,6 @@
 // Device-local Spotify configuration. These values are safe to expose in a PKCE app.
 window.MUSIC_FRAME_CONFIG = {
-  spotifyClientId: "YOUR_SPOTIFY_CLIENT_ID",
+  spotifyClientId: "31a943e17e4945b088199834bae18121",
   redirectUri: window.location.origin + window.location.pathname,
   standbyAlbumIds: [
     "1ATL5GLyefJaxhQzSPVrLX",

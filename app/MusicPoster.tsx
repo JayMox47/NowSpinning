@@ -57,6 +57,9 @@ export default function MusicPoster() {
   const pinned = useRef<SpotifyAlbum | null>(null);
   const standbyIndex = useRef(0);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const liveAlbumId = useRef<string | null>(null);
+  const catalogLookupId = useRef<string | null>(null);
+  const resolvedCatalogAlbumId = useRef<string | null>(null);
 
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout> | undefined;
@@ -155,11 +158,28 @@ export default function MusicPoster() {
         const playing = await getCurrentlyPlaying(config);
         const current = playing?.item?.album;
         if (!disposed && playing?.is_playing && current) {
-          setCurrentTrackId(playing.item?.id || null);
+          const trackId = playing.item?.id || null;
+          setCurrentTrackId(trackId);
           setCurrentTrackName(playing.item?.name || null);
-          const full = current.tracks?.items?.length ? current : await resolveCurrentlyPlaying(current.name, current.artists?.[0]?.name || "", current.id);
-          if (full) showAlbum(full, "live");
+          if (liveAlbumId.current !== current.id) {
+            liveAlbumId.current = current.id;
+            showAlbum({ ...current, tracks: current.tracks || { items: [] } }, "live");
+          }
+          if (!current.tracks?.items?.length && catalogLookupId.current !== current.id && resolvedCatalogAlbumId.current !== current.id) {
+            catalogLookupId.current = current.id;
+            void resolveCurrentlyPlaying(current.name, current.artists?.[0]?.name || "", current.id)
+              .then(full => {
+                if (!disposed && full) {
+                  resolvedCatalogAlbumId.current = current.id;
+                  if (liveAlbumId.current === current.id) showAlbum(full, "live");
+                }
+              })
+              .finally(() => { if (catalogLookupId.current === current.id) catalogLookupId.current = null; });
+          } else if (current.tracks?.items?.length) {
+            showAlbum(current, "live");
+          }
         } else if (!disposed) {
+          liveAlbumId.current = null;
           setCurrentTrackId(null);
           setCurrentTrackName(null);
           if (mode === "live") await showStandby();

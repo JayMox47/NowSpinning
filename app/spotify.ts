@@ -103,12 +103,12 @@ async function api<T>(path: string, config: MusicFrameConfig): Promise<T | null>
   if (Date.now() < rateLimitedUntil) return null;
   const token = await accessToken(config);
   if (!token) return null;
-  let response = await fetch(`https://api.spotify.com/v1${path}`, { headers: { Authorization: `Bearer ${token}` } });
+  let response = await fetch(`https://api.spotify.com/v1${path}`, { cache: "no-store", headers: { Authorization: `Bearer ${token}` } });
   if (response.status === 204) return null;
   if (response.status === 401) {
     const refreshed = await accessToken(config, true);
     if (!refreshed) return null;
-    response = await fetch(`https://api.spotify.com/v1${path}`, { headers: { Authorization: `Bearer ${refreshed}` } });
+    response = await fetch(`https://api.spotify.com/v1${path}`, { cache: "no-store", headers: { Authorization: `Bearer ${refreshed}` } });
     if (response.status === 204) return null;
   }
   if (response.status === 401) { disconnectSpotify(); return null; }

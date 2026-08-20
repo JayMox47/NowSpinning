@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import RegisterServiceWorker from "./RegisterServiceWorker";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -15,7 +16,9 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Now Spinning",
     description: "A gallery-scale Spotify album display for digital frames.",
-    icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+    manifest: "/manifest.webmanifest",
+    appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Now Spinning" },
+    icons: { icon: "/favicon.svg", shortcut: "/favicon.svg", apple: "/apple-touch-icon.png" },
     openGraph: { title: "Now Spinning", description: "A gallery-scale Spotify album display for digital frames.", images: [{ url: image, width: 1728, height: 912 }] },
     twitter: { card: "summary_large_image", title: "Now Spinning", description: "A gallery-scale Spotify album display for digital frames.", images: [image] },
   };
@@ -26,6 +29,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Script src="/config.js" strategy="beforeInteractive" />
+        <RegisterServiceWorker />
         {children}
       </body>
     </html>

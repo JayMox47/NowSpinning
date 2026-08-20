@@ -122,7 +122,7 @@ async function api<T>(path: string, config: MusicFrameConfig): Promise<T | null>
 }
 
 export async function getCurrentlyPlaying(config: MusicFrameConfig) {
-  return api<{ is_playing: boolean; item?: { id: string; name: string; album?: SpotifyAlbum } }>("/me/player/currently-playing", config);
+  return api<{ is_playing: boolean; item?: { id: string; name: string; track_number?: number; disc_number?: number; album?: SpotifyAlbum } }>("/me/player/currently-playing", config);
 }
 
 export async function getAlbum(id: string, config: MusicFrameConfig) {

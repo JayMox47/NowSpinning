@@ -50,6 +50,8 @@ export default function MusicPoster() {
   const [isPinned, setIsPinned] = useState(false);
   const [currentTrackId, setCurrentTrackId] = useState<string | null>(null);
   const [currentTrackName, setCurrentTrackName] = useState<string | null>(null);
+  const [currentTrackNumber, setCurrentTrackNumber] = useState<number | null>(null);
+  const [currentDiscNumber, setCurrentDiscNumber] = useState<number | null>(null);
   const [standbyIds, setStandbyIds] = useState<string[]>([]);
   const [standbyAlbums, setStandbyAlbums] = useState<SpotifyAlbum[]>([]);
   const [rotationMs, setRotationMs] = useState(30000);
@@ -60,6 +62,7 @@ export default function MusicPoster() {
   const liveAlbumId = useRef<string | null>(null);
   const catalogLookupId = useRef<string | null>(null);
   const resolvedCatalogAlbumId = useRef<string | null>(null);
+  const catalogRetryAt = useRef(new Map<string, number>());
   const displayMode = useRef<DisplayMode>("standby");
 
   useEffect(() => {
@@ -162,18 +165,33 @@ export default function MusicPoster() {
           const trackId = playing.item?.id || null;
           setCurrentTrackId(trackId);
           setCurrentTrackName(playing.item?.name || null);
+          setCurrentTrackNumber(playing.item?.track_number || null);
+          setCurrentDiscNumber(playing.item?.disc_number || null);
           if (liveAlbumId.current !== current.id) {
             liveAlbumId.current = current.id;
             showAlbum({ ...current, tracks: current.tracks || { items: [] } }, "live");
           }
-          if (!current.tracks?.items?.length && catalogLookupId.current !== current.id && resolvedCatalogAlbumId.current !== current.id) {
+          if (!current.tracks?.items?.length && catalogLookupId.current !== current.id && resolvedCatalogAlbumId.current !== current.id && (catalogRetryAt.current.get(current.id) || 0) <= Date.now()) {
             catalogLookupId.current = current.id;
-            void resolveCurrentlyPlaying(current.name, current.artists?.[0]?.name || "", current.id)
+            void getAlbum(current.id, config)
+              .catch(() => null)
+              .then(spotifyAlbum => spotifyAlbum?.tracks?.items?.length
+                ? spotifyAlbum
+                : resolveCurrentlyPlaying(current.name, current.artists?.[0]?.name || "", current.id))
               .then(full => {
+                if (!full) {
+                  catalogRetryAt.current.set(current.id, Date.now() + 60000);
+                  return;
+                }
                 if (!disposed && full) {
+                  catalogRetryAt.current.delete(current.id);
                   resolvedCatalogAlbumId.current = current.id;
+                  void cacheAlbum(full);
                   if (liveAlbumId.current === current.id) showAlbum({ ...full, images: current.images?.length ? current.images : full.images }, "live");
                 }
+              })
+              .catch(() => {
+                catalogRetryAt.current.set(current.id, Date.now() + 60000);
               })
               .finally(() => { if (catalogLookupId.current === current.id) catalogLookupId.current = null; });
           } else if (current.tracks?.items?.length) {
@@ -183,6 +201,8 @@ export default function MusicPoster() {
           liveAlbumId.current = null;
           setCurrentTrackId(null);
           setCurrentTrackName(null);
+          setCurrentTrackNumber(null);
+          setCurrentDiscNumber(null);
           if (displayMode.current === "live") await showStandby();
         }
       } catch { if (!disposed) setConnected(isSpotifyConnected()); }
@@ -239,7 +259,28 @@ export default function MusicPoster() {
   const posterStyle = { "--track-rows": Math.ceil(trackCount / 2) } as CSSProperties;
   const year = album.release_date?.slice(0, 4) || "—";
   const detail = album.genres?.[0] || album.label || album.album_type || "Album";
-  const playingTrack = (track: { id: string; name: string }) => currentTrackId === track.id || Boolean(currentTrackName && track.name.localeCompare(currentTrackName, undefined, { sensitivity: "base" }) === 0);
+  const titleWords = (title: string) => title
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\([^)]*\)|\[[^[]*]/g, " ")
+    .split(/\s+(?:feat(?:uring)?|ft)\.?\s+/i, 1)[0]
+    .replace(/\s+[-–—]\s+(?:remaster(?:ed)?|live|edit|mix|version|mono|stereo).*$/i, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+  const fuzzyTitleMatch = (left: string, right: string) => {
+    const a = titleWords(left), b = titleWords(right);
+    const wordsToCompare = Math.min(2, a.length, b.length);
+    if (!wordsToCompare) return false;
+    if (wordsToCompare === 1 && Math.min(a[0].length, b[0].length) < 3) return false;
+    return a.slice(0, wordsToCompare).every((word, index) => word === b[index]);
+  };
+  const playingTrack = (track: { id: string; name: string; track_number: number; disc_number: number }) =>
+    currentTrackId === track.id ||
+    Boolean(currentTrackNumber && track.track_number === currentTrackNumber && (!currentDiscNumber || track.disc_number === currentDiscNumber)) ||
+    Boolean(currentTrackName && fuzzyTitleMatch(track.name, currentTrackName));
 
   return (
     <main className={`kiosk ${controlsVisible || drawerOpen ? "controls-active" : "controls-hidden"}`}>

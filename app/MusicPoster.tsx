@@ -24,6 +24,15 @@ type DrawerView = "rotation" | "pin";
 const ALBUMS_KEY = "music-frame.standby-albums";
 const INTERVAL_KEY = "music-frame.rotation-interval";
 
+const shuffled = <T,>(items: T[]) => {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index--) {
+    const swapWith = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[swapWith]] = [copy[swapWith], copy[index]];
+  }
+  return copy;
+};
+
 const AlbumArt = ({ album }: { album: SpotifyAlbum }) => {
   const src = album.images?.[0]?.url;
   if (src) return <Image className="cover-image" src={src} alt={`${album.name} album cover`} fill sizes="(max-width: 720px) 92vw, 720px" unoptimized crossOrigin="anonymous" />;
@@ -57,7 +66,8 @@ export default function MusicPoster() {
   const [rotationMs, setRotationMs] = useState(30000);
   const [config, setConfig] = useState<MusicFrameConfig | null>(null);
   const pinned = useRef<SpotifyAlbum | null>(null);
-  const standbyIndex = useRef(0);
+  const standbyQueue = useRef<string[]>([]);
+  const lastStandbyId = useRef<string | null>(null);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const liveAlbumId = useRef<string | null>(null);
   const catalogLookupId = useRef<string | null>(null);
@@ -117,12 +127,24 @@ export default function MusicPoster() {
     setCurrentTrackId(null);
     setCurrentTrackName(null);
     if (!standbyIds.length) { showAlbum(demoAlbum, "standby"); return; }
-    const id = standbyIds[standbyIndex.current++ % standbyIds.length];
+    if (!standbyQueue.current.length) {
+      standbyQueue.current = shuffled(standbyIds);
+      if (standbyQueue.current.length > 1 && standbyQueue.current[0] === lastStandbyId.current) {
+        [standbyQueue.current[0], standbyQueue.current[1]] = [standbyQueue.current[1], standbyQueue.current[0]];
+      }
+    }
+    const id = standbyQueue.current.shift()!;
+    lastStandbyId.current = id;
     try {
       const next = await loadCatalogAlbum(id) || (config && connected ? await getAlbum(id, config) : null);
       if (next) { await cacheAlbum(next); showAlbum(next, "standby"); }
     } catch { /* Keep the current album on screen when a source is unavailable. */ }
   }, [config, connected, showAlbum, standbyIds]);
+
+  useEffect(() => {
+    standbyQueue.current = [];
+    if (lastStandbyId.current && !standbyIds.includes(lastStandbyId.current)) lastStandbyId.current = null;
+  }, [standbyIds]);
 
   useEffect(() => {
     if (!config) return;
@@ -308,7 +330,7 @@ export default function MusicPoster() {
       <aside className={`drawer ${drawerOpen ? "open" : ""}`} aria-hidden={!drawerOpen}>
         <div className="drawer-head"><div><p className="eyebrow">DISPLAY LIBRARY</p><h2>{drawerView === "rotation" ? "Album rotation" : "Pin an album"}</h2></div><button className="close" onClick={() => setDrawerOpen(false)} aria-label="Close selector">×</button></div>
         <div className="drawer-tabs"><button className={drawerView === "rotation" ? "active" : ""} onClick={() => { setDrawerView("rotation"); setQuery(""); setLastSearch(""); setResults([]); }}>Rotation</button><button className={drawerView === "pin" ? "active" : ""} onClick={() => { setDrawerView("pin"); setQuery(""); setLastSearch(""); setResults([]); }}>Manual pin</button></div>
-        {drawerView === "rotation" && <div className="frequency"><label htmlFor="rotation-frequency">Change album every</label><select id="rotation-frequency" value={rotationMs} onChange={event => changeRotation(Number(event.target.value))}><option value={15000}>15 seconds</option><option value={30000}>30 seconds</option><option value={60000}>1 minute</option><option value={120000}>2 minutes</option><option value={300000}>5 minutes</option><option value={600000}>10 minutes</option></select></div>}
+        {drawerView === "rotation" && <div className="frequency"><label htmlFor="rotation-frequency">Change album every</label><select id="rotation-frequency" value={rotationMs} onChange={event => changeRotation(Number(event.target.value))}><option value={15000}>15 seconds</option><option value={30000}>30 seconds</option><option value={60000}>1 minute</option><option value={120000}>2 minutes</option><option value={300000}>5 minutes</option><option value={600000}>10 minutes</option><option value={3600000}>1 hour</option><option value={10800000}>3 hours</option><option value={43200000}>12 hours</option><option value={86400000}>24 hours</option></select></div>}
         {drawerView === "rotation" && <div className="rotation-list">{standbyAlbums.length ? standbyAlbums.map(item => <div className="rotation-item" key={item.id}><span className="result-art">{item.images?.[2]?.url && <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized />}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")}</small></span><button onClick={() => removeFromRotation(item.id)} aria-label={`Remove ${item.name} from rotation`}>×</button></div>) : <p className="empty">Your rotation is empty. Add an album below.</p>}</div>}
         <form className="search" onSubmit={submitSearch}><span aria-hidden="true">⌕</span><input aria-label="Search albums" value={query} onChange={e => setQuery(e.target.value)} placeholder={drawerView === "rotation" ? "Add an album or artist…" : "Search albums to pin…"} /><button type="submit" disabled={searching || !query.trim()}>Search</button></form>
         {drawerView === "pin" && isPinned && <button className="resume" onClick={resumeAuto}>Resume automatic display <span>→</span></button>}

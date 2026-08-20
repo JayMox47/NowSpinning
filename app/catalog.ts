@@ -7,6 +7,14 @@ let nextRequestAt = 0;
 let requestChain = Promise.resolve();
 
 type MusicBrainzArtistCredit = { name: string };
+type MusicBrainzReleaseGroup = {
+  id: string;
+  title: string;
+  score?: number;
+  "first-release-date"?: string;
+  "primary-type"?: string;
+  "artist-credit"?: MusicBrainzArtistCredit[];
+};
 type MusicBrainzRelease = {
   id: string;
   title: string;
@@ -99,6 +107,7 @@ async function musicBrainz<T>(path: string): Promise<T> {
 }
 
 const artists = (release: MusicBrainzRelease) => release["artist-credit"]?.map(artist => ({ name: artist.name })) || [{ name: "Unknown artist" }];
+const groupArtists = (group: MusicBrainzReleaseGroup) => group["artist-credit"]?.map(artist => ({ name: artist.name })) || [{ name: "Unknown artist" }];
 const artworkUrl = (release: MusicBrainzRelease, size: 250 | 1200) => {
   const groupId = release["release-group"]?.id;
   return groupId ? `https://coverartarchive.org/release-group/${groupId}/front-${size}` : `https://coverartarchive.org/release/${release.id}/front-${size}`;
@@ -130,18 +139,37 @@ function toAlbum(release: MusicBrainzRelease, full = false): CatalogAlbum {
 
 export async function searchCatalog(query: string): Promise<CatalogAlbum[]> {
   if (!query.trim()) return [];
-  const data = await musicBrainz<{ releases?: MusicBrainzRelease[] }>(`/release/?query=${encodeURIComponent(query.trim())}&limit=10`);
-  const unique = new Map<string, CatalogAlbum>();
-  for (const release of data.releases || []) {
-    const key = `${release.title.toLowerCase()}|${artists(release)[0]?.name.toLowerCase()}`;
-    if (!unique.has(key)) unique.set(key, toAlbum(release));
-  }
-  return [...unique.values()].slice(0, 8);
+  const data = await musicBrainz<{ "release-groups"?: MusicBrainzReleaseGroup[] }>(`/release-group/?query=${encodeURIComponent(query.trim())}&limit=25`);
+  return (data["release-groups"] || [])
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, 20)
+    .map(group => ({
+      id: `mbg:${group.id}`,
+      name: group.title,
+      album_type: group["primary-type"] || "Album",
+      artists: groupArtists(group),
+      images: [
+        { url: `https://coverartarchive.org/release-group/${group.id}/front-1200`, width: 1200, height: 1200 },
+        { url: `https://coverartarchive.org/release-group/${group.id}/front-250`, width: 250, height: 250 },
+      ],
+      release_date: group["first-release-date"] || "",
+      genres: [],
+      total_tracks: 0,
+      tracks: { items: [] },
+      catalogSource: "musicbrainz" as const,
+    }));
 }
 
 export async function loadCatalogAlbum(id: string, options: { cacheArtwork?: boolean } = {}): Promise<CatalogAlbum | null> {
   const cached = await getCachedAlbum(id);
   if (cached?.tracks.items.length) return cached;
+  if (id.startsWith("mbg:")) {
+    const groupId = id.slice(4);
+    const releases = await musicBrainz<{ releases?: MusicBrainzRelease[] }>(`/release/?release-group=${encodeURIComponent(groupId)}&status=official&limit=25`);
+    const release = (releases.releases || []).find(item => item.country === "US") || releases.releases?.[0];
+    if (!release) return null;
+    return loadCatalogAlbum(`mb:${release.id}`, options);
+  }
   if (!id.startsWith("mb:")) return cached;
   const releaseId = id.slice(3);
   const release = await musicBrainz<MusicBrainzRelease>(`/release/${encodeURIComponent(releaseId)}?inc=recordings+artists+labels+release-groups`);
@@ -152,7 +180,7 @@ export async function loadCatalogAlbum(id: string, options: { cacheArtwork?: boo
 export async function resolveCurrentlyPlaying(name: string, artist: string, spotifyAlbumId: string) {
   const cached = (await getCachedAlbumsFromDatabase()).find(album => album.spotifyAlbumId === spotifyAlbumId);
   if (cached) return cached;
-  let results = await searchCatalog(`release:${JSON.stringify(name)} AND artist:${JSON.stringify(artist)}`);
+  let results = await searchCatalog(`releasegroup:${JSON.stringify(name)} AND artist:${JSON.stringify(artist)}`);
   if (!results.length) results = await searchCatalog(`${name} ${artist}`);
   const match = results[0];
   if (!match) return null;

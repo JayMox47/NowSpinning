@@ -139,22 +139,24 @@ export async function searchCatalog(query: string): Promise<CatalogAlbum[]> {
   return [...unique.values()].slice(0, 8);
 }
 
-export async function loadCatalogAlbum(id: string): Promise<CatalogAlbum | null> {
+export async function loadCatalogAlbum(id: string, options: { cacheArtwork?: boolean } = {}): Promise<CatalogAlbum | null> {
   const cached = await getCachedAlbum(id);
   if (cached?.tracks.items.length) return cached;
   if (!id.startsWith("mb:")) return cached;
   const releaseId = id.slice(3);
   const release = await musicBrainz<MusicBrainzRelease>(`/release/${encodeURIComponent(releaseId)}?inc=recordings+artists+labels+release-groups`);
-  return cacheAlbum(await cacheCover(toAlbum(release, true)));
+  const album = toAlbum(release, true);
+  return cacheAlbum(options.cacheArtwork === false ? album : await cacheCover(album));
 }
 
 export async function resolveCurrentlyPlaying(name: string, artist: string, spotifyAlbumId: string) {
   const cached = (await getCachedAlbumsFromDatabase()).find(album => album.spotifyAlbumId === spotifyAlbumId);
   if (cached) return cached;
-  const results = await searchCatalog(`release:${JSON.stringify(name)} AND artist:${JSON.stringify(artist)}`);
+  let results = await searchCatalog(`release:${JSON.stringify(name)} AND artist:${JSON.stringify(artist)}`);
+  if (!results.length) results = await searchCatalog(`${name} ${artist}`);
   const match = results[0];
   if (!match) return null;
-  const full = await loadCatalogAlbum(match.id);
+  const full = await loadCatalogAlbum(match.id, { cacheArtwork: false });
   if (!full) return null;
   full.spotifyAlbumId = spotifyAlbumId;
   return cacheAlbum(full);

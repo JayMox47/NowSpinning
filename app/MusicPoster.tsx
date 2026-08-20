@@ -60,6 +60,7 @@ export default function MusicPoster() {
   const liveAlbumId = useRef<string | null>(null);
   const catalogLookupId = useRef<string | null>(null);
   const resolvedCatalogAlbumId = useRef<string | null>(null);
+  const displayMode = useRef<DisplayMode>("standby");
 
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout> | undefined;
@@ -107,7 +108,7 @@ export default function MusicPoster() {
     };
   }, []);
 
-  const showAlbum = useCallback((next: SpotifyAlbum, nextMode: DisplayMode) => { setAlbum(next); setMode(nextMode); updateAccent(next); }, [updateAccent]);
+  const showAlbum = useCallback((next: SpotifyAlbum, nextMode: DisplayMode) => { displayMode.current = nextMode; setAlbum(next); setMode(nextMode); updateAccent(next); }, [updateAccent]);
 
   const showStandby = useCallback(async () => {
     setCurrentTrackId(null);
@@ -171,7 +172,7 @@ export default function MusicPoster() {
               .then(full => {
                 if (!disposed && full) {
                   resolvedCatalogAlbumId.current = current.id;
-                  if (liveAlbumId.current === current.id) showAlbum(full, "live");
+                  if (liveAlbumId.current === current.id) showAlbum({ ...full, images: current.images?.length ? current.images : full.images }, "live");
                 }
               })
               .finally(() => { if (catalogLookupId.current === current.id) catalogLookupId.current = null; });
@@ -182,13 +183,13 @@ export default function MusicPoster() {
           liveAlbumId.current = null;
           setCurrentTrackId(null);
           setCurrentTrackName(null);
-          if (mode === "live") await showStandby();
+          if (displayMode.current === "live") await showStandby();
         }
       } catch { if (!disposed) setConnected(isSpotifyConnected()); }
     };
     poll(); const interval = window.setInterval(poll, Math.max(config.pollIntervalMs, 5000));
     return () => { disposed = true; window.clearInterval(interval); };
-  }, [config, mode, showAlbum, showStandby]);
+  }, [config, showAlbum, showStandby]);
 
   useEffect(() => {
     if (!config) return;
@@ -234,7 +235,8 @@ export default function MusicPoster() {
   const removeFromRotation = (id: string) => saveStandbyIds(standbyIds.filter(albumId => albumId !== id));
   const changeRotation = (milliseconds: number) => { setRotationMs(milliseconds); localStorage.setItem(INTERVAL_KEY, String(milliseconds)); };
   const tracks = album.tracks?.items || [];
-  const posterStyle = { "--track-rows": Math.ceil(tracks.length / 2) } as CSSProperties;
+  const trackCount = tracks.length || (mode === "live" ? album.total_tracks : 0);
+  const posterStyle = { "--track-rows": Math.ceil(trackCount / 2) } as CSSProperties;
   const year = album.release_date?.slice(0, 4) || "—";
   const detail = album.genres?.[0] || album.label || album.album_type || "Album";
   const playingTrack = (track: { id: string; name: string }) => currentTrackId === track.id || Boolean(currentTrackName && track.name.localeCompare(currentTrackName, undefined, { sensitivity: "base" }) === 0);
@@ -248,7 +250,8 @@ export default function MusicPoster() {
           <p className="album-meta">{year} <span>·</span> {detail}</p>
         </section>
         <section className="track-section">
-          <div className="track-heading"><span>TRACKS</span><span>{String(tracks.length).padStart(2, "0")}</span></div>
+          <div className="track-heading"><span>TRACKS</span><span>{String(trackCount).padStart(2, "0")}</span></div>
+          {!tracks.length && mode === "live" && <p className="track-loading">Loading tracklist…</p>}
           <ol className="tracklist">{tracks.map((track, index) => <li className={playingTrack(track) ? "playing" : ""} key={`${track.id}-${index}`}><span className="track-number">{playingTrack(track) ? <span className="playing-glyph" aria-label="Currently playing"><i /><i /><i /></span> : String(track.track_number || index + 1).padStart(2, "0")}</span><span>{track.name}</span></li>)}</ol>
         </section>
       </section>

@@ -46,6 +46,7 @@ h1 { max-width: 560px; margin: 0; font-size: clamp(33px, 6vw, 52px); font-weight
 .album-meta span { margin: 0 4px; }
 .track-section { padding: 15px 0 max(28px, env(safe-area-inset-bottom)); }
 .track-heading { display: flex; justify-content: space-between; margin-bottom: 6px; color: var(--muted); font: 600 8px var(--font-geist-mono), monospace; letter-spacing: .15em; }
+.track-loading { margin: 14px 0 0; color: var(--muted); font: 500 9px var(--font-geist-mono), monospace; letter-spacing: .12em; text-transform: uppercase; }
 .tracklist { display: grid; grid-template-columns: 1fr 1fr; column-gap: 34px; margin: 0; padding: 0; list-style: none; }
 .tracklist li { display: grid; grid-template-columns: 25px 1fr; gap: 5px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,.09); font-size: clamp(10px,1.8vw,12px); line-height: 1.25; }
 .track-number { color: var(--muted); font: 500 8px/1.6 var(--font-geist-mono), monospace; }

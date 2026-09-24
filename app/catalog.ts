@@ -1,4 +1,8 @@
 import type { SpotifyAlbum, SpotifyTrack } from "./spotify";
+import builtInAlbums from "./default-albums.json";
+
+export const defaultAlbums: SpotifyAlbum[] = builtInAlbums;
+export const defaultAlbumIds = defaultAlbums.map(album => album.id);
 
 const DB_NAME = "music-frame.catalog";
 const STORE = "albums";
@@ -161,6 +165,8 @@ export async function searchCatalog(query: string): Promise<CatalogAlbum[]> {
 }
 
 export async function loadCatalogAlbum(id: string, options: { cacheArtwork?: boolean } = {}): Promise<CatalogAlbum | null> {
+  const builtIn = defaultAlbums.find(album => album.id === id);
+  if (builtIn) return builtIn;
   const cached = await getCachedAlbum(id);
   if (cached?.tracks.items.length) return cached;
   if (id.startsWith("mbg:")) {

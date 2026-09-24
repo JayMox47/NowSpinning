@@ -2,11 +2,7 @@
 window.MUSIC_FRAME_CONFIG = {
   spotifyClientId: "e1622cbcf77d4bca9b9a3cd7ade486f7",
   redirectUri: "https://music.jonathanmox.com/",
-  standbyAlbumIds: [
-    "1ATL5GLyefJaxhQzSPVrLX",
-    "4LH4d3cOWNNsVw41Gqt2kv",
-    "6mUdeDZCsExyJLMdAfDuwh",
-  ],
+  // Omit standbyAlbumIds to use the built-in collection. Set an array to override it.
   // Spotify is used only for the currently-playing check.
   pollIntervalMs: 5000,
   carouselIntervalMs: 30000,

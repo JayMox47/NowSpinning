@@ -1,0 +1,5589 @@
+[
+  {
+    "title": "Scorpion",
+    "artist": "Drake",
+    "candidates": [
+      {
+        "id": "857db798-5c31-4d5f-991a-6667f41d8899",
+        "title": "Scorpion",
+        "artist": "Drake",
+        "date": "2018-06-29",
+        "releases": [
+          {
+            "id": "ee6c6450-cd03-45d3-8c82-a0c131ca8098",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "bc3d95fb-9e32-46d1-ab2c-81eec371458c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "700dc043-913a-4fb4-a8cb-0791bb64d639",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "bc5bde08-db0a-4080-853d-c6db4455b572",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "6ab7f556-8542-487d-833f-1fb63446a8d8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "4bb3a6b4-064d-4dd8-976b-30c19404972c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "90d50f92-0d2e-49c8-a794-c7c38f6e5d3b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "399f294f-a7a1-4cd4-a19b-7f32afa7dd13",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "d786d8cc-60ca-4175-80d1-a5067e56ac53",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "dc09c91e-0d7f-4baf-877c-e6365d8ad62d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Non-stop",
+            "status": "Official"
+          },
+          {
+            "id": "6d1362df-d86c-4c8b-86cb-0d5ccdbc0001",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Scorpion",
+            "status": "Official"
+          },
+          {
+            "id": "d20f4815-cc49-4cdd-b168-306ea974cd5d",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Scorpion",
+            "status": "Withdrawn"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "candidates": [
+      {
+        "id": "f5093c06-23e3-404f-aeaa-40f72885ee3a",
+        "title": "The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "date": "1973-03-24",
+        "releases": [
+          {
+            "id": "a1170afd-e95f-3975-ad26-e04c70d6a42b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d5088e04-945d-3332-b752-26a40c7e7754",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9f50fdfb-529b-4d3f-b26a-c26ec0bb1b48",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "586ff28d-c0fc-4a50-ba18-d7152680417d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e54fa99c-e11f-44f7-a834-a497b63a71a5",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "fda25ebc-2934-4936-9617-4b09230b5035",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "badcfda9-2ca8-32e5-a68b-c9a3cf807502",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e9e63904-9ada-47ee-93df-7b25a97774b9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "ed20c227-4e15-45dd-899f-b417670880ec",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9e9ce82a-2aa9-4c6d-a68f-9e3d14cac5b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e92282b9-8963-4362-87b3-bbc990d40360",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "5de24d48-5364-438c-9762-c0f8e30f545e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "4f9afe70-3c77-4ad7-a52e-d0e07dc1efcf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9a4df5ff-faa2-4e62-8542-dc7684e62bf2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "df8fe008-36fa-332d-bca2-8b1c745c09ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "be455c19-7ee4-4c66-b9c0-044ff6ded837",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "0cae1eb4-b159-4d03-8719-1f5bb40bcd2f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "1a2a37a4-2ee5-3aa8-b1bf-4976dbb8007c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "106137ce-3f25-40b4-a9c9-f62db194bf23",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "144883ae-fabb-45e3-acd1-c43107f661d2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "70fc98ac-02a1-4ec5-8092-93fb3a6ae958",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "25f12df1-e0d3-4ce0-a64f-da1cbd1c0cbb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "25fbfbb4-b1ee-4448-aadf-ae3bc2e2dd27",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "33078c7e-cc8d-4084-b5b3-09ab5b0e0a74",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "63632ed1-964b-47bb-a365-fdef550864d5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "f589a4ab-fc97-4f2b-8cb3-a277309afce7",
+            "title": "The Dark Side of the Moon"
+          },
+          {
+            "id": "be701edc-c9c7-484a-9ed2-aeef051c19be",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "ee8122c5-237c-4b43-bc18-6e71b0fe3266",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "ccaaca29-fa61-44f4-ada6-746cd0974333",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "29e1c397-5030-4d89-ae02-95b849d8d596",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "bf774f1d-1379-4ed4-81f2-c28d99fac037",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "82e70b1b-5165-4d04-9951-959b707bdb39",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e98127ae-da76-49bc-bd67-3f000af53395",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "3faa328a-95d8-4b7e-b152-860084c79708",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "9d8d13b7-a763-43b2-9501-a89da5e5fc74",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "2b68361f-1d27-4794-be44-333a8a5d7650",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "86dedf29-be03-4d8d-98aa-67389f5447c2",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "5b0103ff-6191-4234-8e23-75a37bbfc93d",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "74f5fb70-201c-4f0b-ba60-df275983fd4f",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "2b53df77-f0ea-4597-994b-a79861af8796",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "a832919b-8629-4e27-ac79-9a95d66c61ba",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "1ef3dff6-8c99-454f-8ade-abdc52301233",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e1464abb-80ee-402f-9c49-aed3f73003f0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "800d1984-783e-4af4-8efa-7c0f8218e1b7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d237fb97-488e-4547-ab41-92dfbc7d5052",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "6b62f790-7876-4c34-bdc3-75852794d43e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "b02a0c0a-3027-4f26-ba2d-3905f228a0d5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "1dd9f622-b1f7-41c4-ae20-74fd46bd1b24",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9f5b28e3-2e51-4926-abcc-4039e92fe38c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "4fef4027-2245-47f9-b102-950f58306d56",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "ef6aff99-9a42-4dd6-b2db-c0e51bddb52c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "62da9215-d867-42ab-809f-9eaf1ed1fd1b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "57a2c82e-d8ea-4733-a5c4-13c114e3a894",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "fc941a7d-eb66-4f5d-aa14-01857f997168",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "b3ace569-c2ce-4327-84ff-5920bd115bcf",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "b9bf4be0-d0af-46b2-9514-cecb420d947b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d48328c9-8dd2-49ee-afd3-77b569f66205",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "61f09e6c-b63d-433d-a928-11faeb283081",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "b43cc743-04c3-45c1-87b3-ea1b1c447f8b",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "8e96b8e6-02c3-4876-84ab-39d190b3e6f3",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon: The High Resolution Remasters",
+            "status": "Bootleg"
+          },
+          {
+            "id": "93314fd5-5f6e-422b-9ee5-d8daa9945657",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "0373a8a1-843e-4a4b-8919-fca2de16986a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e7a21643-d41b-48db-bc83-c296016de66c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "61673353-7ad8-4cda-a9a1-6b2b1e7a5570",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "2f481f2f-e24a-4b36-8076-4564030f59b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "bdd366fd-67be-4dfe-a7fb-00a216eaa3ed",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "c6bdbc64-8c42-4d76-9df3-81386ad0ecc5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "1c04f98c-6c5e-4e4f-ab40-4ea5a3f09c86",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9ad63cc8-f56e-426d-9eec-6b8f606b879d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e9216a3b-ee97-3464-88e3-887796c2c29b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "fbfa4b74-d21a-44f6-9b48-438867680c63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d36ec77b-13b3-4fdf-bdc4-235a07cd7e6f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "a3037fe0-a03d-46cd-9f01-26fa752d250f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "fd437132-37db-4fd1-9d0c-3a627ed96a4b",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "96f28a60-32ec-4df2-8c71-b9210220783a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "e541eddf-7c4f-4b7c-a7cd-557f7b19f27a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d82cb4cf-929d-4b18-af5b-77d9478b606c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "a0f8ed51-882c-451c-8dbc-31f0daf276f7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "426c9989-5d2d-4ca2-893c-080a0ae45555",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d9a96708-cd3f-4355-8a5a-982efdd88c15",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "6ef6e6cd-ad36-4c2f-816d-121bfb2f6774",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "aaf8e5cb-bd5d-33f9-ac7b-f8e4402070ab",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "狂気",
+            "status": "Official"
+          },
+          {
+            "id": "58fd6184-9753-3843-8cee-b79507583298",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "狂気",
+            "status": "Official"
+          },
+          {
+            "id": "35bd2c37-d3d2-34b8-bdf5-5afa0693e4b9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "狂気",
+            "status": "Official"
+          },
+          {
+            "id": "556e8d5d-6cbc-3292-ba42-3d8408c5977c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "狂気",
+            "status": "Official"
+          },
+          {
+            "id": "1295cd4c-bcee-33ac-8b1b-48c98c04718e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "狂気",
+            "status": "Official"
+          },
+          {
+            "id": "956fbc58-362d-43b8-b880-3779e0508559",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "a773d9ee-9930-4bf8-8e79-51a755396e25",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "cb086766-1fec-42e5-bcf6-92c1cb6f563f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "96a7097a-1600-405a-a22e-5c02a720fb49",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "77084e55-c1db-4805-9998-6a03d688e8e2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "c05dc459-a27d-4416-a98a-4bad433dfdb9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "dfd839f7-4741-36cf-af82-a1a1e797714e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d060c05f-1b72-458d-9147-90047550e31a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "d800f372-9673-4edf-8046-8baf79134257",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "5349fc39-88bd-4008-bb07-073653eff455",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "c8050a51-9716-40b0-924e-82843164d81c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "6151d934-4eb2-3b51-8868-c18440b9864d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "be839a57-416d-4a7d-ae07-afcae215371f",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon (AudioPhil edition)",
+            "status": "Bootleg"
+          },
+          {
+            "id": "3f15055a-8fcd-435c-b434-19b6caa1e1d6",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "8d17f5db-b9d0-4e35-9a06-9e1bffebc5be",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "c0f74d5a-7534-414d-8b90-0ebe6c5da19e",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "c712a2bc-1e57-46c1-9432-8b9a33dc4159",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "3e5ae0f7-f7e2-493b-b1a8-3cf595c06a1d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "24824319-9bb8-3d1e-a2c5-b8b864dafd1b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "3df425d2-b33e-424c-acd3-d949ea09e2c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "7d48e73f-b054-4d50-a3fe-e2beaecfdd4f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "106ec6c3-1a30-336f-9572-65cc0e47109d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "12fb801c-5903-4a99-a10c-7af599fe3986",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "01aa589c-a7cb-45bd-89a3-c2cb8ddab0a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "fd7d8f8e-c894-4088-a7b4-4a66057f41ee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "61288af4-6fdb-42be-b94e-7e7b90258951",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "b8ee4313-2915-40f1-913d-ac0315b4ba3d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "fc07d51d-8b86-30d4-b70f-452fe7dcb13c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "7f6d3088-837d-495e-905f-be5c70ac2d82",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "b84ee12a-09ef-421b-82de-0441a926375b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "2755bfc1-9438-4ae8-8a49-3f820dbca482",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "74a781e4-26d5-4b38-97f2-bb0f67475ecd",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon: The High Resolution Remasters",
+            "status": "Bootleg"
+          },
+          {
+            "id": "e2958fed-eb3d-43e4-a824-65ba7995b80f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "330e4267-eaf9-4d68-8938-146bd427ed0e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "3081d6e7-bb1c-3d90-ad1f-4e939582e3c0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "68e536bc-a621-3d82-b3ba-b6923617a168",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "c7bb40b0-ec9e-36bd-a35e-8495243e288b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9cb98907-c8d6-4c76-8456-63cfa2ef74fd",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "10600476-3b48-4709-a91d-3fdf6d2455e6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "b437bbe8-8d04-43f7-83a0-8325cc77071a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "c7530927-8de6-40a8-95c4-b36e860abe41",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "1ce759f7-641e-409a-994d-5d3531127435",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "7cf17389-df89-4605-baee-818bb816ba04",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "65d67b87-f13a-4f1f-9efa-6d80975921a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "6f69054c-cde6-446b-9c0e-fbbefd1197b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "a302011c-2b1d-4e55-9ba1-a59646fb1f0b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "8e862461-88a1-4c54-baf4-8bfcfaf79beb",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "4534f168-c25e-4d84-9da6-4fb26a261640",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "bec5e145-5edb-4920-b356-104df3124932",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "37dba27d-895a-4d74-9679-d39f7c816f4b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "a2b62291-2981-4409-b024-44d5be206346",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "9cf0c97d-0cd4-4538-ac8a-4a5fd87ab218",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "d78ce42f-3a88-39fb-80d2-2d22bea0d358",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "68edcb7b-02d9-3781-9a29-ff59554521f4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "cbaebadf-ba04-4bf8-a9b7-4c90caebd05f",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "ac496d60-9b3a-497c-b650-1810f0b730bf",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "5937d458-d92c-4bab-bb4e-17ea1efa8a28",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "eb8cf4db-003f-49d4-8dbd-fbaa41da8d3d",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Dark Side of the Moon",
+            "status": "Bootleg"
+          },
+          {
+            "id": "86a0a552-74ec-4a5e-ab8f-bfd9a73af726",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "5eeac1d5-febe-4b81-a98d-ad7577c6562c",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "1c3ea255-3cc5-4861-9864-81e3bceb4443",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "8ede3645-4d20-4ca6-a4e3-4e9179115968",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "3fde611f-de09-46c9-8233-731b3e2ed76f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          },
+          {
+            "id": "03683c48-eb9e-47a8-bcdf-d5e5bae93de3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "ddb7c3c7-09b1-4bb3-bbcb-7c207cb2af06",
+        "title": "The Dark Side of the Moon (demos)",
+        "artist": "Pink Floyd",
+        "date": "2006",
+        "releases": [
+          {
+            "id": "e39a3fd7-da45-4512-b9bb-c042e445d03d",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Eclipsed by the Moon: Studio Outtakes 1972",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "bb06c8a9-d659-4e0d-8b7b-ec75a856e996",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Studio Outtakes & Demos 1971/72",
+            "status": "Bootleg"
+          },
+          {
+            "id": "e09e6cc2-52ae-443a-886a-a60944447df5",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon (demos)",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 95
+      },
+      {
+        "id": "2e4fb3a5-3e47-3e2a-bdd4-888944793e7c",
+        "title": "The Dark Side of the Moon Live 1974",
+        "artist": "Pink Floyd",
+        "date": "1989",
+        "releases": [
+          {
+            "id": "b4c07c9d-fbe2-4720-a3e4-4cc7979c4444",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "ba76629e-d4fe-4538-9571-824df98bab80",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon: Live at Wembley 1974",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "4800cbaa-e11f-4b7e-b324-c599809a5749",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Empire Pool, Wembley, London, UK, 16 Nov 1974",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "88cdfbfc-f468-437c-95a8-6a85b4038225",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Brain Damage",
+            "status": "Bootleg"
+          },
+          {
+            "id": "f7a28e48-5ffb-4448-83b7-46365f7ec8c5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon Live at Wembley 1974",
+            "status": "Official"
+          },
+          {
+            "id": "13cc3946-8e1c-468a-a3f9-6adc4b28f703",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon Live at Wembley, London 1974",
+            "status": "Official"
+          },
+          {
+            "id": "4fd1cb1c-e330-43e7-8cfd-886fa83be815",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon: Live at Wembley 1974",
+            "status": "Official"
+          },
+          {
+            "id": "f28ddb53-6e6d-493a-8a92-620ba27854ce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon: Live at Wembley 1974",
+            "status": "Official"
+          },
+          {
+            "id": "5f9fbe90-4f87-4948-8924-73a1fa90f67f",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The Dark Side of the Moon: Live at Wembley 1974",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "e7dab71c-f2fe-4a2c-9ffd-0b01dcc09152",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Dark Side of the Moon: Live at Wembley 1974",
+            "status": "Official"
+          },
+          {
+            "id": "a3982fcc-ba0e-4b92-a637-745ab5a07b11",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "1974-11-16: BBC Archives 1974: Empire Pool, Wembley, London, England",
+            "status": "Bootleg"
+          },
+          {
+            "id": "dbbe7e03-5cf1-43f7-95b9-9780513aab21",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Dark Night in Atlanta",
+            "status": "Bootleg"
+          },
+          {
+            "id": "be2380ce-3bd8-4fef-822a-2ef2a756bd70",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Other Side of the Moon, Volume 2",
+            "status": "Bootleg"
+          },
+          {
+            "id": "731ca6d5-2cc1-4caa-a044-9956aef42898",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "London 1972 (From the Dark Side of the Moon)",
+            "status": "Bootleg"
+          },
+          {
+            "id": "fbf40004-be08-4edc-8d61-e8b2338751ef",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Dark Night in London",
+            "status": "Bootleg"
+          },
+          {
+            "id": "f33949a0-1bf9-47c2-872b-e4ffb0a75665",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Dark Side of the Moon: Live at the BBC 1974",
+            "status": "Bootleg"
+          },
+          {
+            "id": "3f0c90f4-9d6b-4ec8-9618-cc4110cbd5c4",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "We 3 Meet Again",
+            "status": "Bootleg"
+          },
+          {
+            "id": "e610456c-19f9-4f1c-8470-e803b8de12eb",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Wembley 1974 Pre‐FM Master",
+            "status": "Bootleg"
+          },
+          {
+            "id": "38a2f609-0db6-4b47-803b-e89ff65d420a",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "1974-11-16: BBC 74 Remastered",
+            "status": "Bootleg"
+          },
+          {
+            "id": "f4429554-9c29-4e56-b54e-7837cea0de39",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "1974-11-16: Time in London, London, UK",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 91
+      },
+      {
+        "id": "fc851e0c-0261-472b-847c-a0cf8fedf80f",
+        "title": "The Making of The Dark Side of the Moon",
+        "artist": "Pink Floyd",
+        "date": "2003",
+        "releases": [
+          {
+            "id": "65071ca2-6d90-4b35-a7ac-c5057ce28123",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Making of The Dark Side of the Moon",
+            "status": "Official"
+          }
+        ],
+        "score": 88
+      }
+    ]
+  },
+  {
+    "title": "Sail Out",
+    "artist": "Jhené Aiko",
+    "candidates": [
+      {
+        "id": "3329907d-a274-44d6-86c9-734214d8e038",
+        "title": "Sail Out",
+        "artist": "Jhené Aiko",
+        "date": "2013-01-01",
+        "releases": [
+          {
+            "id": "7c46b9a9-ebec-4c75-a18e-651e3ad2be60",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sail Out",
+            "status": "Official"
+          },
+          {
+            "id": "bbf59414-c368-431c-b8c5-59b2806059ee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Sail Out",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Acid Rap",
+    "artist": "Chance the Rapper",
+    "candidates": [
+      {
+        "id": "02a9a0f7-8945-436f-8eca-144f94de1518",
+        "title": "Acid Rap",
+        "artist": "Chance the Rapper",
+        "date": "2013-04-30",
+        "releases": [
+          {
+            "id": "79efd12a-4817-47ef-89e1-66adde6ebf98",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Acid Rap",
+            "status": "Official"
+          },
+          {
+            "id": "773fe6a2-5f17-464a-978d-46d7b45b2b20",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Acid Rap",
+            "status": "Official"
+          },
+          {
+            "id": "81713d35-a2f0-42bc-9c7f-94036678b2e7",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "AR",
+            "status": "Bootleg"
+          },
+          {
+            "id": "aff11a21-d4ed-41f8-8798-93ec3b5bddfb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Acid Rap",
+            "status": "Official"
+          },
+          {
+            "id": "6b723045-b90c-49d6-997a-c2879c3dd681",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Acid Rap",
+            "status": "Official"
+          },
+          {
+            "id": "319544fb-3af9-42f9-9999-48c8aa82b865",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Acid Rap",
+            "status": "Official"
+          },
+          {
+            "id": "18802649-aae9-4c72-acee-5d45feaa5485",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Acid Rap",
+            "status": "Bootleg"
+          },
+          {
+            "id": "8caabc0f-8c2a-4060-893f-f71bc93cc073",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Acid Rap",
+            "status": "Official"
+          },
+          {
+            "id": "bca22804-d181-4ebd-8b94-5bb4b621eab8",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Acid Rap",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "921c9862-b9f9-4cc2-9bfd-317684bb740f",
+        "title": "Acid Rap 2",
+        "artist": "Chance the Rapper, DJ Dubyah, DJ Zalez",
+        "date": "2014-06-18",
+        "releases": [
+          {
+            "id": "e789de0b-0cf2-428b-a9d4-b2eb043436e3",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Acid Rap 2",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 71
+      }
+    ]
+  },
+  {
+    "title": "Macadelic",
+    "artist": "Mac Miller",
+    "candidates": [
+      {
+        "id": "eb4cfa8a-f9d2-445e-9e00-ed4ca0357d6d",
+        "title": "Macadelic",
+        "artist": "Mac Miller",
+        "date": "2012-03-23",
+        "releases": [
+          {
+            "id": "b681f252-6858-486c-8e9d-5c5b9bc55b37",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Macadelic",
+            "status": "Official"
+          },
+          {
+            "id": "fb3a3d20-4894-4d9c-9b3a-a1765aed7156",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Macadelic",
+            "status": "Promotion"
+          },
+          {
+            "id": "f5372fc9-3159-40f9-95cc-0ab5b3efe249",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Macadelic",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "41648b54-714a-42fb-b7a7-d2e81c26d096",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Macadelic",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "1978bfd1-6d69-49c9-9180-3afed461b215",
+        "title": "Macadelic Era",
+        "artist": "Mac Miller",
+        "date": "2012",
+        "releases": [
+          {
+            "id": "fbb6110c-232d-4244-a7e2-8189026ce4cd",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Macadelic Era",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 92
+      }
+    ]
+  },
+  {
+    "title": "Blue Slide Park",
+    "artist": "Mac Miller",
+    "candidates": [
+      {
+        "id": "f03de256-a23e-46ae-b575-5a3b5b898a89",
+        "title": "Blue Slide Park",
+        "artist": "Mac Miller",
+        "date": "2011-11-08",
+        "releases": [
+          {
+            "id": "6129d11f-7dd6-4497-a8e1-5e1586055cbc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "80c0d040-6470-4b77-a7d6-395a4857bd3c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "1e7e60e3-1682-47ee-9275-e33572c25aa8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "7993191a-2c1a-4ee8-8984-0f5da3520841",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "96a94b60-bae9-4633-8f25-cc5215c42cf1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "a4a824c9-a906-4000-ad15-19ee5fe1a30c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "fbac12e6-0724-4962-8054-48c153898a2f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          },
+          {
+            "id": "58dbc2a3-d37f-464a-8144-2d54cb738424",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Blue Slide Park",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "36cd9fc6-3384-4184-8f1f-b8236b55563d",
+        "title": "Blue Slide Park Era",
+        "artist": "Mac Miller",
+        "date": "2011",
+        "releases": [
+          {
+            "id": "77e1ca2b-9230-454e-8e88-a1f5001a6bfd",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Blue Slide Park Era",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 93
+      }
+    ]
+  },
+  {
+    "title": "Because the Internet",
+    "artist": "Childish Gambino",
+    "candidates": [
+      {
+        "id": "f7b59bee-62d7-4bc8-ad47-cda988cd8ded",
+        "title": "Because the Internet",
+        "artist": "Childish Gambino",
+        "date": "2013-12-06",
+        "releases": [
+          {
+            "id": "1371f849-8c46-4779-9008-a9e531b432a8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          },
+          {
+            "id": "31cb872d-5016-41cb-bb33-dd06cec166ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          },
+          {
+            "id": "15e61783-c1df-4519-b3b5-368e252a2489",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          },
+          {
+            "id": "a7b5580f-ee09-4237-bb2e-3c2e6bb19881",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          },
+          {
+            "id": "79014bd3-d9ee-4ae8-8c3d-64ee19c2d3f1",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Because the Internet",
+            "status": "Bootleg"
+          },
+          {
+            "id": "af54650b-5020-4b8b-a121-3f32f31d86eb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          },
+          {
+            "id": "c3d4bce5-63b5-43bf-b6ea-940b8266cd8e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          },
+          {
+            "id": "8fd82db4-1d42-4fab-9829-c4bcdac78060",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Because the Internet",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "What Could Possibly Go Wrong",
+    "artist": "Dominic Fike",
+    "candidates": [
+      {
+        "id": "feeba0dc-5f84-45f1-9acd-68851437c7b4",
+        "title": "What Could Possibly Go Wrong",
+        "artist": "Dominic Fike",
+        "date": "2020-07-31",
+        "releases": [
+          {
+            "id": "c19d6afe-4c7f-4256-97d8-d39a60ab9549",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "What Could Possibly Go Wrong",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "The Divine Feminine",
+    "artist": "Mac Miller",
+    "candidates": [
+      {
+        "id": "be55ffec-5312-4275-ab1f-d6504b19bd61",
+        "title": "The Divine Feminine",
+        "artist": "Mac Miller",
+        "date": "2016-09-16",
+        "releases": [
+          {
+            "id": "0046eb1c-cccb-43b3-8bab-75c79bb84108",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "2f2fd15e-f53a-49fc-a607-0b2d5ea616a2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "0f60398c-27fa-4f47-8164-a82114eab662",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Divine Feminine",
+            "status": "Bootleg"
+          },
+          {
+            "id": "6cad746d-f4eb-46f2-b047-bf4099c97efe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "71a0d5ff-68ff-4a8e-b36e-630f00630306",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "e1c23574-b3ca-4987-9afa-a9d36d361978",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "86839c2e-41aa-4e68-a133-9d782ba1da6f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "8601a480-8c55-47da-a932-469986219906",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "c2ec509a-58f7-4e1a-97dd-be26698dc5c4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "2945263c-f83f-4632-8ecb-d72c19f7aee8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "0a37411d-2732-4be9-824c-a5fea1864865",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "36a76b19-139d-4132-9f0d-1cacfa0b93dc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "c57419d5-1777-4845-aea2-b62740da13d9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "e81ea7ad-899a-417b-839d-6f74a6b66ede",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "df3ec403-3492-4b1c-8a2d-0532ceba3c0b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "2d0bc546-9221-4415-a19d-e1ca44e0fd35",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          },
+          {
+            "id": "a98fb1a5-6eb4-4ab8-a004-b446e8da4cfe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The Divine Feminine",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "9cad700d-fe6b-43ef-a9f2-c1502b4ae532",
+        "title": "The Divine Feminine Era",
+        "artist": "Mac Miller",
+        "date": "2016",
+        "releases": [
+          {
+            "id": "1387b83c-725c-4050-b67c-96e5ac9ed3c9",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "The Divine Feminine Era",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 93
+      }
+    ]
+  },
+  {
+    "title": "Apple Music Live: Dominic Fike",
+    "artist": "Dominic Fike",
+    "candidates": [
+      {
+        "id": "7e67e311-5f7b-4eff-bcfa-563bb4624f62",
+        "title": "Apple Music Live: Dominic Fike",
+        "artist": "Dominic Fike",
+        "date": "2023-09-06",
+        "releases": [
+          {
+            "id": "333f98ae-3bf4-46e5-9a8d-929aadc55af4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Apple Music Live: Dominic Fike",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Arlo",
+    "artist": "Arlo",
+    "candidates": [
+      {
+        "id": "a22af12f-3682-4c30-83f8-0ac830dd7533",
+        "title": "Arlo",
+        "artist": "Arlo",
+        "date": "2025-09-05",
+        "releases": [
+          {
+            "id": "e6d03175-f6e2-44b7-b0ca-bb39b7668c45",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "71c117fb-3373-4815-ad1f-4ef2354d5ae4",
+        "title": "Arlo",
+        "artist": "Arlo Guthrie",
+        "date": "1968-07-22",
+        "releases": [
+          {
+            "id": "3516a258-3a54-43d9-8077-5c7fbc1e1ee2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo",
+            "status": "Official"
+          },
+          {
+            "id": "747cc962-b55d-4522-8b0c-d450c900ff38",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo",
+            "status": "Official"
+          },
+          {
+            "id": "8feff689-38e3-4581-b1d5-76fc9641be58",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo",
+            "status": "Official"
+          }
+        ],
+        "score": 92
+      },
+      {
+        "id": "b15fde7e-6cf2-41e5-b418-a05e41fd70db",
+        "title": "Arlo Gilliam",
+        "artist": "Arlo Gilliam",
+        "date": "2006",
+        "releases": [
+          {
+            "id": "65d223eb-3068-4984-9bee-5bdce5c8bf6f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo Gilliam",
+            "status": "Official"
+          }
+        ],
+        "score": 84
+      },
+      {
+        "id": "302aeaab-e4d0-4ecd-b41c-ce1649df2eb3",
+        "title": "Arlo Hero",
+        "artist": "Arlo Hero",
+        "releases": [
+          {
+            "id": "f64d2080-219a-4d4e-b10f-9ae68a90454b",
+            "title": "Arlo Hero"
+          }
+        ],
+        "score": 84
+      },
+      {
+        "id": "83ffbc61-c223-3de2-bdbf-fa6fcf6b0880",
+        "title": "Arlo Guthrie",
+        "artist": "Arlo Guthrie",
+        "date": "1974",
+        "releases": [
+          {
+            "id": "be8f82d5-5409-4efc-86c8-d9023debf6e8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo Guthrie",
+            "status": "Official"
+          },
+          {
+            "id": "4f48e71a-559a-4ab0-88b8-6a08c5e1966b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo Guthrie",
+            "status": "Official"
+          },
+          {
+            "id": "77a9eaa1-d601-4e73-8068-ec9a8edd269d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Arlo Guthrie",
+            "status": "Official"
+          }
+        ],
+        "score": 84
+      }
+    ]
+  },
+  {
+    "title": "A Moment Apart",
+    "artist": "ODESZA",
+    "candidates": [
+      {
+        "id": "724699f1-9153-4c72-9ac4-cbf2d598582b",
+        "title": "A Moment Apart",
+        "artist": "ODESZA",
+        "date": "2017-09-08",
+        "releases": [
+          {
+            "id": "2a8937f0-aee6-4c60-b7f9-96f3e72dc2a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "82e9ca14-0c9d-4f37-bc84-c5f3db19f2f2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "b3b67721-04df-445c-9014-a627b01f4787",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "b989c328-e26c-4806-9426-570e0817caee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "bab8bc69-6e4e-492e-b0c6-c9b0398b7b58",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "3fcba414-83ba-4933-9fea-3bfeae435839",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "d8d7147d-52a3-4457-bc30-01366f9e7f9a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          },
+          {
+            "id": "809d0d8c-1958-46a5-ab4a-89710ea95736",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "20902ede-0230-4ad9-91d1-295d92e25a83",
+        "title": "A Moment Apart Remixes",
+        "artist": "ODESZA",
+        "date": "2019-02-15",
+        "releases": [
+          {
+            "id": "300d8d1d-da99-4eeb-ace6-ea79e33501e9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "A Moment Apart Remixes",
+            "status": "Official"
+          }
+        ],
+        "score": 93
+      },
+      {
+        "id": "59e7a390-3cc1-43f1-a6c5-986dd5c5f84f",
+        "title": "Forgive Me (live) / A Moment Apart (live)",
+        "artist": "ODESZA",
+        "date": "2024-04-15",
+        "releases": [
+          {
+            "id": "7547a1fb-d426-41b8-973a-40d980acff15",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Forgive Me (live) / A Moment Apart (live)",
+            "status": "Official"
+          }
+        ],
+        "score": 77
+      }
+    ]
+  },
+  {
+    "title": "I Love My Computer",
+    "artist": "Ninajirachi",
+    "candidates": [
+      {
+        "id": "6ab2d1f5-1730-499d-a814-6fe6eb9ec1f0",
+        "title": "I Love My Computer",
+        "artist": "Ninajirachi",
+        "date": "2025-08-08",
+        "releases": [
+          {
+            "id": "9a638353-d6d2-4be2-9d32-fbb6283af517",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I Love My Computer",
+            "status": "Official"
+          },
+          {
+            "id": "544fe8c0-8bc6-4434-b27c-4b7fcaedfebe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I Love My Computer",
+            "status": "Official"
+          },
+          {
+            "id": "9ec707db-8852-4db6-a96f-4d32c25baff0",
+            "status-id": "41121bb9-3413-3818-8a9a-9742318349aa",
+            "title": "I Love My Computer",
+            "status": "Pseudo-Release"
+          },
+          {
+            "id": "167fe8d9-402e-431b-964e-adae7d483675",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I Love My Computer",
+            "status": "Official"
+          },
+          {
+            "id": "fc8bf81b-babb-47fe-99fc-841c1abfeb7c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I Love My Computer",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Swimming",
+    "artist": "Mac Miller",
+    "candidates": [
+      {
+        "id": "8bddc517-1322-40a9-b33b-c65248b52b54",
+        "title": "Swimming",
+        "artist": "Mac Miller",
+        "date": "2018-08-03",
+        "releases": [
+          {
+            "id": "401710fd-9e9b-4eb4-99d3-787ba8fe6b0f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "f32d96ce-54a2-41d0-9d68-0ea8b15f40bc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "8cc2c972-ec76-4acf-b11c-be588e772214",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "6d042c6e-4e9d-4aff-bfc4-e508d299a44e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "62bd84b5-1c38-4d27-9176-ea0716d51064",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "6c2c3b45-d938-4ba8-a3a8-c04217f39449",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "6db76635-a3cd-4933-85e9-e29cbbc38c1c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          },
+          {
+            "id": "b1c7cf3c-7ac8-4555-8968-e21d38ee6b11",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Swimming",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "e7772f33-3a52-45e8-9398-c27b2bb03faa",
+        "title": "Swimming Era",
+        "artist": "Mac Miller",
+        "date": "2019",
+        "releases": [
+          {
+            "id": "c088856e-654a-4497-af89-2864779acdf8",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Swimming Era",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 93
+      }
+    ]
+  },
+  {
+    "title": "Way Back When",
+    "artist": "Louis Futon",
+    "candidates": [
+      {
+        "id": "1673758b-0674-49e9-82e9-83cdeae44d32",
+        "title": "Way Back When",
+        "artist": "Louis Futon",
+        "date": "2019-02-22",
+        "releases": [
+          {
+            "id": "f17b5ac9-373e-4db7-811e-3c73541e3355",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Way Back When",
+            "status": "Official"
+          },
+          {
+            "id": "cdbf087e-18c3-48d5-9a54-940490571ac7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Way Back When",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "1fc04f13-f076-40e2-9af3-2bcc6099b294",
+        "title": "Way Back When (Remixes)",
+        "artist": "Louis Futon",
+        "date": "2020-03-04",
+        "releases": [
+          {
+            "id": "937d074e-b5a4-4bf7-b256-2a9f4505ca50",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Way Back When (Remixes)",
+            "status": "Official"
+          }
+        ],
+        "score": 94
+      }
+    ]
+  },
+  {
+    "title": "Oracular Spectacular",
+    "artist": "MGMT",
+    "candidates": [
+      {
+        "id": "f7da2770-bf72-3dea-8904-ff6135822724",
+        "title": "Oracular Spectacular",
+        "artist": "MGMT",
+        "date": "2007-10-02",
+        "releases": [
+          {
+            "id": "cd407e30-202e-4a6d-b145-08bd00ab0159",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "c23146ad-1256-476e-8f3e-23f31b56d564",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular+4",
+            "status": "Official"
+          },
+          {
+            "id": "ce165c24-1edd-3270-81a2-bf7c40db5084",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "53423ced-f942-4b41-bb9a-1ed1cdf2dec3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "778e1560-f3fd-4a34-898e-6eb2fc0a79bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "a76e115a-7a66-4286-8dbc-41fab2f6fa1c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "683fd794-f6e2-3c6d-9b46-b392e4ae5047",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "693cc04f-8d9e-4675-85f9-68f08e98b914",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "25a366e1-24fc-4e4a-a4d7-3370cb662568",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "67e5eef4-111d-4091-ae83-70854685b09e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          },
+          {
+            "id": "44e1c283-8a80-44b8-91d3-7e72b69228bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "222d836f-6f5d-439d-9e19-68dfd5df40a7",
+        "title": "Oracular Spectacular Demos",
+        "artist": "MGMT",
+        "date": "2007",
+        "releases": [
+          {
+            "id": "0edfcae5-8e01-485d-a700-4d5c7a337559",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Oracular Spectacular Demos",
+            "status": "Promotion"
+          }
+        ],
+        "score": 92
+      },
+      {
+        "id": "9a3237f4-c2a5-467f-9a8e-fe1d247ff520",
+        "title": "Oracular Spectacular / Congratulations",
+        "artist": "MGMT",
+        "date": "2011-09-11",
+        "releases": [
+          {
+            "id": "6032dfc4-8880-4fea-b1c0-aaee52e1113c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular / Congratulations",
+            "status": "Official"
+          },
+          {
+            "id": "51aebae8-fcf5-4bed-bf1a-8aa0a8b4601d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Oracular Spectacular / Congratulations",
+            "status": "Official"
+          }
+        ],
+        "score": 85
+      }
+    ]
+  },
+  {
+    "title": "Awaken, My Love!",
+    "artist": "Childish Gambino",
+    "candidates": [
+      {
+        "id": "fd817615-3d43-4f07-9509-d0a46b2bc278",
+        "title": "“Awaken, My Love!”",
+        "artist": "Childish Gambino",
+        "date": "2016-12-02",
+        "releases": [
+          {
+            "id": "e84b58bb-e852-402a-8f01-cb5a9f5229b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "2017e952-42c9-41e0-9e39-69d5aa7b17a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Awaken, My Love!",
+            "status": "Official"
+          },
+          {
+            "id": "cf582fa0-dee4-4b86-b214-2e70bfee1319",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "0cb83e50-bbd9-494f-9c3e-4e21611614cd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "9e99d8a6-3e21-484d-8ba9-286ec07e00a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "c716704d-b2a1-44f9-8cec-66b10361c4ed",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "34d34a27-9181-456e-b6c5-d6c0c2527ac7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "25171347-3475-4181-a3b3-cc2fc479d9fe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          },
+          {
+            "id": "d65b6db8-2ed9-409a-8d19-af8e6953e6a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "“Awaken, My Love!”",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Pacifico",
+    "artist": "Surfaces",
+    "candidates": [
+      {
+        "id": "4f51dd21-6227-4ec5-bf4c-fa3b0d0c6cdd",
+        "title": "Pacifico",
+        "artist": "Surfaces",
+        "date": "2021-06-25",
+        "releases": [
+          {
+            "id": "35fab63d-1ee6-4a8f-abe9-db4246e409bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pacifico",
+            "status": "Official"
+          },
+          {
+            "id": "77683865-d443-4d92-a1b2-9eb2aad26175",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pacifico",
+            "status": "Official"
+          },
+          {
+            "id": "dc310684-7321-4469-953a-dc32ce49abf3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pacifico",
+            "status": "Official"
+          },
+          {
+            "id": "3ac2a6a2-4cdd-457f-92c5-f968fabf00ec",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Pacifico",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Nice Colors",
+    "artist": "khai dreams, Atwood",
+    "candidates": [
+      {
+        "id": "be49fe3e-e993-4939-ae69-e398ea5b806b",
+        "title": "Nice Colors",
+        "artist": "khai dreams, Atwood",
+        "date": "2018-05-17",
+        "releases": [
+          {
+            "id": "56fd700c-7244-426b-9d84-506811e01d1a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nice Colors",
+            "status": "Official"
+          },
+          {
+            "id": "d723b5c0-ffee-4a91-ba31-0b07d4752834",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Nice Colors",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Old Dominion",
+    "artist": "Old Dominion",
+    "candidates": [
+      {
+        "id": "c490aefd-d535-4f88-9721-92a83b532a84",
+        "title": "Old Dominion",
+        "artist": "Old Dominion",
+        "date": "2019-01-18",
+        "releases": [
+          {
+            "id": "c360daeb-7c2d-4015-9096-e4c8e32ebff8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "c45ba5d5-6430-4853-8a63-be514b1d2de1",
+        "title": "Old Dominion",
+        "artist": "Old Dominion",
+        "date": "2019-10-25",
+        "releases": [
+          {
+            "id": "fce7ee0b-7231-481a-96e3-9f2256ef06b4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          },
+          {
+            "id": "9e2d95f6-6fd0-4bdd-b3e0-c29aa651097b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          },
+          {
+            "id": "59c48edf-dbc9-40c2-a858-3bf58a28bae9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          },
+          {
+            "id": "b0a6356d-a2ea-4127-bf4b-d5e0e8c07f58",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "8e625245-49f1-49f6-a5dd-ab7e862457d3",
+        "title": "Old Dominion",
+        "artist": "Old Dominion",
+        "date": "2014-10-07",
+        "releases": [
+          {
+            "id": "67b8728e-2bba-4cb2-bafe-bfdd65e0ff19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          },
+          {
+            "id": "1d260f47-d310-4aa3-84bd-57f11376efab",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "33ffd87e-d3dd-4e94-b453-ba6dc77b6e93",
+        "title": "Old Dominion (Meow mix)",
+        "artist": "Old Dominion",
+        "date": "2020-08-07",
+        "releases": [
+          {
+            "id": "5d693ae7-4ad3-431d-81f7-a0c0c65d6d26",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Old Dominion (Meow mix)",
+            "status": "Official"
+          }
+        ],
+        "score": 89
+      }
+    ]
+  },
+  {
+    "title": "HERO",
+    "artist": "Maren Morris",
+    "candidates": [
+      {
+        "id": "bd47e83e-fa21-446d-95fd-37ac93b5f435",
+        "title": "HERO",
+        "artist": "Maren Morris",
+        "date": "2016-06-03",
+        "releases": [
+          {
+            "id": "ce9b3bd4-7678-4ffa-bf8a-0363e7f3a981",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO",
+            "status": "Official"
+          },
+          {
+            "id": "be64049f-50c4-4889-9065-07619ea1811c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO: A Second Wind",
+            "status": "Official"
+          },
+          {
+            "id": "9661ca47-957a-4149-8038-71f4e71f969e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO: A Second Wind",
+            "status": "Official"
+          },
+          {
+            "id": "9b9f395a-f42a-4e3c-9fc7-45bcae274b24",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO: A Second Wind",
+            "status": "Official"
+          },
+          {
+            "id": "ac49cdd0-0cd9-46aa-88b3-ad072c4e398c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO",
+            "status": "Official"
+          },
+          {
+            "id": "82b5b647-e8e3-42df-92ce-1008a6efd400",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO",
+            "status": "Official"
+          },
+          {
+            "id": "a6d1e51f-d0f2-49f0-9ff5-bbaac2312ad9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO",
+            "status": "Official"
+          },
+          {
+            "id": "74cc7940-50f6-4fc2-bdab-35949b032abd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "HERO",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "West Texas Degenerate",
+    "artist": "Treaty Oak Revival",
+    "candidates": [
+      {
+        "id": "9c6f06bf-c442-40c6-96e2-e132c3849153",
+        "title": "West Texas Degenerate",
+        "artist": "Treaty Oak Revival",
+        "date": "2025-11-28",
+        "releases": [
+          {
+            "id": "12139820-4a78-491a-93a4-d58b449962a4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "West Texas Degenerate",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Somebody’s Problem",
+    "artist": "Morgan Wallen",
+    "candidates": [
+      {
+        "id": "91885c45-3ed7-4acc-80e8-bfcb161b9b07",
+        "title": "Somebody’s Problem",
+        "artist": "Morgan Wallen",
+        "date": "2020-11-20",
+        "releases": [
+          {
+            "id": "53b3c579-1f51-46ff-b087-c4f96d513500",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Somebody’s Problem",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "I’m the Problem",
+    "artist": "Morgan Wallen",
+    "candidates": [
+      {
+        "id": "ab5506b1-941f-4c05-a732-73f3a400b26c",
+        "title": "I'm the Problem",
+        "artist": "Morgan Wallen",
+        "date": "2025-01-31",
+        "releases": [
+          {
+            "id": "2c386d1b-ffe7-4723-8f17-e71b05ed8f1c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I'm the Problem",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "ccd3238f-1db1-4349-90f3-6941a259f2c1",
+        "title": "I’m the Problem",
+        "artist": "Morgan Wallen",
+        "date": "2025-05-16",
+        "releases": [
+          {
+            "id": "215ac4ca-0c60-43d6-9530-ad2b0576f866",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "78b01693-710f-4a60-818c-3698b7fbeb4f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "ce62b0e9-13de-4da8-8563-f7c0be950229",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "4880cbe7-44b1-4064-9ec9-75cbc9379e49",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "bdb728d5-0fc8-427f-9003-dabea64add99",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "bd76e564-3512-4e48-bac1-7e3148cd57f9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "95957f4c-235c-4fe3-8650-38ac7be51e8a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "12f815b9-31ab-475c-9b95-27e7aed8c814",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "1020e4b6-61cc-4d69-a6db-c0b5092cd8c2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "8c701265-64b8-4ff7-94cc-cb65225adb2e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "e1f95af3-f2c8-48c5-9cf9-252e6a098299",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "531e0e8a-c74d-4199-a3b5-448ffbcf8d7c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "d82504fc-f58a-4c4f-a90f-a0f2471d5055",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "bc53b12a-75a2-4e4c-978f-8ab526e55b81",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "f537e749-725a-4d65-a1c1-0f28804af55f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "611e2c9e-78b9-442c-9c16-fe44cec5ef9c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          },
+          {
+            "id": "fd4d77d5-3c44-49bf-9d78-0e2430dc5daf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "I’m the Problem",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "The 20/20 Experience (2 of 2)",
+    "artist": "Justin Timberlake",
+    "candidates": [
+      {
+        "id": "7cc6c164-bd3d-4920-9342-9cb8cd87d8de",
+        "title": "The 20/20 Experience (2 of 2)",
+        "artist": "Justin Timberlake",
+        "date": "2013-09-27",
+        "releases": [
+          {
+            "id": "53bb5ba1-8889-4d6a-8350-f9d9d5d55dea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "ebd42537-faef-4876-83d6-85f0cfbe0a4c",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "41e9d88d-ebdc-485a-8737-1edacd1b4c6a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "581adf31-525f-4c9a-a15a-2ee7ba385101",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "bb0f5a07-4e7d-4299-97cb-3600864027ee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "fdcb2924-3e71-475f-891c-39ea4bf362a5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "09beb268-b0b0-4f85-8662-11eab94aa61a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "3db6b81d-5004-484a-948a-6e23df6722ba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "03dfb136-6825-4dda-a04f-516c51516e2b",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "196d7b8a-9892-4770-8408-b350bbd2a315",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "f8bc9d97-eae6-4a50-89f6-27efad0816b2",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Withdrawn"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "The 20/20 Experience",
+    "artist": "Justin Timberlake",
+    "candidates": [
+      {
+        "id": "deae6fc2-a675-4f35-9565-d2aaea4872c7",
+        "title": "The 20/20 Experience",
+        "artist": "Justin Timberlake",
+        "date": "2013-03-15",
+        "releases": [
+          {
+            "id": "117ba8e5-918d-4f89-a24d-8911554503fc",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "8c49dfaf-e9b8-4d29-a313-9c305c1b14de",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "beb20c81-5dbf-4371-a2a0-3991098dc8a7",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "57ebb904-03de-47cd-89d6-ae444a31fc88",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "2bf197d1-ca0d-4117-afef-255e75758825",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "a36665c5-8220-4e6d-8708-93ae1ca413c1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "d120403e-23ce-49ea-a06d-1775711c33c6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "803aeca8-e276-4bff-88f0-2a85d879e588",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "bd2a6877-71a3-4819-b2bb-b373deb3a756",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "b84af7a6-b54f-4f31-adf2-cbaa287ff79c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "d0e54cea-7708-4863-b979-99c1acda7465",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          },
+          {
+            "id": "f13bd5b6-eebf-4aa6-9bb5-4948bf73718d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "7cc6c164-bd3d-4920-9342-9cb8cd87d8de",
+        "title": "The 20/20 Experience (2 of 2)",
+        "artist": "Justin Timberlake",
+        "date": "2013-09-27",
+        "releases": [
+          {
+            "id": "53bb5ba1-8889-4d6a-8350-f9d9d5d55dea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "ebd42537-faef-4876-83d6-85f0cfbe0a4c",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "41e9d88d-ebdc-485a-8737-1edacd1b4c6a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "581adf31-525f-4c9a-a15a-2ee7ba385101",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "bb0f5a07-4e7d-4299-97cb-3600864027ee",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "fdcb2924-3e71-475f-891c-39ea4bf362a5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "09beb268-b0b0-4f85-8662-11eab94aa61a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "3db6b81d-5004-484a-948a-6e23df6722ba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "03dfb136-6825-4dda-a04f-516c51516e2b",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "196d7b8a-9892-4770-8408-b350bbd2a315",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Official"
+          },
+          {
+            "id": "f8bc9d97-eae6-4a50-89f6-27efad0816b2",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "The 20/20 Experience (2 of 2)",
+            "status": "Withdrawn"
+          }
+        ],
+        "score": 85
+      }
+    ]
+  },
+  {
+    "title": "Southern Nights",
+    "artist": "Glen Campbell",
+    "candidates": [
+      {
+        "id": "891ed15f-a611-3d38-816f-3cdaf4c9eb26",
+        "title": "Southern Nights",
+        "artist": "Glen Campbell",
+        "date": "1977-02",
+        "releases": [
+          {
+            "id": "ba7ea8eb-85db-4168-8f59-0603fe6a8633",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Southern Nights",
+            "status": "Official"
+          },
+          {
+            "id": "ddbc5f4c-edf4-4d46-bea0-1eac0b1271cd",
+            "title": "Southern Nights"
+          },
+          {
+            "id": "834a05ec-4bbc-4276-b797-2ccdf625d648",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Southern Nights",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "2e0daf8c-9673-4670-8654-f202bee7bbd2",
+        "title": "Southern Nights",
+        "artist": "Glen Campbell",
+        "date": "1977-01-17",
+        "releases": [
+          {
+            "id": "d6f4361e-57f3-4fcc-b04f-9173c76fac02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Southern Nights",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "bfbacbec-2c8e-4dbc-a158-1ca7c8c1ddc4",
+        "title": "Southern Nights & Basic",
+        "artist": "Glen Campbell",
+        "date": "2003",
+        "releases": [
+          {
+            "id": "ca74dd7d-5e05-4141-8657-98582b1cd6bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Southern Nights & Basic",
+            "status": "Official"
+          }
+        ],
+        "score": 89
+      },
+      {
+        "id": "48919524-8025-442e-8298-e03f084a6ce2",
+        "title": "Southern Nights Live In Concert",
+        "artist": "Glen Campbell",
+        "date": "1999",
+        "releases": [
+          {
+            "id": "4e5ab840-8c7b-4a0c-a65a-7efb842e9361",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Southern Nights Live In Concert",
+            "status": "Official"
+          }
+        ],
+        "score": 85
+      },
+      {
+        "id": "3917a277-f9c8-4173-b6fc-d5d18d2c39e5",
+        "title": "Southern Nights: His Greatest Hits",
+        "artist": "Glen Campbell",
+        "date": "2000-06-27",
+        "releases": [
+          {
+            "id": "8e33bf6c-0b7c-4531-b4f5-a925f09253dd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Southern Nights: His Greatest Hits",
+            "status": "Official"
+          }
+        ],
+        "score": 85
+      }
+    ]
+  },
+  {
+    "title": "It's Hard",
+    "artist": "The Who",
+    "candidates": [
+      {
+        "id": "67898886-90bd-3c37-a407-432e3680e872",
+        "title": "It’s Hard",
+        "artist": "The Who",
+        "date": "1982-09-04",
+        "releases": [
+          {
+            "id": "9a84c956-70f5-4bf2-b00c-e009e6743f82",
+            "title": "It’s Hard"
+          },
+          {
+            "id": "472bfb49-6c91-44a8-9c61-661e0efead15",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "cf4ae51b-0b67-4ebb-94f1-162d1b7f7d23",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "7cc21f46-16b4-4479-844c-e779572ca834",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "35109c16-e7a2-4088-9084-25fc9023bde8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "3e42fde9-4f99-418b-a6f4-16da08ff07b0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "27d82619-4044-3d90-b8c6-3329cc739352",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "7c56e172-dd61-41ed-87b7-c31e0aca5233",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It's Hard",
+            "status": "Official"
+          },
+          {
+            "id": "4a21d9c4-e36a-3fdf-9225-c47da988e9b0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "30c5a5bd-cf71-44b5-a7a8-2d9fa5d9f839",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "661230b2-ebf6-44c7-92dc-b3c885aeac31",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "7bc51e62-83c2-4375-b30c-68c79a8c1628",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "23e7f25e-72d6-4102-b3b1-48609d094da6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "8483b251-3985-40b3-83b4-e7d0ab7d215b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "92e7744b-bb49-4581-a479-f1d0bd63d6f8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          },
+          {
+            "id": "0c2ac980-05a0-4523-9ead-2e2f0b32dbb2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It's Hard",
+            "status": "Official"
+          },
+          {
+            "id": "37fcf22f-5c13-44d2-9b3c-cb66a820417c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "It’s Hard",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Continuum",
+    "artist": "John Mayer",
+    "candidates": [
+      {
+        "id": "21e886f7-db66-3103-beb4-da9323adddc7",
+        "title": "Continuum",
+        "artist": "John Mayer",
+        "date": "2006-09-09",
+        "releases": [
+          {
+            "id": "15ad7370-2b54-435e-8515-64940558389f",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Continuum",
+            "status": "Bootleg"
+          },
+          {
+            "id": "587a4f2d-73a5-3b4e-b68b-95787bf91c9d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "944e1da0-0ee6-434a-bf21-8fac564e67fd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "766804a6-864d-490e-9159-c52618e5b9cf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "0404cc57-a521-42f4-ab6b-02b35a555ec8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "03e42be9-909d-43d7-bc4b-c193a9676865",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "c5110b22-ce91-4e12-b2aa-895f044ab7db",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "c86003eb-b1d1-4afc-86ad-995e0302ca95",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "9ef7ebee-1fe3-3ac6-9fe9-f6c5bb12180b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "f6ec4719-a89d-4f64-8bad-dd536b8a109e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "a0dde199-842b-4de2-b6e5-1f94cc2c6530",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "90257c20-6a34-46f6-bce0-5d87e80cb337",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "a7bb7fb2-0744-44d1-91e1-a3aeb68193b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum (Special Edition)",
+            "status": "Official"
+          },
+          {
+            "id": "defb11d2-3132-475e-9a6a-510dc05d4214",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "0547af97-d31e-456f-931c-579d654cf580",
+            "title": "Continuum"
+          },
+          {
+            "id": "763e1543-64eb-41be-87bf-4239a07a3627",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "851fdaf8-6215-443b-aee2-5b8c9cb0dbf1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "e2c85828-fb9d-39b0-b2a8-0f103c6fa352",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "1215a0df-74e0-47e9-8c47-1363cbb2ed4e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "a6d5bb5c-bbf8-4db0-88a6-e618ac29b149",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "72907f53-ffae-34c8-be04-238c5d057dd2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "8aa81e40-71f1-4a39-a631-cb06703348d4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          },
+          {
+            "id": "2964d8d3-362f-4f7d-ae5a-2e478d3ac96b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Continuum",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "99811510-34c6-40b5-ad03-106a56a32a0a",
+        "title": "2006-09-13, Continuum Album Launch: Webster Hall, NYC, NY, USA",
+        "artist": "John Mayer",
+        "date": "2006-09-13",
+        "releases": [
+          {
+            "id": "7090b768-b23d-4b2e-b957-a9cd1a7767ca",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Continuum Launch Concert at Webster Hall in NYC",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 73
+      }
+    ]
+  },
+  {
+    "title": "Room for Squares",
+    "artist": "John Mayer",
+    "candidates": [
+      {
+        "id": "0e2e1f1d-57d7-377e-820c-f846bff80b24",
+        "title": "Room for Squares",
+        "artist": "John Mayer",
+        "date": "2001-06-05",
+        "releases": [
+          {
+            "id": "02dfefa0-5c08-4ebb-8c21-a0836c704676",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "859ff806-de2c-44dc-8734-71d94041b724",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "9b4f96d6-8fa9-4c95-a6ab-1820d4e3b883",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "1c29670f-ce39-409a-b9a9-e613c03f2603",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room For Squares",
+            "status": "Official"
+          },
+          {
+            "id": "b181ec85-890a-43f8-a247-b6d79da71522",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "de6963c4-d0af-4edb-9960-4b7aed25ef41",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "0b7c451d-2f7c-4f9e-8e7b-029fc2d5f9b7",
+            "title": "Room for Squares"
+          },
+          {
+            "id": "8c8af5f4-91eb-44c8-ab47-f48ba9b2fcbf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "d138adfa-de1b-4202-98a6-db840314ae53",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "d086d5d2-2095-465d-aca0-281ee9264c6a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "fc9a1b8e-5fc7-4b18-ab20-d5d6536dc0aa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "b520fde8-1fcd-4a98-97fe-18c5480db8b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "ecb7b95b-5a24-44e3-b836-19610d2d1792",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares (bonus disc)",
+            "status": "Official"
+          },
+          {
+            "id": "5d3dbaad-497c-4d19-a00f-75b1ce2440b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "44c90aa3-3228-4d14-99e2-1f367e54b0b2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "a1af22c7-a0ae-474e-8f4e-0ac7ec1abc5c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "b1e594b3-b8b7-4010-983e-1ff1e90c941d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "ef981273-efd5-48b9-a6f5-b7880e4ed310",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "f1c397d4-69b8-4f5e-acb1-1f4708486178",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          },
+          {
+            "id": "8a13abd8-338d-4f30-823f-188748040319",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Room for Squares",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "5e13b47b-12f1-4b2c-88e7-a7786828e3fb",
+        "title": "Room for Squares (AVCD)",
+        "artist": "John Mayer",
+        "date": "2001",
+        "releases": [
+          {
+            "id": "0af7990d-a2e9-4464-b7df-a509d7c0b31f",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Room for Squares",
+            "status": "Promotion"
+          }
+        ],
+        "score": 93
+      }
+    ]
+  },
+  {
+    "title": "Free Spirit",
+    "artist": "Khalid",
+    "candidates": [
+      {
+        "id": "8bcc3814-f19a-448b-8ed3-c56a024bfe4d",
+        "title": "Free Spirit",
+        "artist": "Khalid",
+        "date": "2019-04-05",
+        "releases": [
+          {
+            "id": "139a2674-e215-4a02-85c1-7d61dfc49b44",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Free Spirit",
+            "status": "Official"
+          },
+          {
+            "id": "3a5cbae4-5b58-4428-b278-47d0157f200d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Free Spirit",
+            "status": "Official"
+          },
+          {
+            "id": "cc41582e-cbf4-4882-8508-aa113df92e86",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Free Spirit",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Goodbye Yellow Brick Road",
+    "artist": "Elton John",
+    "candidates": [
+      {
+        "id": "e8b8b0a2-896f-3768-8b52-2b7eff6706cf",
+        "title": "Goodbye Yellow Brick Road",
+        "artist": "Elton John",
+        "date": "1973",
+        "releases": [
+          {
+            "id": "b6fefb5d-f037-4eca-ab2b-955a476de078",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "6f1eb18a-cdc7-4cf1-b280-a58d50b502a2",
+        "title": "Goodbye Yellow Brick Road",
+        "artist": "Elton John",
+        "date": "2001",
+        "releases": [
+          {
+            "id": "f061b46c-1704-49dc-b55a-32acf91adb34",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "80df0f1b-4ce7-348a-aa1b-0d31ebff111a",
+        "title": "Goodbye Yellow Brick Road",
+        "artist": "Elton John",
+        "date": "1973-10-05",
+        "releases": [
+          {
+            "id": "02a340ab-7e6d-4c04-b0e1-612433ec1481",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "6dea097e-2121-49f4-b234-e41863397081",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "636638f8-97f1-3276-88be-d3b362a99967",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "111c508a-31db-4094-b678-8bb4b188d4bd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "6c635bd5-5453-495c-880f-9e595a223b70",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road (40th Anniversary Celebration / Super Deluxe)",
+            "status": "Official"
+          },
+          {
+            "id": "36b67547-e5ad-448c-8e3a-a8bcd3569c22",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "979e4b5a-b2f7-48d7-8ab1-8c928ad23c73",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "fd138d46-6002-41b8-8aad-a28dfb55c67c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "154fc613-1555-306f-934e-e07f8e38f107",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "35bb4ced-14b5-4adc-be34-d62861b1aad4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "5c48fd8c-14ec-4714-897f-0ace5f1830fa",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "8fd04967-5165-4b76-943d-4f03e53eae4b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "0994e344-dfca-447b-ae7e-e23ce5924aa1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "aef028e3-f601-43bf-a9bb-02eea27946bb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "cb2f0189-ffd5-44a7-ad6c-ba4c31683d46",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "c5ba87be-9064-47a7-8c76-a77beece32a2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "0e6a46c3-f545-41e0-9245-0dbfe1bfeb9e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "95f2f790-3577-468d-916d-b27d7dd61d43",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "4fdbb11b-916c-41e5-b465-cb77112c49b7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "19574018-be33-4e1e-a49d-9811bcfb1a00",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "01fb4e8f-b58a-42f0-82bd-ac3ff410ef10",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "806e73fd-72dc-4f21-8c38-31ecbaa05b99",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "c005587c-bd81-4322-a4f9-d2b81c8c75ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "3bc92350-b215-465d-a1d8-4cf654350696",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "dd37fc20-cb4f-434d-82d1-7ca27c599792",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "ae1cfd5b-866a-456b-a617-9b5600277d07",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "63c20d67-215f-4ca3-89f7-445f489ca152",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "1b284a67-f72c-403c-be1c-7757e9f829cc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "816ab66c-413f-4347-914e-59f4d957559d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "b3a44b3d-8cab-4ec3-9a16-2d2ac17f1b64",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "d7d1bf1d-a5de-4e2b-8cb3-b216d7a8784e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "b888cba7-b238-4fde-9a65-6454fcefaa63",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "2bb6ee2d-d3e4-40a8-871e-275f5873def9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "5ceb39f5-c921-4d7a-85ad-9a9bd146ba77",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "b8835445-9ba6-4662-a6cb-a36129297f1b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "76b4fe46-fd6b-4e3c-b688-a8ebd5c1bde0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "95b171d0-f523-4878-a1de-7025fbb7c99d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "1b6ec9c4-fdfc-4bb9-8005-469b989e68ba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "b583e7bc-1d4b-4764-8b02-07b2bc85a3e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "7f246a40-0dc1-4c14-99c5-4ee249d72d4d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "0e5516f1-ac00-4e70-b1f6-4cc9f1d8e9ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "8af52dac-357c-4d07-adb3-e28f636c7b12",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "6ccf040c-ef37-3ef3-aa43-9837e534ec1b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "9b8206c5-951f-4f6d-8493-ebecc2dfc42f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "00c29cb4-7411-3932-ae77-10db473c9de9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "42af27a5-4b97-46fa-9786-77259f821d69",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "09e98618-38f0-34ec-a159-a333f65a067f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "6f2f317d-ca9e-43df-bd67-d508f1d85803",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "1a7d034c-cca0-4873-9728-0595601b04a6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "89ab3f5d-ab28-38eb-80d1-687f99465e5c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "9cf7f3ec-a5d5-3411-aa1e-e60121803584",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "803fa82b-03e8-4b10-96a6-0b7f7f28cead",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "cfbc194a-9933-4b19-afb0-983cd15daedf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "4bfd7aee-fe08-4e94-9066-55ed88bc647a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "544537f2-bdea-48c9-84c0-a815cb4de5ed",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "ef5f553c-a6dc-4fba-b3a7-54a74b5bca48",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "568b3822-970c-4574-857a-998174e30fb5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "b35b091b-9030-44d5-9bef-20786f85bfb4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "9f423843-abd2-3880-87c7-f2a4b8c16b7b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "a5c6d485-8501-4372-bf70-f0bd290fb651",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "c128e20d-34ba-4a99-b2b8-5032e6181d3a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          },
+          {
+            "id": "9e543be3-e77c-40ca-beed-24e474145f28",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "f008432f-8ba9-4165-aede-cc4e390faf7a",
+        "title": "Goodbye Yellow Brick Road / Young Man's Blues",
+        "artist": "Elton John",
+        "date": "1973",
+        "releases": [
+          {
+            "id": "542dd69b-d922-4489-b854-46621b74fa0b",
+            "title": "Goodbye Yellow Brick Road / Young Man's Blues"
+          }
+        ],
+        "score": 79
+      },
+      {
+        "id": "69991757-6793-40c9-ae15-6094f4dd673a",
+        "title": "Angie / Goodbye Yellow Brick Road",
+        "artist": "The Rolling Stones, Elton John",
+        "date": "1973",
+        "releases": [
+          {
+            "id": "8488e905-f8e5-4a6e-9edc-5c8a7ff7b6fe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Angie / Goodbye Yellow Brick Road",
+            "status": "Official"
+          }
+        ],
+        "score": 73
+      }
+    ]
+  },
+  {
+    "title": "Don’t Shoot Me I’m Only the Piano Player",
+    "artist": "Elton John",
+    "candidates": [
+      {
+        "id": "0293c693-a065-395b-b9be-06a7f69b3e57",
+        "title": "Don’t Shoot Me I’m Only the Piano Player",
+        "artist": "Elton John",
+        "date": "1973-01-26",
+        "releases": [
+          {
+            "id": "d1dc25f2-9e66-4270-b2a1-eb095febac9a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "cc10da4c-d106-4c6b-921c-008a4cdb329c",
+            "title": "Don’t Shoot Me I’m Only the Piano Player"
+          },
+          {
+            "id": "25f6cb7a-7a83-4774-ba1c-8b95823da710",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "6dda4bb4-3239-4052-88bc-39972beb1719",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "8e93b0f9-8757-464b-8987-541750ba1cb8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don't Shoot Me I'm Only The Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "06ee27f3-3fd9-46aa-98fc-15af581cf448",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don't Shoot Me I'm Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "64dd6ab6-eaaf-4bc5-94ba-c2e84d4d3cea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "f41dfca4-7f6e-4af4-b3a5-a2f7a22f205c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "27b0bab4-1772-4df7-975c-10e650f2f0a7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don't Shoot Me I'm Only The Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "1c209603-0a3e-4935-891b-27474d4e3663",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "2077130b-b1bb-4c8b-8aed-17e27cab507a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "b7faac08-6c3f-4cb4-8af1-b362530b1fb8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "b534669e-bd34-4524-bba5-f840b13050c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "15898910-4c58-4bd4-ae0c-8e323fb98dd7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "50bac9d3-bb97-424f-8787-31e2b8fb289b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "4d200a21-999e-4c27-a329-79a1b3fe1278",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don't Shoot Me I'm Only The Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "e6a4efc3-f402-4bcf-9a00-94504910a408",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "642a717c-a54b-4791-891c-845715100ef7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "aa9fa08b-3713-388e-a018-6248a628621a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "10ba9fd2-4765-4672-acbe-2341253b7897",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "8df7804d-be08-4a02-8e03-19494c6ceb32",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "c406d6c6-b5b1-3644-846f-c356f76bd9e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          },
+          {
+            "id": "8d13124d-c49f-4af8-b6b1-f8f73feb9161",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "1c7a4612-b611-490d-8b98-11784a55eefe",
+        "title": "Goodbye Yellow Brick Road / Don’t Shoot Me I’m Only the Piano Player",
+        "artist": "Elton John",
+        "date": "2009",
+        "releases": [
+          {
+            "id": "dd760153-cffe-44fb-bcdf-70bc827771dc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road / Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          }
+        ],
+        "score": 81
+      },
+      {
+        "id": "b89e1372-83e9-4b79-9866-172ee59af08b",
+        "title": "Goodbye Yellow Brick Road + Don’t Shoot Me I’m Only the Piano Player",
+        "artist": "Elton John",
+        "date": "2009",
+        "releases": [
+          {
+            "id": "b18661d4-9704-4cd0-9fa7-8d42120d3b5a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Goodbye Yellow Brick Road + Don’t Shoot Me I’m Only the Piano Player",
+            "status": "Official"
+          }
+        ],
+        "score": 81
+      }
+    ]
+  },
+  {
+    "title": "Fly Like an Eagle",
+    "artist": "Steve Miller Band",
+    "candidates": [
+      {
+        "id": "03cf0b3d-48f1-3b04-a3be-5e4d5b7dcae2",
+        "title": "Fly Like an Eagle",
+        "artist": "Steve Miller Band",
+        "date": "1976-01-01",
+        "releases": [
+          {
+            "id": "e4d13602-d7de-4a8f-9215-813198a6cc87",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like An Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "81972355-5638-4182-9b9a-f7d3a5fc6174",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "0c5c0f3a-783c-44a5-b1f6-0ab4c5db676c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "4edaabee-7cbd-3cb4-9828-9910f87bf4ab",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "f79c0184-8d38-494e-b9b3-9a0901b0c7c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "9a199311-16b2-4753-b35c-17f16350abdb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "e5a142ca-7c99-42c2-a47e-c310ceab17b3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "6b6580bc-56b0-4c9a-8f46-d92081480132",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "94d920e1-10e6-4396-850a-6a24f24500a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "56e7de14-d3d3-4207-83a2-bb9a5f0a6391",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "4aa6199f-19d0-4a7f-8f36-f570464981c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "763a5807-6702-494d-965e-86a8b47fa446",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "0fdb51ab-a213-48d1-82de-4ea6f32c7e17",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "ac333fc8-f11c-43ac-95c3-43d27f5a3e0d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "56cedb0f-b5e2-4d0e-97e5-82d87e208aa2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "eb29231f-e877-4f6b-9de3-a0ea6648e8be",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "0b66efac-0782-4436-b491-2547cb4e0141",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "82d72d6d-8531-4158-9288-d1bf44c8d074",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "2a9dd31a-9f4d-454e-8dfa-feaba4f12f0d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "a5ba0eec-c54d-32f5-a879-d2787b082c50",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          },
+          {
+            "id": "29025146-1efd-4637-b939-d06340499917",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Fly Like an Eagle",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Big Shot",
+    "artist": "Briston Maroney",
+    "candidates": [
+      {
+        "id": "f7a520ad-1a34-49a6-bc5b-9fa424eb944e",
+        "title": "Big Shot",
+        "artist": "Briston Maroney",
+        "date": "2017-12-08",
+        "releases": [
+          {
+            "id": "1eb87512-3270-4397-9613-bad98d018558",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Big Shot",
+            "status": "Official"
+          },
+          {
+            "id": "1d150f2f-d948-40a9-8716-f2d3edbce18a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Big Shot",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Puppy Love",
+    "artist": "Mom Jeans.",
+    "candidates": [
+      {
+        "id": "e7bbd1df-56d0-4f1c-8112-352e2de7dfa6",
+        "title": "Puppy Love",
+        "artist": "Mom Jeans.",
+        "date": "2018-07-03",
+        "releases": [
+          {
+            "id": "aff3a5b5-5689-4e6e-83d3-21300bb50c28",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Puppy Love",
+            "status": "Official"
+          },
+          {
+            "id": "0f50b83b-7af5-4f42-8568-6c86ed9b3c54",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Puppy Love",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Best Buds",
+    "artist": "Mom Jeans.",
+    "candidates": [
+      {
+        "id": "55806fc0-0f33-483d-89f0-5904e79fa514",
+        "title": "Best Buds",
+        "artist": "Mom Jeans.",
+        "date": "2016-07-03",
+        "releases": [
+          {
+            "id": "17d2fc0a-15c2-4582-b52d-a84520145056",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Best Buds",
+            "status": "Official"
+          },
+          {
+            "id": "3ac8c409-e753-4125-9b07-af0fcaa932b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Best Buds",
+            "status": "Official"
+          },
+          {
+            "id": "9003ed77-853e-4086-bfd7-c5e2a89bfdd8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Best Buds",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "When We Were Friends",
+    "artist": "The Backseat Lovers",
+    "candidates": [
+      {
+        "id": "de107e4f-e1ae-4908-b5c9-df5e30379de5",
+        "title": "When We Were Friends",
+        "artist": "The Backseat Lovers",
+        "date": "2019-01-27",
+        "releases": [
+          {
+            "id": "553f2332-f27d-4627-9e7c-03ec74b79c0d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "When We Were Friends",
+            "status": "Official"
+          },
+          {
+            "id": "73ab81a9-3c3f-482f-ba51-d5e9e5c7fcba",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "When We Were Friends",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "More Life",
+    "artist": "Drake",
+    "candidates": [
+      {
+        "id": "d039390b-2452-4a5c-9b2b-32e5e80f15e0",
+        "title": "More Life",
+        "artist": "Drake",
+        "date": "2017-03-18",
+        "releases": [
+          {
+            "id": "57fe7adf-4eb9-446f-a502-90e70e3c307c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "More Life",
+            "status": "Official"
+          },
+          {
+            "id": "be671324-3249-4e03-8474-4ddf0521326b",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "More Life",
+            "status": "Bootleg"
+          },
+          {
+            "id": "0b92cfbb-3d3f-42c0-8f24-b9ffed2179ea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "More Life",
+            "status": "Official"
+          },
+          {
+            "id": "4360c85f-0c62-4983-9463-d18aee8b945a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "More Life",
+            "status": "Official"
+          },
+          {
+            "id": "7b556a72-5c34-44b5-bf45-fa730964d193",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "More Life",
+            "status": "Official"
+          },
+          {
+            "id": "32ea0f3e-4a15-4b98-88e7-a387ff89f220",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "More Life",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Live From Space",
+    "artist": "Mac Miller",
+    "candidates": [
+      {
+        "id": "58c08f66-debf-4974-a989-49aed11941cf",
+        "title": "Live From Space",
+        "artist": "Mac Miller",
+        "date": "2013-12-17",
+        "releases": [
+          {
+            "id": "dee46bb1-a40f-4208-8bcc-a8c31a67adbc",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "Live From Space",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "e63577e8-cf2e-4006-911d-3f616e0c2036",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Live From Space",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "2014 Forest Hills Drive",
+    "artist": "J. Cole",
+    "candidates": [
+      {
+        "id": "5995738d-4b6f-4db6-847b-310a9dc67085",
+        "title": "2014 Forest Hills Drive",
+        "artist": "J. Cole",
+        "date": "2014-09-14",
+        "releases": [
+          {
+            "id": "19bdf9d5-8768-454f-a050-813728b4bf49",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "d859e957-d534-4c1d-adff-75b92f811ceb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "0e18916e-9e1d-435f-925f-512589f9233b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "5f7b04ad-879a-472e-979d-98e60459188d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "47ce7a66-b22f-4033-8777-82dd9427067e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "966fa8b4-b415-4ec5-92e8-5bda2541fceb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "ca7dc21d-41d2-49c0-b65f-81bf52e9ed47",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "ba309f48-48e4-4893-a4c5-5e9916b83c56",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "7cfb8572-2386-4915-b626-2efe1da28fa0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "7586f269-cefc-4977-a7a1-a977bfab3a10",
+            "status-id": "6a3772de-4605-4132-993d-aa315cd19b4b",
+            "title": "2014 Forest Hills Drive",
+            "status": "Withdrawn"
+          },
+          {
+            "id": "91022d1b-b6cd-4ed4-970d-ad6131c33a59",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "2b872eb4-dfd4-4a05-b81c-090e452b8115",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "bbd931f0-f3ad-4550-b1cd-862e4b70cc03",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          },
+          {
+            "id": "e2eb21ed-0489-4a65-ad65-fd2a1ddde4b5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "2014 Forest Hills Drive",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "ye",
+    "artist": "Kanye West",
+    "candidates": [
+      {
+        "id": "6448381d-9d98-4f84-b99d-733b6acde906",
+        "title": "ye",
+        "artist": "Kanye West",
+        "date": "2018-06-01",
+        "releases": [
+          {
+            "id": "fe8666b0-e1e5-4bcc-bf6e-f788e575e7c3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "b3e36f26-6893-4ade-a1e3-445b0927b895",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "1f6c7a72-6f5a-4d2b-8f37-158c649e7adf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "59c3d788-8880-44ae-9897-bb098a80e663",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "79aef979-393a-44fa-b731-6eb87606fbef",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "09aa7622-b935-48bc-834b-495040a74ff3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "7ca149b4-5718-444c-a113-1e12c91c8058",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          },
+          {
+            "id": "e8d2c301-ddd0-4d61-93ef-4f95ba587c19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "ye",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "6dffc036-58c5-4bdf-914c-31fdbb55e9fc",
+        "title": "YE-VANGELION",
+        "artist": "Kanye West",
+        "date": "2025-04-02",
+        "releases": [
+          {
+            "id": "eaf49a48-49b0-4465-b1f4-3be3af6fa11f",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "YE-VANGELION",
+            "status": "Bootleg"
+          },
+          {
+            "id": "0ea13d9c-5406-4d88-aad2-5e5734f9d186",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "YE-VANGELION (BONUS)",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 94
+      },
+      {
+        "id": "3af5875a-8ca2-4c8a-94a5-a60b25642428",
+        "title": "Ye vs. The People",
+        "artist": "Kanye West, TI as The People",
+        "date": "2018-04-28",
+        "releases": [
+          {
+            "id": "c2a6bfa2-5871-4461-ba39-1c9903838509",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ye vs. The People",
+            "status": "Official"
+          },
+          {
+            "id": "73dff514-7fb8-4fa4-8a83-5a651b3bc56c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Ye vs. The People",
+            "status": "Official"
+          }
+        ],
+        "score": 58
+      }
+    ]
+  },
+  {
+    "title": "Cracked Rear View",
+    "artist": "Hootie & the Blowfish",
+    "candidates": [
+      {
+        "id": "5c411048-4d5d-3f80-8eaf-ef20a7089404",
+        "title": "Cracked Rear View",
+        "artist": "Hootie & the Blowfish",
+        "date": "1994-07-05",
+        "releases": [
+          {
+            "id": "5f5af415-d6e6-4535-ae5e-44c6ea63b0be",
+            "title": "Cracked Rear View"
+          },
+          {
+            "id": "73907106-7dfb-468e-8e8b-2c9e75d66d75",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "7eb068e3-040f-4e63-ac00-766b6aa51359",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View (25th anniversary deluxe edition)",
+            "status": "Official"
+          },
+          {
+            "id": "b519bd69-491b-427c-8492-f570b997f045",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View (25th anniversary deluxe edition)",
+            "status": "Official"
+          },
+          {
+            "id": "30525915-b8e9-4890-8c87-f4cf3e4f665a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View (25th anniversary deluxe edition)",
+            "status": "Official"
+          },
+          {
+            "id": "9d1e3056-e220-4310-819c-e24822f4a477",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "bdb72b43-c2eb-43b4-b370-d8c6e07bbfeb",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "36034cf5-b875-4426-b194-e0081ab381c8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "ffe58dd1-0dfd-4e28-8388-ee500c8a46ef",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "151af6c4-b33c-4dde-8ba1-75d275e53e1b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "8d0916a9-8fa2-49b2-9557-7c2687f62b7b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "5f015f09-6124-45ae-ab67-f94e53d6460e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "3827d42e-ae55-4d01-a4a8-699ffc750c30",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "816e243c-6ee6-414e-9282-6bb9921ee3c1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "0d0a19a9-143b-4540-8f2a-0b91ce74d8c4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "ea250f01-ef08-4d1f-b448-c964b773067e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "ebfc26c3-02e3-48b1-bbfb-071a307ae5a3",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          },
+          {
+            "id": "8762ea6f-764a-44c0-80f5-f1d6d84cdfd9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Cracked Rear View",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Californication",
+    "artist": "Red Hot Chili Peppers",
+    "candidates": [
+      {
+        "id": "394c1bd4-e3e1-306f-ade9-e9cd0f49016c",
+        "title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "date": "2000-06-20",
+        "releases": [
+          {
+            "id": "173982fb-b90c-4530-ab00-c18b4423c0ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "53e4ea79-2bcd-4e02-9e58-dbc163ee105a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "3d937f76-7149-472d-a910-55c2f1eba6bc",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "760296e6-f7c1-4ca3-8cce-25e70165aaa5",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Californication",
+            "status": "Promotion"
+          },
+          {
+            "id": "d708e590-104c-44e9-a631-0cba6721a778",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "663bf44b-d695-4ee1-9e47-e494fe598a97",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "ca5dfcc3-83fb-3eee-9061-c27296b77b2c",
+        "title": "Californication",
+        "artist": "Red Hot Chili Peppers",
+        "date": "1999-04-30",
+        "releases": [
+          {
+            "id": "6d89a6a7-59dd-4ec7-8d73-444fc5257f05",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "d613b841-286d-456b-878a-0a00985f58b8",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Unmastered Californication",
+            "status": "Bootleg"
+          },
+          {
+            "id": "145fc5c5-0e62-43c6-9f5e-3ecf310ad48b",
+            "title": "Californication (2014 Remaster)"
+          },
+          {
+            "id": "71ebecd1-b9ba-4ace-9842-4cec8dce9fbe",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Californication Unmastered",
+            "status": "Bootleg"
+          },
+          {
+            "id": "fbd7449a-04bd-4f93-bcf7-a6dfa92eeb91",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "12c50dbf-71b4-4271-b812-ab199044c343",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "952e6876-76cf-4334-99a0-77d5aca27560",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Californication",
+            "status": "Bootleg"
+          },
+          {
+            "id": "be580d1c-181f-4ad9-9bfd-172c3960979e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "3eb0b384-30bc-46a4-a9f0-3b13a98a914c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "4ad6711f-3f5d-4f7b-a5eb-46636a37e47a",
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "title": "Californication",
+            "status": "Promotion"
+          },
+          {
+            "id": "e09526cc-c856-4b23-8cd7-edabe97d7ea5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "7223ad5e-a9d1-415a-9671-e4578b0fc988",
+            "title": "Californication"
+          },
+          {
+            "id": "032b152f-b441-4b91-9e44-d3e28f477bb9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "4275cef6-b011-4ed8-922d-39bd2761dd4e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "b059b107-f3d9-3751-89a8-a0ec01fdfbc6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "f59b2521-2b90-42de-a90f-8e612d89c7e7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "1d8f13c9-0bb8-48c6-8537-224402c5dade",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "7730c033-3be4-4ae1-a6cf-f8ce167f2615",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "1ef4c139-0a1d-4822-88a5-8baf179949c4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "12c36ba8-abfe-4a83-9bc7-018713413206",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Californication: Rough Mixes",
+            "status": "Bootleg"
+          },
+          {
+            "id": "34e26efc-08ad-4d12-b269-68231589faa3",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Californication",
+            "status": "Bootleg"
+          },
+          {
+            "id": "9dc6b336-e515-4915-b061-55d37d6dbc0c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "8f249dbf-63ce-472f-b428-dc8672fc1477",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "ff3e15df-db09-4143-8886-2d6c6b3ca377",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "c4e947dc-a6e1-43a5-a438-252ba521a8ae",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "b50baf68-43f3-4e05-af4c-f90e13c0b108",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "a5429e73-586a-4247-a6e2-4bde73205069",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "ae9e09df-5029-30ec-bf1c-8d4a905f8c02",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "20eb6af8-d7f0-4e9e-a6ba-43c368dd9ac1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "058dcfa5-4921-4055-87b0-f541eb4adb08",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "51edfeb1-9066-4582-999f-acb8debb2fbe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "a7867376-5275-43f6-93ef-196b97203ad2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "190127cf-df36-4b97-9b82-75c5c7ab5494",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Californication: Rough Mixes",
+            "status": "Bootleg"
+          },
+          {
+            "id": "b31c6c9a-c016-402c-8c27-70480f1e6afe",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "Californication",
+            "status": "Bootleg"
+          },
+          {
+            "id": "a2ba16f9-aecd-40a3-9390-658dd366b377",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "d42e8186-d02f-4fab-a525-0fa2d8ab8631",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "31249763-c17c-46bc-82a9-74460a502188",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          },
+          {
+            "id": "b5251d00-c9c7-4743-92af-244cf28bc6e4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Californication",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "El Camino",
+    "artist": "The Black Keys",
+    "candidates": [
+      {
+        "id": "c2eed4c1-5cd9-469a-9075-b82077093967",
+        "title": "El Camino",
+        "artist": "The Black Keys",
+        "date": "2011-12-01",
+        "releases": [
+          {
+            "id": "1642937f-4a69-479d-b447-6fba35d50e30",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "f5e5e7cd-5faf-4882-bde2-a3f0b7c89747",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "73b233c3-e612-4bf0-9813-114dc89245fe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "f10badef-094b-48b1-b345-cddfc3d41673",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "ec0af468-657b-434b-b300-28f355d227bf",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "0f16a8c2-dc7b-4596-b989-ba658cd29d18",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "8907eb07-42e4-4422-9c38-91453550f0af",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "fc3bec33-bbed-4af0-9c16-b313ab1d71e5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "2fa2b8f0-e4ab-46e8-8ab4-91d0e1aecfad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "c4578308-95ff-4be8-85f7-fe85d332eced",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "3258ad21-d24d-45f1-8357-089e0ed5dc10",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "9c78e227-cedb-430f-b737-f1ea6bce6fa2",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "5cb817c8-a1ff-4dc2-a300-516d81366eae",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "d9e1a28a-1e4c-47bb-b2ca-d6b568b612a9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          },
+          {
+            "id": "d82185db-653d-4a24-9363-589be0aca6f9",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "El Camino",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "SOS Deluxe: LANA",
+    "artist": "SZA",
+    "candidates": []
+  },
+  {
+    "title": "Man on the Moon III: The Chosen",
+    "artist": "Kid Cudi",
+    "candidates": [
+      {
+        "id": "a595c7b0-1c4e-4396-8a32-22fe9d6d908c",
+        "title": "Man on the Moon III: The Chosen",
+        "artist": "Kid Cudi",
+        "date": "2020-12-11",
+        "releases": [
+          {
+            "id": "9a8688cb-f720-47e2-8cb0-7076de704c7f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man On The Moon III: The Chosen",
+            "status": "Official"
+          },
+          {
+            "id": "c3afe980-8024-4dc9-b975-15f94ae5ce99",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man on the Moon III: The Chosen",
+            "status": "Official"
+          },
+          {
+            "id": "97d74246-0663-4f1d-9ae3-5366a28cc588",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man on the Moon III: The Chosen",
+            "status": "Official"
+          },
+          {
+            "id": "89e8cf77-241a-4bad-b9a7-553bab02582a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man on the Moon III: The Chosen",
+            "status": "Official"
+          },
+          {
+            "id": "15c4c708-5599-4c7b-896f-741208e12dce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man on the Moon III: The Chosen",
+            "status": "Official"
+          },
+          {
+            "id": "9fee9fc6-bb86-4752-a21b-2782669edabe",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man on the Moon III: The Chosen",
+            "status": "Official"
+          },
+          {
+            "id": "61c79a89-ad2f-4f4d-b484-4f8a0178bde0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Man on the Moon III: The Chosen",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "pretty",
+    "artist": "Artemas",
+    "candidates": [
+      {
+        "id": "646fd5cd-e721-400b-bdaa-86fe3de2ae82",
+        "title": "pretty",
+        "artist": "Artemas",
+        "date": "2024-02-09",
+        "releases": [
+          {
+            "id": "8cd32a6d-cfcd-43c8-9963-4bea05186791",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "pretty",
+            "status": "Official"
+          },
+          {
+            "id": "46cc92e8-54a2-4a53-8048-ecfd6306cdc6",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "pretty",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "85b6831f-d9dd-436e-b63e-a53f56377aae",
+        "title": "if u think i'm pretty",
+        "artist": "Artemas",
+        "date": "2023-10-24",
+        "releases": [
+          {
+            "id": "7106d659-b289-48ea-baf0-825c9b475a2d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "if u think i'm pretty",
+            "status": "Official"
+          }
+        ],
+        "score": 83
+      },
+      {
+        "id": "58352aa4-9677-4faa-a6bc-82a82a701831",
+        "title": "if u think i'm pretty",
+        "artist": "Artemas",
+        "date": "2024-03-01",
+        "releases": [
+          {
+            "id": "28545574-f3b0-48de-97ff-ae1be0fe4e1f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "if u think i'm pretty",
+            "status": "Official"
+          }
+        ],
+        "score": 83
+      }
+    ]
+  },
+  {
+    "title": "Call Me Irresponsible",
+    "artist": "Michael Bublé",
+    "candidates": [
+      {
+        "id": "e833803c-e568-368f-b9a8-695683ebe93b",
+        "title": "Call Me Irresponsible",
+        "artist": "Michael Bublé",
+        "date": "2007-04-27",
+        "releases": [
+          {
+            "id": "7b4e906e-082a-4d70-81bd-d6a12beac0c7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "00642186-c329-4582-810e-62e6510d4908",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "039f5ffb-cba8-4ed9-95d1-a784f6dc7334",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "de029d61-42e2-4836-9b8d-8e19d97adef0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "b232f230-7190-42de-b413-a6af9386c69c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "e7a8590c-db03-3c39-a509-bd91a1e104d7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "663ccefe-c0c9-409b-b7be-96487eb8a754",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "f76988ed-5b2e-4588-a2ad-930f380374f7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "86b6b574-2d47-4e87-a47a-6a18dae41847",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "d8f17223-82c1-4060-91b7-a5b1989f867e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          },
+          {
+            "id": "b099a5e8-3750-3cf3-8f45-44d4ccd09a15",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Call Me Irresponsible",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "Mind Body & Soul",
+    "artist": "Joss Stone",
+    "candidates": [
+      {
+        "id": "aa47a96b-f119-3174-b5df-aee7d1bb481f",
+        "title": "Mind Body & Soul",
+        "artist": "Joss Stone",
+        "date": "2004-09-15",
+        "releases": [
+          {
+            "id": "47bd9330-eb9c-4638-ac41-b6870c2624db",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "98bb0b96-fd9c-306c-b9dc-18c88c6d4cb4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "76d88047-282b-432a-9f59-ce4102af8771",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "05b109e2-f776-4b98-a75e-6ccc89575cb4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "b1aa01c6-4dc8-4f54-8d72-1f9bddcc8fce",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "37bd41e5-1c7d-4cbc-9bd7-ccb3e5da195b",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "301ed6cb-a4a9-34d1-821c-dd9ed464984f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "73f3d841-a654-4434-872b-5f4a388876ff",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "a61f17f9-27cf-493d-931b-927c643eebdd",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "41b6127c-f01b-48f3-acd0-dc5937ac2f92",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "a025ec4e-31b2-3d5a-8413-8a2ce81a726a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "628be110-67a7-4348-a56f-212288a9765d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "44e6a049-d056-4573-8c52-62f6be4eba86",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "9376f1a2-c1ec-43fc-94a0-2fa99f2b4cc0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "08d53e05-4a65-46ea-bc74-96781a979d20",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "d90f1b13-cd24-34e4-94d9-5fc2b871b81d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul",
+            "status": "Official"
+          },
+          {
+            "id": "87f91978-d137-49c2-8d61-70a99a960d1c",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind, Body & Soul",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "c94c5684-7cf8-4f2d-83b0-34b834307b0c",
+        "title": "Mind Body & Soul Sessions (Live In New York City)",
+        "artist": "Joss Stone",
+        "date": "2004",
+        "releases": [
+          {
+            "id": "b4753c63-b304-471b-a363-0ce7372a06ad",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Mind Body & Soul Sessions (Live In New York City)",
+            "status": "Official"
+          }
+        ],
+        "score": 79
+      }
+    ]
+  },
+  {
+    "title": "Breakaway",
+    "artist": "Kelly Clarkson",
+    "candidates": [
+      {
+        "id": "9fe9b702-a12e-4a79-8b6b-15b20e159888",
+        "title": "Breakaway",
+        "artist": "Kelly Clarkson",
+        "date": "2004",
+        "releases": [
+          {
+            "id": "7e345105-b0fe-4baa-9be7-448f7a1df29f",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "57154c15-fd4f-4f38-9253-e8ee1c0012db",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "0d0ddce6-a611-3dc0-923c-60ac3da72ad8",
+        "title": "Breakaway",
+        "artist": "Kelly Clarkson",
+        "date": "2003",
+        "releases": [
+          {
+            "id": "fd0bf3a4-a951-4537-9ab9-a03d48993ca6",
+            "title": "Breakaway"
+          },
+          {
+            "id": "ea6bdb4a-ee0a-41a0-a899-4be5fba5c34d",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "3bbd28f8-27d4-4d25-8d63-b91004b5a9ed",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "c1d1649a-a8e0-450e-b54a-039487562850",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "4b50f8e8-66e7-4a27-807c-66ddaf8b8301",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "da7b13bd-b6eb-4d60-95da-df5c10ee2630",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "43f560f1-c202-4a7f-ad88-6618238373f5",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "35929127-b1a7-4cd7-9903-a97e05dec653",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "69c6a870-8bf8-333c-a922-18d590777f6a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "6b6cfe41-a389-4ffe-97e2-81bc8df863f4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "1a405c84-452a-4c5e-ae46-afe82d0e9531",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "5e041bc5-e0c5-3a03-afc7-853574e912ea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "bdf1fc21-dfd0-480b-9d7e-dccff8b352a0",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          },
+          {
+            "id": "9eb71263-08a9-41d0-8bb4-feabf312806e",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Breakaway",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      }
+    ]
+  },
+  {
+    "title": "K.I.D.S.",
+    "artist": "Mac Miller",
+    "candidates": [
+      {
+        "id": "7e13653e-685e-48d3-ab11-c4adfc4db608",
+        "title": "K.I.D.S.",
+        "artist": "Mac Miller",
+        "date": "2010-08-13",
+        "releases": [
+          {
+            "id": "23395814-997f-488f-a567-4e83f5fbe410",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S. (Deluxe)",
+            "status": "Official"
+          },
+          {
+            "id": "c9a6e880-61b1-4882-b466-a10f6473ea19",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S.",
+            "status": "Official"
+          },
+          {
+            "id": "1e57a52d-e756-4455-9fc4-963613754924",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S.",
+            "status": "Official"
+          },
+          {
+            "id": "34bd5991-d642-44cd-a23f-2d5eb300bcca",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S.",
+            "status": "Official"
+          },
+          {
+            "id": "3c771995-b2ef-4928-8b4a-61230896ff14",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S (Deluxe)",
+            "status": "Official"
+          },
+          {
+            "id": "c851b848-f9a1-482e-b9bd-41abbc40b281",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S.",
+            "status": "Official"
+          },
+          {
+            "id": "693381b7-4723-416d-8b65-170fdac47ef7",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S.",
+            "status": "Official"
+          },
+          {
+            "id": "3b97d26e-275f-41c8-8e7d-e51070449ec8",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "K.I.D.S.",
+            "status": "Official"
+          }
+        ],
+        "score": 100
+      },
+      {
+        "id": "77ba896e-f4c0-4bf1-a88a-f52ea7f9dcb6",
+        "title": "K.I.D.S. Era",
+        "artist": "Mac Miller",
+        "date": "2010",
+        "releases": [
+          {
+            "id": "19cf474e-db0b-4cf9-bacc-db8d718256d2",
+            "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+            "title": "K.I.D.S. Era",
+            "status": "Bootleg"
+          }
+        ],
+        "score": 94
+      }
+    ]
+  }
+]

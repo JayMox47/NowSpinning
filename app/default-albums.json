@@ -1,0 +1,6725 @@
+[
+  {
+    "id": "mb:ee6c6450-cd03-45d3-8c82-a0c131ca8098",
+    "name": "Scorpion",
+    "artists": [
+      {
+        "name": "Drake"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/ee6c6450-cd03-45d3-8c82-a0c131ca8098.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/ee6c6450-cd03-45d3-8c82-a0c131ca8098.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2018-06-29",
+    "album_type": "Album",
+    "total_tracks": 25,
+    "tracks": {
+      "items": [
+        {
+          "id": "d2e7d865-e168-4448-860f-ba0cbe5cf4bd",
+          "name": "Survival",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 136187
+        },
+        {
+          "id": "af2ba31e-5412-4274-81ae-65451f0e7054",
+          "name": "Nonstop",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 238613
+        },
+        {
+          "id": "5d9c87b7-ed3d-48cf-8ab5-a97d28e550dd",
+          "name": "Elevate",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 184960
+        },
+        {
+          "id": "36b0e778-5177-44c1-8020-034727b14fdf",
+          "name": "Emotionless",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 302173
+        },
+        {
+          "id": "7bc3d832-09fb-4e57-a266-fd8cfa15b6f3",
+          "name": "God’s Plan",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 198973
+        },
+        {
+          "id": "d337e7ed-65b1-41f3-a2b0-3043c8ded6f1",
+          "name": "I’m Upset",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 214467
+        },
+        {
+          "id": "c19a487c-7157-4bfc-a99c-0ca07936f86a",
+          "name": "8 Out of 10",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 195720
+        },
+        {
+          "id": "6b973576-0235-4ac8-8460-feb5cdd25e00",
+          "name": "Mob Ties",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 205147
+        },
+        {
+          "id": "26f5698d-5c67-4947-ae82-b560aceb1540",
+          "name": "Can’t Take a Joke",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 163973
+        },
+        {
+          "id": "df6dcd03-a847-4d1c-b2a5-537b87308254",
+          "name": "Sandra’s Rose",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 216333
+        },
+        {
+          "id": "af2b9b0e-e8de-4417-9516-cc75992f1407",
+          "name": "Talk Up",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 223240
+        },
+        {
+          "id": "5d959ebc-cf80-47e2-bfad-93432a1e42b9",
+          "name": "Is There More",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 226907
+        },
+        {
+          "id": "1c515590-c72e-456d-987c-b963cae5ef66",
+          "name": "Peak",
+          "track_number": 1,
+          "disc_number": 2,
+          "duration_ms": 206027
+        },
+        {
+          "id": "f485396a-81f3-4320-b2ef-70aa469e4d4e",
+          "name": "Summer Games",
+          "track_number": 2,
+          "disc_number": 2,
+          "duration_ms": 247893
+        },
+        {
+          "id": "739cf1cd-25d8-4a2f-ac21-5dd9c1ebccfc",
+          "name": "Jaded",
+          "track_number": 3,
+          "disc_number": 2,
+          "duration_ms": 262453
+        },
+        {
+          "id": "09ce15f1-ea34-450e-8e6a-9232d8798efa",
+          "name": "Nice for What",
+          "track_number": 4,
+          "disc_number": 2,
+          "duration_ms": 210747
+        },
+        {
+          "id": "2f9fad78-3a94-4a2f-9bba-5d1e4ed75009",
+          "name": "Finesse",
+          "track_number": 5,
+          "disc_number": 2,
+          "duration_ms": 182080
+        },
+        {
+          "id": "f55161e9-4e0d-44a9-bc84-776957ce60ff",
+          "name": "Ratchet Happy Birthday",
+          "track_number": 6,
+          "disc_number": 2,
+          "duration_ms": 207307
+        },
+        {
+          "id": "c05ada31-806f-4acc-b303-ae8c98f65e4a",
+          "name": "That’s How You Feel",
+          "track_number": 7,
+          "disc_number": 2,
+          "duration_ms": 157600
+        },
+        {
+          "id": "e2450f30-59cf-4b9e-bb40-f7468bff98fa",
+          "name": "Blue Tint",
+          "track_number": 8,
+          "disc_number": 2,
+          "duration_ms": 162800
+        },
+        {
+          "id": "dd6c0aa4-9b13-45e3-bac9-6f45f7c0607d",
+          "name": "In My Feelings",
+          "track_number": 9,
+          "disc_number": 2,
+          "duration_ms": 217933
+        },
+        {
+          "id": "5b4e4136-b739-4771-825d-7ec39558fc09",
+          "name": "Don’t Matter to Me",
+          "track_number": 10,
+          "disc_number": 2,
+          "duration_ms": 245787
+        },
+        {
+          "id": "06328899-4787-4afe-93d0-942267349048",
+          "name": "After Dark",
+          "track_number": 11,
+          "disc_number": 2,
+          "duration_ms": 289560
+        },
+        {
+          "id": "e5f7fdb0-1214-4e79-8c5e-4467da09e330",
+          "name": "Final Fantasy",
+          "track_number": 12,
+          "disc_number": 2,
+          "duration_ms": 219960
+        },
+        {
+          "id": "c48e89cf-89bc-43c9-bff7-316e169761f4",
+          "name": "March 14",
+          "track_number": 13,
+          "disc_number": 2,
+          "duration_ms": 309560
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:a1170afd-e95f-3975-ad26-e04c70d6a42b",
+    "name": "The Dark Side of the Moon",
+    "artists": [
+      {
+        "name": "Pink Floyd"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/a1170afd-e95f-3975-ad26-e04c70d6a42b.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/a1170afd-e95f-3975-ad26-e04c70d6a42b.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1973-03-24",
+    "album_type": "Album",
+    "total_tracks": 9,
+    "tracks": {
+      "items": [
+        {
+          "id": "96685213-a25c-4678-9a13-abd9ec81cf35",
+          "name": "Speak to Me / Breathe in the Air",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 240506
+        },
+        {
+          "id": "19084069-642f-465f-9127-f71bcd800a05",
+          "name": "On the Run",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 213000
+        },
+        {
+          "id": "0e11c0fd-a1da-4b88-a438-7ef55c5809ec",
+          "name": "Time",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 426493
+        },
+        {
+          "id": "73b01cea-2dad-4fc2-9e61-02a31477c1b1",
+          "name": "The Great Gig in the Sky",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 284040
+        },
+        {
+          "id": "7fef22bd-76aa-4803-b56b-93a5d6e70662",
+          "name": "Money",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 392000
+        },
+        {
+          "id": "2d1201cf-59bb-4ffa-9f52-f5b3afa13346",
+          "name": "Us and Them",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 460800
+        },
+        {
+          "id": "7c278a16-ae04-460c-88ea-39155cadcd09",
+          "name": "Any Colour You Like",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 205600
+        },
+        {
+          "id": "71c0e054-b700-4fd2-a35b-95c7afc566cb",
+          "name": "Brain Damage",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 230493
+        },
+        {
+          "id": "c46641c1-fdbc-4401-8b1d-23a4062a207a",
+          "name": "Eclipse",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 124333
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:7c46b9a9-ebec-4c75-a18e-651e3ad2be60",
+    "name": "Sail Out",
+    "artists": [
+      {
+        "name": "Jhené Aiko"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/7c46b9a9-ebec-4c75-a18e-651e3ad2be60.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/7c46b9a9-ebec-4c75-a18e-651e3ad2be60.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2013-01-01",
+    "album_type": "EP",
+    "total_tracks": 7,
+    "tracks": {
+      "items": [
+        {
+          "id": "e80945f0-33ae-4ad9-937e-4b954f6d8cdf",
+          "name": "The Vapors",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 210773
+        },
+        {
+          "id": "3483bc67-9f59-44f2-82b4-ee0b0c77b5e4",
+          "name": "Bed Peace",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 256079
+        },
+        {
+          "id": "61e8327a-08c2-4c67-9dbd-68b8241c291c",
+          "name": "Stay Ready (What a Life)",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 382760
+        },
+        {
+          "id": "c20f6ad5-9017-4f98-8ecf-6a96613704bc",
+          "name": "WTH",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 199186
+        },
+        {
+          "id": "e0d99662-45f4-4783-a7e6-62414d35d8c4",
+          "name": "The Worst",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 254493
+        },
+        {
+          "id": "70a6161d-87a3-4e2e-8ff1-ba195b3f6550",
+          "name": "3:16AM",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 200720
+        },
+        {
+          "id": "0f54104b-3a37-47fa-a67c-563de966ab4b",
+          "name": "Comfort Inn Ending (freestyle)",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 321826
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:79efd12a-4817-47ef-89e1-66adde6ebf98",
+    "name": "Acid Rap",
+    "artists": [
+      {
+        "name": "Chance the Rapper"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/79efd12a-4817-47ef-89e1-66adde6ebf98.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/79efd12a-4817-47ef-89e1-66adde6ebf98.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2013-04-30",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "6a009da8-333a-4d47-bd66-64b2886ad6bc",
+          "name": "Good Ass Intro",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 239250
+        },
+        {
+          "id": "66c2b5bd-0bd9-4f6d-b235-e050ef53d892",
+          "name": "Pusha Man",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 139406
+        },
+        {
+          "id": "b08af0ad-f58c-47af-8970-3cdd8171d9dd",
+          "name": "Paranoia",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 275281
+        },
+        {
+          "id": "2dca4733-a65f-4484-b2ca-bdafea2ce012",
+          "name": "Cocoa Butter Kisses",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 307188
+        },
+        {
+          "id": "2b353f2d-97cd-4c79-af5a-ffd3419d7412",
+          "name": "Juice",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 30301
+        },
+        {
+          "id": "e7afce36-5bcf-426b-9be9-85a5559910f2",
+          "name": "Lost",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 184563
+        },
+        {
+          "id": "17b899a2-73bd-4f04-8a9e-063cd274a8b5",
+          "name": "Everybody’s Something",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 276938
+        },
+        {
+          "id": "799d8bfe-fcbc-4a8f-a0c5-83ddbd565055",
+          "name": "Interlude (That’s Love)",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 149875
+        },
+        {
+          "id": "74322839-38e7-4ec2-ae4d-1b202c03940b",
+          "name": "Favorite Song",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 185063
+        },
+        {
+          "id": "12bc805f-db49-4b10-8af1-faeb4a8ab3f9",
+          "name": "Nana",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 200625
+        },
+        {
+          "id": "c3919918-b52e-4e8d-b67d-195aa69eef14",
+          "name": "Smoke Again",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 272562
+        },
+        {
+          "id": "ac38f206-6f3b-4e90-afe0-5d0707356e78",
+          "name": "Acid Rain",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 216313
+        },
+        {
+          "id": "e79ebdec-48a1-4093-a5cb-aad70bdb75e5",
+          "name": "Chain Smoker",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 210563
+        },
+        {
+          "id": "dd8244b0-6871-4a2d-8121-4fca6179da48",
+          "name": "Everything’s Good (Good Ass Outro)",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 333380
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:b681f252-6858-486c-8e9d-5c5b9bc55b37",
+    "name": "Macadelic",
+    "artists": [
+      {
+        "name": "Mac Miller"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/b681f252-6858-486c-8e9d-5c5b9bc55b37.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/b681f252-6858-486c-8e9d-5c5b9bc55b37.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2012-03-23",
+    "album_type": "Album",
+    "total_tracks": 17,
+    "tracks": {
+      "items": [
+        {
+          "id": "02d6fe12-1e44-4c74-b1c8-9ef12cd933aa",
+          "name": "Love Me As I Have Loved You",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 75000
+        },
+        {
+          "id": "cbce2b58-ff85-440a-aa1b-f815963b5eee",
+          "name": "Desperado",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 240000
+        },
+        {
+          "id": "6b589432-a443-4830-9684-6a3c7547b821",
+          "name": "Loud",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 171000
+        },
+        {
+          "id": "29cff7c4-b8fb-44cf-91f1-81bcd31c2e3c",
+          "name": "Thoughts from a Balcony",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 186000
+        },
+        {
+          "id": "f3ece1f0-59f7-45f8-bb85-95e59e66fda3",
+          "name": "Aliens Fighting Robots",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 280000
+        },
+        {
+          "id": "e996b45d-da3d-4402-9624-e114eae5b208",
+          "name": "Vitamins",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 183000
+        },
+        {
+          "id": "e5474871-68da-4157-a69d-eb6bb5bc6df4",
+          "name": "Fight the Feeling",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 302000
+        },
+        {
+          "id": "b3e0d640-a781-4ce4-81e8-4bcb90367e75",
+          "name": "Lucky Ass Bitch",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 257000
+        },
+        {
+          "id": "a7ea5733-edb5-4a41-8e55-986690746fed",
+          "name": "The Mourning After",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 188000
+        },
+        {
+          "id": "992513f5-8d68-4575-b64b-1a7712f7c8d0",
+          "name": "1 Threw 8",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 237000
+        },
+        {
+          "id": "bcfccc7f-cb82-4593-9d53-472f18a10c69",
+          "name": "Ignorant",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 214000
+        },
+        {
+          "id": "41dcb9a5-6f79-40f1-b58a-e9a5470df070",
+          "name": "The Question",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 372000
+        },
+        {
+          "id": "ad59c67c-26f8-4111-889e-8c8ed698d065",
+          "name": "Angels (When She Shuts Her Eyes)",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 203000
+        },
+        {
+          "id": "e53d7861-8c43-4492-b400-4f9eac5c3919",
+          "name": "Sunlight",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 165000
+        },
+        {
+          "id": "a6dfd69f-7cca-42aa-bfe0-fef1c6704d8a",
+          "name": "Clarity",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 275000
+        },
+        {
+          "id": "29140260-8967-4f6a-88e5-2ca157fcf560",
+          "name": "America",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 273000
+        },
+        {
+          "id": "12e9f45c-ce30-45e8-8671-7f3986fa808b",
+          "name": "Fuck ’Em All",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 264000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:6129d11f-7dd6-4497-a8e1-5e1586055cbc",
+    "name": "Blue Slide Park",
+    "artists": [
+      {
+        "name": "Mac Miller"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/6129d11f-7dd6-4497-a8e1-5e1586055cbc.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/6129d11f-7dd6-4497-a8e1-5e1586055cbc.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2011-11-08",
+    "album_type": "Album",
+    "total_tracks": 16,
+    "tracks": {
+      "items": [
+        {
+          "id": "40d920ce-39a7-4ea6-918c-7dac843b7e27",
+          "name": "English Lane",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 95000
+        },
+        {
+          "id": "ec39f29b-b00d-4815-aca7-2d0d663cc9b1",
+          "name": "Blue Slide Park",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 145000
+        },
+        {
+          "id": "fa8e6bca-0429-4672-995c-dbea1f2e121d",
+          "name": "Party on Fifth Ave.",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 173000
+        },
+        {
+          "id": "576b4144-3b43-4607-bb9a-460c861351e5",
+          "name": "PA Nights",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 184000
+        },
+        {
+          "id": "88d65104-f746-475d-a30f-b4a1a720fec9",
+          "name": "Frick Park Market",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 197000
+        },
+        {
+          "id": "f005ee46-16b3-4aa1-bb61-2f0cb5149e58",
+          "name": "Smile Back",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 164000
+        },
+        {
+          "id": "4cf74860-6584-4b6b-8fa7-0e2c56f2d28d",
+          "name": "Under the Weather",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 261000
+        },
+        {
+          "id": "57641590-3036-4756-9014-a9a86f235d63",
+          "name": "Of the Soul",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 208000
+        },
+        {
+          "id": "35a50c68-cd8c-4260-a815-1e7dd987d5c8",
+          "name": "My Team",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 143000
+        },
+        {
+          "id": "3b51865b-a981-47d2-9d0b-5d6bc71dcd33",
+          "name": "Up All Night",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 209000
+        },
+        {
+          "id": "e53ea580-d3dc-415e-9e84-ecc7583ca3d9",
+          "name": "Loitering",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 191000
+        },
+        {
+          "id": "431b0fc9-7fd9-45cc-aa82-19d635782d29",
+          "name": "Hole in My Pocket",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 36000
+        },
+        {
+          "id": "dc836d92-8483-4187-9568-be51624ef263",
+          "name": "Diamonds & Gold",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 200000
+        },
+        {
+          "id": "51469e69-36e8-49cd-b607-96589c26f266",
+          "name": "Missed Calls",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 178000
+        },
+        {
+          "id": "0b928604-da25-4f40-a933-bd8905dfb342",
+          "name": "Man in the Hat",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 197000
+        },
+        {
+          "id": "fdf61565-bcdc-4bb6-a5de-9168a10ba1ff",
+          "name": "One Last Thing",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 179000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:1371f849-8c46-4779-9008-a9e531b432a8",
+    "name": "Because the Internet",
+    "artists": [
+      {
+        "name": "Childish Gambino"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/1371f849-8c46-4779-9008-a9e531b432a8.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/1371f849-8c46-4779-9008-a9e531b432a8.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2013-12-06",
+    "album_type": "Album",
+    "total_tracks": 19,
+    "tracks": {
+      "items": [
+        {
+          "id": "780b3c22-776f-4018-8259-ebde514ddcbe",
+          "name": "The Library (intro)",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 4811
+        },
+        {
+          "id": "7b4c94fc-a975-4e1d-9a33-d77cb2782e61",
+          "name": "I. Crawl",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 209473
+        },
+        {
+          "id": "e054ff98-0893-4b3a-a1b4-a8049f43ba9b",
+          "name": "II. Worldstar",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 244651
+        },
+        {
+          "id": "e34598b1-54e4-47d7-a73e-fad4b90d0f74",
+          "name": "Dial Up",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 44536
+        },
+        {
+          "id": "4368f9c5-de7f-42e7-ad8c-5226b544f63b",
+          "name": "I. The Worst Guys",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 219739
+        },
+        {
+          "id": "01f22d46-c3ba-408a-89ac-6dbe463f40b3",
+          "name": "II. Shadows",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 231746
+        },
+        {
+          "id": "c697be09-6f2c-4c09-af46-7403d90a4f36",
+          "name": "III. Telegraph Ave. (\"Oakland\" by Lloyd)",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 210673
+        },
+        {
+          "id": "19e1e5a4-e9ce-4649-b428-17f5b4223532",
+          "name": "IV. Sweatpants",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 180675
+        },
+        {
+          "id": "851a749a-6526-445d-ba36-7a5ae437e0f7",
+          "name": "3005",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 234215
+        },
+        {
+          "id": "fb97e4b2-25ed-43a2-a454-d391aa7204dc",
+          "name": "Playing Around Before the Party Starts",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 54454
+        },
+        {
+          "id": "d78e1795-a202-4581-9184-793c2c8af6d9",
+          "name": "I. The Party",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 91292
+        },
+        {
+          "id": "b8d92a71-d689-483b-92e0-d68e8359cadd",
+          "name": "II. No Exit",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 171779
+        },
+        {
+          "id": "f15180fe-1a34-4470-8e51-6a3bf6234241",
+          "name": "Death by Numbers",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 43968
+        },
+        {
+          "id": "f7a2e16b-5831-4f85-8888-f6ccb80e48cd",
+          "name": "I. Flight of the Navigator",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 344143
+        },
+        {
+          "id": "f3d7b39c-02e2-4ca3-89a0-c54c048b3663",
+          "name": "II. Zealots of Stockholm (Free Information)",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 290705
+        },
+        {
+          "id": "c97d33aa-4add-4d67-8c19-cf5ac31c2be0",
+          "name": "III. Urn",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 73386
+        },
+        {
+          "id": "59533955-0c04-4b63-bf16-30c213b9f4aa",
+          "name": "I. Pink Toes",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 207066
+        },
+        {
+          "id": "8de59146-733a-4ebd-8bb1-f4246a8fa593",
+          "name": "II. Earth: The Oldest Computer (The Last Night)",
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 282418
+        },
+        {
+          "id": "61a68462-d2c8-4d29-ae12-a32478a5a1a1",
+          "name": "III. Life: The Biggest Troll (Andrew Auernheimer)",
+          "track_number": 19,
+          "disc_number": 1,
+          "duration_ms": 342048
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:c19d6afe-4c7f-4256-97d8-d39a60ab9549",
+    "name": "What Could Possibly Go Wrong",
+    "artists": [
+      {
+        "name": "Dominic Fike"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/c19d6afe-4c7f-4256-97d8-d39a60ab9549.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/c19d6afe-4c7f-4256-97d8-d39a60ab9549.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2020-07-31",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "121fca15-ae06-43dc-9dfe-7aaec8f69243",
+          "name": "Come Here",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 77000
+        },
+        {
+          "id": "9a916196-3dfa-46dd-9ca0-73b2c8d9c9cd",
+          "name": "Double Negative (Skeleton Milkshake)",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 126000
+        },
+        {
+          "id": "71bd8c9e-a0fd-425b-8eed-c7e683475080",
+          "name": "Cancel Me",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 137000
+        },
+        {
+          "id": "36c24013-19db-487f-ae6e-4c81ba0c3be9",
+          "name": "10x Stronger",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 75000
+        },
+        {
+          "id": "c8cd396d-9e14-4389-9752-15ddabb232a6",
+          "name": "Good Game",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 147000
+        },
+        {
+          "id": "77214a57-c1c4-400f-a74d-f7cd0a39a211",
+          "name": "Why",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 139000
+        },
+        {
+          "id": "4a6ea75c-df50-4c7c-92d8-dcd70ab70a0f",
+          "name": "Chicken Tenders",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 170000
+        },
+        {
+          "id": "78c01e1d-54fd-463e-b283-bbc34f7e8c0f",
+          "name": "Whats for Dinner?",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 138000
+        },
+        {
+          "id": "efe0fb38-33ed-480a-8fe5-eeec7a795071",
+          "name": "Vampire",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 186000
+        },
+        {
+          "id": "39a940b7-3fa3-4b94-a45d-0bbe7f67183c",
+          "name": "Superstar Shit",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 127000
+        },
+        {
+          "id": "5aa31a05-d265-4b19-bb80-d5af740f2d44",
+          "name": "Politics & Violence",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 197000
+        },
+        {
+          "id": "652de8fe-7243-4e22-86bc-10988918aaa0",
+          "name": "Joe Blazey",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 162000
+        },
+        {
+          "id": "f7593c3f-893c-45c8-a9eb-d77a46f222ac",
+          "name": "Wurli",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 150000
+        },
+        {
+          "id": "b2fd29db-a5cf-4ed6-8333-5e99c0f90913",
+          "name": "Florida",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 227000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:6cad746d-f4eb-46f2-b047-bf4099c97efe",
+    "name": "The Divine Feminine",
+    "artists": [
+      {
+        "name": "Mac Miller"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/6cad746d-f4eb-46f2-b047-bf4099c97efe.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/6cad746d-f4eb-46f2-b047-bf4099c97efe.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2016-09-16",
+    "album_type": "Album",
+    "total_tracks": 10,
+    "tracks": {
+      "items": [
+        {
+          "id": "9e95430d-6cd9-4566-ace1-f7327c5f19b2",
+          "name": "Congratulations",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 256426
+        },
+        {
+          "id": "3251c170-c10b-44cd-b001-4e56cd53ea74",
+          "name": "Dang!",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 305350
+        },
+        {
+          "id": "892b84cc-3853-48bc-993e-609d3b1da108",
+          "name": "Stay",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 326426
+        },
+        {
+          "id": "a17e58ba-b42c-43f1-8772-720744020022",
+          "name": "Skin",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 287906
+        },
+        {
+          "id": "2ab25e36-5d59-4306-9ff6-43a2cbd04287",
+          "name": "Cinderella",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 480186
+        },
+        {
+          "id": "66aed901-e952-4adb-840e-4f7d9b8cdc25",
+          "name": "Planet God Damn",
+          "track_number": 1,
+          "disc_number": 2,
+          "duration_ms": 191746
+        },
+        {
+          "id": "602c645e-6060-4eb1-a05b-9f5ee69e1ae0",
+          "name": "Soulmate",
+          "track_number": 2,
+          "disc_number": 2,
+          "duration_ms": 272973
+        },
+        {
+          "id": "e92f203c-40c1-4fdb-ae72-2eb0fdf8eee4",
+          "name": "We",
+          "track_number": 3,
+          "disc_number": 2,
+          "duration_ms": 319253
+        },
+        {
+          "id": "d4003b8c-4deb-4946-b7f0-988460a02d1a",
+          "name": "My Favorite Part",
+          "track_number": 4,
+          "disc_number": 2,
+          "duration_ms": 216000
+        },
+        {
+          "id": "89407b9e-44cb-4b9a-8e7f-ffe287d6dafe",
+          "name": "God Is Fair, Sexy, Nasty",
+          "track_number": 5,
+          "disc_number": 2,
+          "duration_ms": 500960
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:333f98ae-3bf4-46e5-9a8d-929aadc55af4",
+    "name": "Apple Music Live: Dominic Fike",
+    "artists": [
+      {
+        "name": "Dominic Fike"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/333f98ae-3bf4-46e5-9a8d-929aadc55af4.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/333f98ae-3bf4-46e5-9a8d-929aadc55af4.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2023-09-06",
+    "album_type": "Album",
+    "total_tracks": 22,
+    "tracks": {
+      "items": [
+        {
+          "id": "05209e78-7eef-4d31-ad90-24d4f2c5ad17",
+          "name": "How Much Is Weed?",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 145000
+        },
+        {
+          "id": "58f24af7-48bf-413a-b2d8-bbd59e3512e9",
+          "name": "Mama's Boy",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 172000
+        },
+        {
+          "id": "fedb5971-14fe-4014-9703-084c85a395e1",
+          "name": "Ant Pile",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 139000
+        },
+        {
+          "id": "5c7d9edb-6e14-458e-a646-844174acdef8",
+          "name": "Double Negative (Skeleton Milkshake)",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 204000
+        },
+        {
+          "id": "828170bb-21bb-49a7-b768-3e9d5cabfc72",
+          "name": "The Kiss of Venus",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 200000
+        },
+        {
+          "id": "843d9d12-3081-4add-b4dd-61ea72b1c6bb",
+          "name": "Sick",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 195000
+        },
+        {
+          "id": "19d1549e-3dcd-41ad-8d4c-8fcc9b7723c8",
+          "name": "Westcoast Collective",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 149000
+        },
+        {
+          "id": "ffa3cafb-8b0b-4d99-a514-1c3160d91474",
+          "name": "3 Nights",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 192000
+        },
+        {
+          "id": "587f2e82-410b-42db-820d-02d646dc6b29",
+          "name": "Superstar Sh*t",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 187000
+        },
+        {
+          "id": "cc731a9f-6fe5-4ca1-8837-83ae9f7feac7",
+          "name": "Sunburn",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 165000
+        },
+        {
+          "id": "0cb1e51c-323d-4d20-b4c8-004649d04e8f",
+          "name": "Dark",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 260000
+        },
+        {
+          "id": "d8047c6c-7c2e-4845-a4cc-4439f92f7c94",
+          "name": "Come Here",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 116000
+        },
+        {
+          "id": "65c4a55b-b9c5-4994-9e9a-7d534cffeefb",
+          "name": "Babydoll",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 121000
+        },
+        {
+          "id": "1517b430-582d-46bc-81ef-4c4526c83fee",
+          "name": "Pasture Child",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 228000
+        },
+        {
+          "id": "03c40109-0a1d-4b25-8114-30cbb14eadb9",
+          "name": "She Wants My Money",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 194000
+        },
+        {
+          "id": "438f1a8b-71b6-4833-9892-0084be367496",
+          "name": "Think Fast",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 231000
+        },
+        {
+          "id": "d73573f9-9483-4451-8cec-21dd1f384853",
+          "name": "Frisky",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 141000
+        },
+        {
+          "id": "3803d7e4-5662-4296-969d-65399f679a39",
+          "name": "Bodies",
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 158000
+        },
+        {
+          "id": "28521881-d460-413e-a04f-fec4e18505bf",
+          "name": "Mona Lisa",
+          "track_number": 19,
+          "disc_number": 1,
+          "duration_ms": 188000
+        },
+        {
+          "id": "501b1fd5-d30f-43c5-9443-2f7c800cec97",
+          "name": "Phone Numbers",
+          "track_number": 20,
+          "disc_number": 1,
+          "duration_ms": 201000
+        },
+        {
+          "id": "6c8f4c3c-2dd1-4bc8-9c77-49fad30b2515",
+          "name": "Politics & Violence",
+          "track_number": 21,
+          "disc_number": 1,
+          "duration_ms": 193000
+        },
+        {
+          "id": "53bf36db-3181-4aca-b890-05b7b9fd3680",
+          "name": "Why",
+          "track_number": 22,
+          "disc_number": 1,
+          "duration_ms": 275000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:e6d03175-f6e2-44b7-b0ca-bb39b7668c45",
+    "name": "Arlo",
+    "artists": [
+      {
+        "name": "Arlo"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/e6d03175-f6e2-44b7-b0ca-bb39b7668c45.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/e6d03175-f6e2-44b7-b0ca-bb39b7668c45.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2025-09-05",
+    "album_type": "Album",
+    "total_tracks": 15,
+    "tracks": {
+      "items": [
+        {
+          "id": "4cf51798-887b-4d66-b59f-ca0b88d963ed",
+          "name": "Pressure",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 189583
+        },
+        {
+          "id": "c4ffe6c4-cca4-43ca-916c-24d59c334cd7",
+          "name": "Drive Me Insane",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 202045
+        },
+        {
+          "id": "b34a3c3e-cec5-4e2c-a8e9-e629cdfb304d",
+          "name": "Don't Give Up On Us",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 206420
+        },
+        {
+          "id": "42d5113c-d8e0-4d80-a172-7621c9c41741",
+          "name": "My Mind",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 160970
+        },
+        {
+          "id": "f758448e-4721-4260-be14-eb4615e081ae",
+          "name": "Follow Where You Go",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 146309
+        },
+        {
+          "id": "b5b06880-d95d-45e3-b974-1f2a8b103a5e",
+          "name": "Blushin",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 188155
+        },
+        {
+          "id": "d866093a-3e33-4520-8a7a-284c687a6ad9",
+          "name": "Awoken",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 164726
+        },
+        {
+          "id": "912022bb-4847-4b46-b48d-f5f05602ed15",
+          "name": "Don't Let Me Go",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 162609
+        },
+        {
+          "id": "1fab9a19-3f69-4a7e-aeb3-d22430e45f36",
+          "name": "Start Again",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 180056
+        },
+        {
+          "id": "cd718abd-f330-4b22-bfa2-901aa6c755f8",
+          "name": "Colors",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 89240
+        },
+        {
+          "id": "d8ad171a-171a-4a95-a7ea-6c35939157c8",
+          "name": "I'm Yours",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 180493
+        },
+        {
+          "id": "9594169f-538b-4c3e-8a69-9969ffb8b31b",
+          "name": "On The Roof",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 152196
+        },
+        {
+          "id": "09453f7c-024c-4737-9c7f-f4efcba5b78b",
+          "name": "Gotta Move",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 192784
+        },
+        {
+          "id": "493cb25b-79a8-4297-81f8-f1d067ce1658",
+          "name": "Strawbury Milkshakes",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 198649
+        },
+        {
+          "id": "b77e7e06-1dc7-474c-9312-dfb1a920177c",
+          "name": "Summer Season",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 172663
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:2a8937f0-aee6-4c60-b7f9-96f3e72dc2a3",
+    "name": "A Moment Apart",
+    "artists": [
+      {
+        "name": "ODESZA"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/2a8937f0-aee6-4c60-b7f9-96f3e72dc2a3.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/2a8937f0-aee6-4c60-b7f9-96f3e72dc2a3.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2017-09-08",
+    "album_type": "Album",
+    "total_tracks": 16,
+    "tracks": {
+      "items": [
+        {
+          "id": "667a2449-006b-49b2-a370-928ca6d4064d",
+          "name": "Intro",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 63000
+        },
+        {
+          "id": "2c6378c0-0415-41a9-8990-52e0b8bb3869",
+          "name": "A Moment Apart",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 234000
+        },
+        {
+          "id": "71eced8e-54a9-4918-8ce5-b419c66dd994",
+          "name": "Higher Ground",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 215000
+        },
+        {
+          "id": "47ff0909-a655-4ecf-bfab-7e624e747e68",
+          "name": "Boy",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 183000
+        },
+        {
+          "id": "7a1522b9-833a-48a8-9617-db7a3a226c35",
+          "name": "Line of Sight",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 236000
+        },
+        {
+          "id": "e1037b94-f177-4724-a775-af1636f605b4",
+          "name": "Late Night",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 228000
+        },
+        {
+          "id": "205cc3aa-bb58-4cf4-8212-90c5a590093b",
+          "name": "Across the Room",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 283000
+        },
+        {
+          "id": "cdc8564d-3ef6-433c-897d-601ad353e43c",
+          "name": "Meridian",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 235000
+        },
+        {
+          "id": "406000b0-06c8-46fa-b57d-035778d6626e",
+          "name": "Everything at Your Feet",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 208000
+        },
+        {
+          "id": "9e6b0bd1-5428-400f-b142-6d0aa308cc22",
+          "name": "Just a Memory",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 236000
+        },
+        {
+          "id": "4d3d404f-d504-4970-9865-c6435b6ca6ba",
+          "name": "Divide",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 241000
+        },
+        {
+          "id": "4152de5b-fbf4-42a1-8fcc-b00d6c643e9a",
+          "name": "Thin Floors and Tall Ceilings",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 178000
+        },
+        {
+          "id": "e24f631a-14a2-436a-b99b-80809e1044bb",
+          "name": "La Ciudad",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 271000
+        },
+        {
+          "id": "e28bca6b-9904-4ea4-bbc1-8ff6ae40f7b1",
+          "name": "Falls",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 232000
+        },
+        {
+          "id": "0e649be9-26a1-4e4e-9428-188760db4486",
+          "name": "Show Me",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 218000
+        },
+        {
+          "id": "d6a70866-5694-4d2b-a323-c3561f5b3b8a",
+          "name": "Corners of the Earth",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 305000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:9a638353-d6d2-4be2-9d32-fbb6283af517",
+    "name": "I Love My Computer",
+    "artists": [
+      {
+        "name": "Ninajirachi"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/9a638353-d6d2-4be2-9d32-fbb6283af517.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/9a638353-d6d2-4be2-9d32-fbb6283af517.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2025-08-08",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "08d71655-3cb4-4db2-bfd0-806c266be64b",
+          "name": "London Song",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 195000
+        },
+        {
+          "id": "45480539-6f04-45c0-9ad3-5ecaa2f00ca1",
+          "name": "iPod Touch",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 196000
+        },
+        {
+          "id": "372554be-ed17-414e-9b93-e5e51ff90e1a",
+          "name": "Fuck My Computer",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 190000
+        },
+        {
+          "id": "c0c73a03-5d39-411d-9c93-7ce71009c2a1",
+          "name": "CSIRAC",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 201000
+        },
+        {
+          "id": "1acda0b9-4e9a-429d-90a5-89f1daa16291",
+          "name": "Delete",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 231000
+        },
+        {
+          "id": "f0807482-0c84-4dd9-acf5-4e5e317b7194",
+          "name": "ฅ^•ﻌ•^ฅ",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 66000
+        },
+        {
+          "id": "9734a8b1-7cc3-4b04-9422-b55a20e34492",
+          "name": "All I Am",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 182099
+        },
+        {
+          "id": "70c821ed-05f7-4151-975f-40e209a9c6a7",
+          "name": "Infohazard",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 269000
+        },
+        {
+          "id": "b2a9e5a9-278b-4818-be68-5b1be30d7f0e",
+          "name": "Battery Death",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 198000
+        },
+        {
+          "id": "95461b73-b0ab-4b33-9433-73b3ba3286d5",
+          "name": "Sing Good",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 160000
+        },
+        {
+          "id": "65523ca7-05bb-4243-bf4f-d702d3194625",
+          "name": "It’s You",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 169000
+        },
+        {
+          "id": "f57e5c46-db39-4cf2-ab3a-e2f08f26932c",
+          "name": "All At Once",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 326000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:401710fd-9e9b-4eb4-99d3-787ba8fe6b0f",
+    "name": "Swimming",
+    "artists": [
+      {
+        "name": "Mac Miller"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/401710fd-9e9b-4eb4-99d3-787ba8fe6b0f.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/401710fd-9e9b-4eb4-99d3-787ba8fe6b0f.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2018-08-03",
+    "album_type": "Album",
+    "total_tracks": 13,
+    "tracks": {
+      "items": [
+        {
+          "id": "ba1b9b9f-c8a2-40a3-80ca-e1a09ce9d06e",
+          "name": "Come Back to Earth",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 162000
+        },
+        {
+          "id": "94e9dd04-23c3-415e-95f9-1043fbd1553a",
+          "name": "Hurt Feelings",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 246000
+        },
+        {
+          "id": "aeb0d27e-049a-435a-8bca-17b27a8700f2",
+          "name": "What’s the Use?",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 289000
+        },
+        {
+          "id": "95113fce-003b-483d-a2fb-2fe7587d594a",
+          "name": "Perfecto",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 215000
+        },
+        {
+          "id": "03c4adcf-2f31-42d7-bcd5-056d68066f90",
+          "name": "Self Care",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 345000
+        },
+        {
+          "id": "8affffb6-cec0-41b0-ab3a-e23ba5b7df5f",
+          "name": "Wings",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 250000
+        },
+        {
+          "id": "80e924b7-de77-4860-a47b-c31d6d15e7dc",
+          "name": "Ladders",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 287000
+        },
+        {
+          "id": "85a4dd13-cb6f-4aa6-967a-e72be2144c6a",
+          "name": "Small Worlds",
+          "track_number": 1,
+          "disc_number": 2,
+          "duration_ms": 272000
+        },
+        {
+          "id": "6ba0165d-e6a4-410f-96c1-702a5fdcbaa3",
+          "name": "Conversation Pt. 1",
+          "track_number": 2,
+          "disc_number": 2,
+          "duration_ms": 210000
+        },
+        {
+          "id": "b1870ae3-a856-4b20-a211-f738e0acef77",
+          "name": "Dunno",
+          "track_number": 3,
+          "disc_number": 2,
+          "duration_ms": 237000
+        },
+        {
+          "id": "64334460-750f-4b5e-b022-63d0cf8cfd83",
+          "name": "Jet Fuel",
+          "track_number": 4,
+          "disc_number": 2,
+          "duration_ms": 345000
+        },
+        {
+          "id": "6b757544-f6f8-40b0-8d2c-c5ef9b962ca6",
+          "name": "2009",
+          "track_number": 5,
+          "disc_number": 2,
+          "duration_ms": 348000
+        },
+        {
+          "id": "6d1aa9b2-58da-45f6-a6dc-3d815afc9c57",
+          "name": "So It Goes",
+          "track_number": 6,
+          "disc_number": 2,
+          "duration_ms": 313000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:f17b5ac9-373e-4db7-811e-3c73541e3355",
+    "name": "Way Back When",
+    "artists": [
+      {
+        "name": "Louis Futon"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/f17b5ac9-373e-4db7-811e-3c73541e3355.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/f17b5ac9-373e-4db7-811e-3c73541e3355.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2019-02-22",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "60bf34ba-29c1-4ed7-a8ae-de4b7ee28a68",
+          "name": "The Beginning",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 128000
+        },
+        {
+          "id": "7d409c4d-c2ad-43af-a808-1aaa164ac322",
+          "name": "Surreal",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 238652
+        },
+        {
+          "id": "8744a0df-981b-4667-ad1b-05b7495a5ebc",
+          "name": "Rewind",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 203750
+        },
+        {
+          "id": "85152861-418b-40b9-8214-991631a10bc9",
+          "name": "Venice",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 203000
+        },
+        {
+          "id": "17d7b447-9717-4a7d-b976-be4690292f80",
+          "name": "Silk Jam",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 170667
+        },
+        {
+          "id": "dc67513f-7c00-4776-9e3c-1501f2bb9c1f",
+          "name": "Supposed to Be",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 205000
+        },
+        {
+          "id": "cee964c5-a794-40e6-b831-baf37026627f",
+          "name": "Up in Smoke",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 249333
+        },
+        {
+          "id": "00845ed1-30a5-4c39-8981-d5a20815c645",
+          "name": "Restless Sea",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 182484
+        },
+        {
+          "id": "68ba766b-6be3-468b-806c-5da656fd1728",
+          "name": "Bad Habits",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 199839
+        },
+        {
+          "id": "246f3b9c-0e9b-4eb9-b66d-9c49fbc28410",
+          "name": "68",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 174633
+        },
+        {
+          "id": "5d29862d-eea6-4d93-b803-040b2e4f05a1",
+          "name": "Country Roads",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 250000
+        },
+        {
+          "id": "610e303c-a18b-44dc-a3e1-532bce81ab51",
+          "name": "All My Life",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 133625
+        },
+        {
+          "id": "4a7500ee-075a-4c5c-874d-edc47f96be7e",
+          "name": "Royal Blood",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 214588
+        },
+        {
+          "id": "8d831aad-d077-4d5d-bcd4-4e49d00b9d78",
+          "name": "Fall on Me",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 196676
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:cd407e30-202e-4a6d-b145-08bd00ab0159",
+    "name": "Oracular Spectacular",
+    "artists": [
+      {
+        "name": "MGMT"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/cd407e30-202e-4a6d-b145-08bd00ab0159.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/cd407e30-202e-4a6d-b145-08bd00ab0159.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2007-10-02",
+    "album_type": "Album",
+    "total_tracks": 10,
+    "tracks": {
+      "items": [
+        {
+          "id": "24436eea-e79f-4592-b7f8-3e9bfe01f483",
+          "name": "Time to Pretend",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 261000
+        },
+        {
+          "id": "50623cbc-4f43-4143-b3f3-e48418a327e9",
+          "name": "Weekend Wars",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 250773
+        },
+        {
+          "id": "268cefc1-efd7-4fc5-a827-34c185e37902",
+          "name": "The Youth",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 228013
+        },
+        {
+          "id": "987a88ef-6f47-479c-a0ad-1a17aa85e8ed",
+          "name": "Electric Feel",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 229640
+        },
+        {
+          "id": "c741a7ef-dd33-4c79-a4d4-8745d9675620",
+          "name": "Kids",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 302840
+        },
+        {
+          "id": "f452b7db-a391-4974-8c13-1879f481fbbc",
+          "name": "4th Dimensional Transition",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 238013
+        },
+        {
+          "id": "8f2a2cc7-68e5-43fe-8173-690195e4fbbe",
+          "name": "Pieces of What",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 163773
+        },
+        {
+          "id": "73b8a8a6-e205-4c03-bd3d-0c8c6314ab17",
+          "name": "Of Moons, Birds & Monsters",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 286720
+        },
+        {
+          "id": "19b5e04d-2e5a-4de3-90b6-22c6badc31b0",
+          "name": "The Handshake",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 219627
+        },
+        {
+          "id": "432dd61a-5d11-4795-8757-c690ef704d82",
+          "name": "Future Reflections",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 240253
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:e84b58bb-e852-402a-8f01-cb5a9f5229b5",
+    "name": "Awaken, My Love!",
+    "artists": [
+      {
+        "name": "Childish Gambino"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/e84b58bb-e852-402a-8f01-cb5a9f5229b5.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/e84b58bb-e852-402a-8f01-cb5a9f5229b5.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2016-12-02",
+    "album_type": "Album",
+    "total_tracks": 11,
+    "tracks": {
+      "items": [
+        {
+          "id": "0d432f1e-60d7-40bd-b52a-2b89b1332d08",
+          "name": "Me and Your Mama",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 379227
+        },
+        {
+          "id": "d54e7be4-7bfc-4910-822f-cdf096c32ade",
+          "name": "Have Some Love",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 224253
+        },
+        {
+          "id": "798ef77f-6609-4981-aa95-ecd36e206f0d",
+          "name": "Boogieman",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 216840
+        },
+        {
+          "id": "20f29d3a-692b-4f2e-bb2b-af29b4224312",
+          "name": "Zombies",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 281813
+        },
+        {
+          "id": "cb69afdb-195c-4c66-bf0a-dabe1a9abbbe",
+          "name": "Riot",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 125120
+        },
+        {
+          "id": "7408f11c-6c4e-41e5-b81b-6a15bf6cb268",
+          "name": "Redbone",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 326933
+        },
+        {
+          "id": "1f2a570b-75d4-40cc-b414-8bc3a3af9742",
+          "name": "California",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 165267
+        },
+        {
+          "id": "990c3a6e-137a-4012-9dcd-fc5d2304af87",
+          "name": "Terrified",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 255467
+        },
+        {
+          "id": "8e310e73-33d4-4b80-afaf-620d064749e7",
+          "name": "Baby Boy",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 382093
+        },
+        {
+          "id": "314326c2-95e9-4047-aa36-9842ecbe352e",
+          "name": "The Night Me and Your Mama Met",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 214080
+        },
+        {
+          "id": "004cf3eb-b668-4ade-b22a-87cb488830cd",
+          "name": "Stand Tall",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 370773
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:ccd148fa-97f8-4497-8de9-01a80d254c31",
+    "name": "Ready for the Weekend",
+    "artists": [
+      {
+        "name": "Calvin Harris"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/ccd148fa-97f8-4497-8de9-01a80d254c31.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/ccd148fa-97f8-4497-8de9-01a80d254c31.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2009-08-14",
+    "album_type": "Album",
+    "total_tracks": 15,
+    "tracks": {
+      "items": [
+        {
+          "id": "1bbf32f5-512f-40d0-ab15-b970571cf53d",
+          "name": "The Rain",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 276000
+        },
+        {
+          "id": "b397145e-ab8b-48b4-8cf0-11ed93ce9187",
+          "name": "Ready for the Weekend",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 218000
+        },
+        {
+          "id": "22699272-5bd1-4bb8-b387-5e96b9f295d7",
+          "name": "Stars Come Out",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 269000
+        },
+        {
+          "id": "50709e15-4a5c-46e0-b1ab-e7ffe9f740cf",
+          "name": "You Used to Hold Me",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 231000
+        },
+        {
+          "id": "2094840c-8004-4a1e-b29b-7b13e7addd63",
+          "name": "Blue",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 221000
+        },
+        {
+          "id": "2c681201-73f8-46e0-9aed-eae39c21f820",
+          "name": "I'm Not Alone (radio edit)",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 212000
+        },
+        {
+          "id": "a614ca50-03b5-407b-a5b5-6be204750449",
+          "name": "Flashback",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 229000
+        },
+        {
+          "id": "3dc9987c-ea52-4427-9fc1-66e80bb39108",
+          "name": "Worst Day",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 226000
+        },
+        {
+          "id": "f9948905-6ea0-4d33-8506-40c99ed1c4bd",
+          "name": "Relax",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 229000
+        },
+        {
+          "id": "230cd775-0da5-4020-a075-9d5a1423eae8",
+          "name": "Limits",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 223000
+        },
+        {
+          "id": "6438486b-3766-445a-bdf0-715a2055e1a8",
+          "name": "Burns Night",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 140000
+        },
+        {
+          "id": "7751c894-c79a-4f3f-9413-92ba4de7504b",
+          "name": "Yeah Yeah Yeah La La La",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 197000
+        },
+        {
+          "id": "9e03ab2d-2196-4ea2-99f4-c8a805dae7a8",
+          "name": "Dance Wiv Me (extended mix)",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 264000
+        },
+        {
+          "id": "c1422130-75ea-423e-9d34-4a0604350319",
+          "name": "5iliconeator",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 209000
+        },
+        {
+          "id": "5290e3c2-b402-4dcd-9844-54ccd160a0cf",
+          "name": "Greatest Fear",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 380000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:35fab63d-1ee6-4a8f-abe9-db4246e409bd",
+    "name": "Pacifico",
+    "artists": [
+      {
+        "name": "Surfaces"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/35fab63d-1ee6-4a8f-abe9-db4246e409bd.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/35fab63d-1ee6-4a8f-abe9-db4246e409bd.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2021-06-25",
+    "album_type": "Album",
+    "total_tracks": 20,
+    "tracks": {
+      "items": [
+        {
+          "id": "d2656151-21c3-4308-98a5-cdbafd067ac7",
+          "name": "Climb",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 50401
+        },
+        {
+          "id": "39e3c887-be19-4450-9d1f-2f79f629d767",
+          "name": "Hideaway",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 219418
+        },
+        {
+          "id": "3f55f90f-f9d9-4a1b-bd02-ad989c67e96f",
+          "name": "Let Me Know",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 137307
+        },
+        {
+          "id": "9477ca90-a1b6-4621-ba79-6508578b9123",
+          "name": "Yours",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 167857
+        },
+        {
+          "id": "24561a00-2bee-4ea3-8378-9910546a7f54",
+          "name": "On Time",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 182914
+        },
+        {
+          "id": "a41bbbc2-c163-4906-a98f-142722916089",
+          "name": "So Far Away",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 207375
+        },
+        {
+          "id": "5301cf4d-7ad4-4b03-b578-59f78b10d0e3",
+          "name": "Wave of You",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 213842
+        },
+        {
+          "id": "05b879dd-1773-4f4e-a8fc-3aeb1602847a",
+          "name": "Feels the Same",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 271463
+        },
+        {
+          "id": "56e1358d-38b1-4473-a989-8ac8f8906278",
+          "name": "Next Thing (Loverboy)",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 183109
+        },
+        {
+          "id": "25dcefc0-ded5-4982-8cc8-3a10a7b57708",
+          "name": "Come With Me",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 209732
+        },
+        {
+          "id": "d074f356-5504-4cff-947a-78bda532fcc1",
+          "name": "Let It Ride",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 191517
+        },
+        {
+          "id": "a8520a99-c0eb-4c11-a904-46761d0d43ce",
+          "name": "Time Zones",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 206386
+        },
+        {
+          "id": "b1b66ce9-8ed7-42d0-96be-b67683bf7a5b",
+          "name": "With You",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 200000
+        },
+        {
+          "id": "680c5de7-e0f6-4af7-8837-4792b449e64a",
+          "name": "Malibu Interlude",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 108802
+        },
+        {
+          "id": "26e5c5e8-e742-4650-9515-acedfb853eff",
+          "name": "Come Around",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 186631
+        },
+        {
+          "id": "9a30c864-7c35-4000-a297-05427c41d4c5",
+          "name": "Pacifico",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 211071
+        },
+        {
+          "id": "83cbbe13-a2b1-4705-a908-c84dc9300232",
+          "name": "Sheesh!",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 148846
+        },
+        {
+          "id": "790e894b-eb29-4775-96e8-0f32a8d61e7e",
+          "name": "C’est la vie",
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 175435
+        },
+        {
+          "id": "c6042ae0-a363-42c7-b2b9-cd12bad487d0",
+          "name": "June",
+          "track_number": 19,
+          "disc_number": 1,
+          "duration_ms": 165346
+        },
+        {
+          "id": "57cbc348-1d0a-42a5-90be-6d6d296b2d5d",
+          "name": "Famous",
+          "track_number": 20,
+          "disc_number": 1,
+          "duration_ms": 172252
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:56fd700c-7244-426b-9d84-506811e01d1a",
+    "name": "Nice Colors",
+    "artists": [
+      {
+        "name": "khai dreams"
+      },
+      {
+        "name": "Atwood"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/56fd700c-7244-426b-9d84-506811e01d1a.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/56fd700c-7244-426b-9d84-506811e01d1a.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2018-05-17",
+    "album_type": "EP",
+    "total_tracks": 7,
+    "tracks": {
+      "items": [
+        {
+          "id": "88b5e607-73b5-4ce1-bd7d-34f158477b34",
+          "name": "All I Need",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 147966
+        },
+        {
+          "id": "d79de724-d9f5-441c-b3b5-6649ab6ebef4",
+          "name": "Find My Way",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 164017
+        },
+        {
+          "id": "07fbf188-ba79-40b3-979a-ff813c0e0f1d",
+          "name": "Travels",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 173121
+        },
+        {
+          "id": "784774bd-dc92-47ad-b386-4bb87a78c7f2",
+          "name": "Sunshine",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 166942
+        },
+        {
+          "id": "64e78eb4-5a16-4a50-b408-66ff49166cec",
+          "name": "Nice Colors",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 184252
+        },
+        {
+          "id": "c2b54e6a-1a2e-420b-a864-21b3e7b15c5e",
+          "name": "Questions",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 116468
+        },
+        {
+          "id": "ad69c1f0-82a7-43c1-ae23-9991e43c4b1c",
+          "name": "Spacey",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 135750
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:fce7ee0b-7231-481a-96e3-9f2256ef06b4",
+    "name": "Old Dominion",
+    "artists": [
+      {
+        "name": "Old Dominion"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/fce7ee0b-7231-481a-96e3-9f2256ef06b4.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/fce7ee0b-7231-481a-96e3-9f2256ef06b4.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2019-10-25",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "d7b4ebdb-7d8a-481a-99fd-36019d7c7ef1",
+          "name": "Make It Sweet",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 187000
+        },
+        {
+          "id": "af82a253-e498-4519-8476-fb735d888a5c",
+          "name": "Smooth Sailing",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 215080
+        },
+        {
+          "id": "dd3d3bb0-16cc-4b12-8850-a1c4c07104c2",
+          "name": "One Man Band",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 186240
+        },
+        {
+          "id": "31e18d60-5429-427f-8cf2-bb0b1824b994",
+          "name": "Never Be Sorry",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 204973
+        },
+        {
+          "id": "1e10680c-9551-4e16-aacf-cdb4b5a96740",
+          "name": "My Heart Is a Bar",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 238987
+        },
+        {
+          "id": "ca1630bd-dd7c-4938-a423-115c17fb93ff",
+          "name": "Midnight Mess Around",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 236373
+        },
+        {
+          "id": "71964cd4-50aa-4aa3-a7e7-c7ffe746ada6",
+          "name": "Do It With Me",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 216467
+        },
+        {
+          "id": "dea4dad0-9414-4ba6-a65e-121a2dbb34f4",
+          "name": "Hear You Now",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 262453
+        },
+        {
+          "id": "d444efea-fc91-4dba-95fd-e6c0292b4c4f",
+          "name": "I’ll Roll",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 205733
+        },
+        {
+          "id": "fce1e41b-6b36-45e7-afbf-16274538960e",
+          "name": "American Style",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 168867
+        },
+        {
+          "id": "ee39fa88-e7e2-47d4-ac41-6d3279046a49",
+          "name": "Paint the Grass Green",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 208027
+        },
+        {
+          "id": "b8eeaa06-1e2c-45aa-b954-a82f53ca4bf3",
+          "name": "Some People Do",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 196000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:ce9b3bd4-7678-4ffa-bf8a-0363e7f3a981",
+    "name": "HERO",
+    "artists": [
+      {
+        "name": "Maren Morris"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/ce9b3bd4-7678-4ffa-bf8a-0363e7f3a981.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/ce9b3bd4-7678-4ffa-bf8a-0363e7f3a981.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2016-06-03",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "3acee1f6-531d-4bd1-bc41-6c7ee1689d54",
+          "name": "Sugar",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 189147
+        },
+        {
+          "id": "991d2f59-6e86-4624-8280-09d3068bade1",
+          "name": "Rich",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 208893
+        },
+        {
+          "id": "b4273edf-ee10-499b-a3b5-f65880e9a312",
+          "name": "My Church",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 197931
+        },
+        {
+          "id": "44f24d06-7ae9-482a-a2f0-6ca50a79e4ca",
+          "name": "I Could Use a Love Song",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 196422
+        },
+        {
+          "id": "02c2f8ef-6e6f-46f3-bfd8-76aeebd75207",
+          "name": "80s Mercedes",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 211767
+        },
+        {
+          "id": "d1edbab1-7193-4204-bc29-ccc57c6cbd75",
+          "name": "Drunk Girls Don’t Cry",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 211747
+        },
+        {
+          "id": "1d2774e7-54e8-4117-b806-b24bae38f9c8",
+          "name": "How It’s Done",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 205620
+        },
+        {
+          "id": "80c96aa3-2e8a-4560-a1e0-cbd06e173596",
+          "name": "Just Another Thing",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 178799
+        },
+        {
+          "id": "cce3c1fe-b1cc-44c0-a404-caf78bfa93fd",
+          "name": "I Wish I Was",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 240061
+        },
+        {
+          "id": "50195ea3-5371-41f6-805c-d04a03edc344",
+          "name": "Second Wind",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 199947
+        },
+        {
+          "id": "c0cd3cf9-b19d-4403-ad63-4e8f9bafabf7",
+          "name": "Once",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 236467
+        },
+        {
+          "id": "f5840af2-3017-4e6a-a58d-c256191f62c0",
+          "name": "Bummin’ Cigarettes",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 186560
+        },
+        {
+          "id": "beb79a48-a611-4489-a6e5-d5929c939901",
+          "name": "Company You Keep",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 217311
+        },
+        {
+          "id": "49802487-287f-46ed-a111-4ffbce3e56a3",
+          "name": "Space",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 186812
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:12139820-4a78-491a-93a4-d58b449962a4",
+    "name": "West Texas Degenerate",
+    "artists": [
+      {
+        "name": "Treaty Oak Revival"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/12139820-4a78-491a-93a4-d58b449962a4.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/12139820-4a78-491a-93a4-d58b449962a4.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2025-11-28",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "24815e99-13e8-4ae1-99c5-b5a854f717c2",
+          "name": "Intro",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 67483
+        },
+        {
+          "id": "313783e6-b789-447e-8d5f-1b387a91ec6a",
+          "name": "Port A",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 227690
+        },
+        {
+          "id": "389e5cec-5202-4c54-8690-859525851ec7",
+          "name": "West Texas Degenerate",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 238507
+        },
+        {
+          "id": "dbe6e6fd-0d63-44ee-959e-ea1c5b3ca46f",
+          "name": "Shit Hill",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 257920
+        },
+        {
+          "id": "b3a8f8ad-e3a5-4603-8f3d-483947ccabfc",
+          "name": "Withdrawals",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 234203
+        },
+        {
+          "id": "83dfc8ac-47c3-4548-b4af-dddedafb2749",
+          "name": "Bad State of Mind",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 261007
+        },
+        {
+          "id": "3b157aca-4baf-4a83-923c-0af4b9024cf8",
+          "name": "Dosin",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 250596
+        },
+        {
+          "id": "59f5ffef-419a-4916-adb1-0acb491c39e3",
+          "name": "Misery",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 171696
+        },
+        {
+          "id": "8cb88fb0-9092-4b70-9223-d23512c8f4f6",
+          "name": "Stay a While",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 209287
+        },
+        {
+          "id": "26a2c799-2060-46a6-90ce-939abf8844cb",
+          "name": "Naders",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 232677
+        },
+        {
+          "id": "7ce69c39-c8a0-4989-8264-328fdb2a9cdc",
+          "name": "Sunflower",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 291546
+        },
+        {
+          "id": "d5ed4ed6-2407-489d-8be0-b861500a915a",
+          "name": "Happy Face",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 202219
+        },
+        {
+          "id": "f67cf23d-89b4-47f5-8980-2e222387c1eb",
+          "name": "Blue Star",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 242274
+        },
+        {
+          "id": "061e48d3-25c3-4ac0-85db-a58b46187202",
+          "name": "Outro",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 49908
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:53b3c579-1f51-46ff-b087-c4f96d513500",
+    "name": "Somebody’s Problem",
+    "artists": [
+      {
+        "name": "Morgan Wallen"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/53b3c579-1f51-46ff-b087-c4f96d513500.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/53b3c579-1f51-46ff-b087-c4f96d513500.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2020-11-20",
+    "album_type": "Single",
+    "total_tracks": 1,
+    "tracks": {
+      "items": [
+        {
+          "id": "2face9e5-955e-40bd-8df1-9649f17d4914",
+          "name": "Somebody’s Problem",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 161000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:215ac4ca-0c60-43d6-9530-ad2b0576f866",
+    "name": "I’m the Problem",
+    "artists": [
+      {
+        "name": "Morgan Wallen"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/215ac4ca-0c60-43d6-9530-ad2b0576f866.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/215ac4ca-0c60-43d6-9530-ad2b0576f866.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2025-05-16",
+    "album_type": "Album",
+    "total_tracks": 37,
+    "tracks": {
+      "items": [
+        {
+          "id": "652bef3e-4b8e-4179-9ba9-5df7da818921",
+          "name": "I’m the Problem",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 177811
+        },
+        {
+          "id": "7c70eca6-cb2a-449d-b5c1-fd4552f0af90",
+          "name": "I Got Better",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 204963
+        },
+        {
+          "id": "6466a922-18e1-4ce5-b1cb-6ada866280e3",
+          "name": "Superman",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 188200
+        },
+        {
+          "id": "49de9de3-4504-420a-a8ca-eb03a98adf6c",
+          "name": "What I Want",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 184517
+        },
+        {
+          "id": "ef43a792-92ca-49ac-97c1-51ca7daa2b00",
+          "name": "Just in Case",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 166206
+        },
+        {
+          "id": "7c29625f-8e1e-4474-9e32-3c1702871745",
+          "name": "Interlude",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 44000
+        },
+        {
+          "id": "c23a0a28-6bbe-4d44-a644-15dec3527d98",
+          "name": "Falling Apart",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 198919
+        },
+        {
+          "id": "e5fa796a-1e9c-4915-a6bf-ec34bc69963f",
+          "name": "Skoal, Chevy, and Browning",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 222479
+        },
+        {
+          "id": "c0ae10de-73c9-4a05-aafd-1143018d70fc",
+          "name": "Eyes Are Closed",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 197188
+        },
+        {
+          "id": "1ec4edb4-0973-49ae-96a3-6a4866b85783",
+          "name": "Kick Myself",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 159297
+        },
+        {
+          "id": "d538298c-67a9-42ee-836e-b23b3f5e271a",
+          "name": "20 Cigarettes",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 160901
+        },
+        {
+          "id": "44bf3a9d-a344-4ed1-a138-fa69d16507ad",
+          "name": "TN",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 185138
+        },
+        {
+          "id": "245d4b61-b0ab-4dd6-a7b5-7fddff8e9c2e",
+          "name": "Missing",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 182512
+        },
+        {
+          "id": "24b6a66f-3ff8-4828-b692-9cf2bf4b8e6f",
+          "name": "Where’d That Girl Go",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 151228
+        },
+        {
+          "id": "23602684-e8a8-44a4-b44b-ddd232001049",
+          "name": "Genesis",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 195488
+        },
+        {
+          "id": "c01eea05-4fa5-4982-b21b-a61cb0cd8fce",
+          "name": "Revelation",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 209519
+        },
+        {
+          "id": "a2c7d9f8-da2b-40d7-9675-0b5cc36617b7",
+          "name": "Number 3 and Number 7",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 195840
+        },
+        {
+          "id": "77867b14-4f68-4b6a-8b59-5ac84b8e533d",
+          "name": "Kiss Her in Front of You",
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 178227
+        },
+        {
+          "id": "d117a5b0-4bdd-4c85-9b4b-6c4f58f59479",
+          "name": "If You Were Mine",
+          "track_number": 19,
+          "disc_number": 1,
+          "duration_ms": 167231
+        },
+        {
+          "id": "4a5b2e66-c0ff-426a-8165-450e53fc4dde",
+          "name": "Don’t We",
+          "track_number": 20,
+          "disc_number": 1,
+          "duration_ms": 191441
+        },
+        {
+          "id": "45785d85-9d51-4b0f-9027-ba29ef17f7d0",
+          "name": "Come Back as a Redneck",
+          "track_number": 21,
+          "disc_number": 1,
+          "duration_ms": 238496
+        },
+        {
+          "id": "54413a65-2d19-4882-af75-470d153b2849",
+          "name": "Love Somebody",
+          "track_number": 22,
+          "disc_number": 1,
+          "duration_ms": 204828
+        },
+        {
+          "id": "a69f6f02-4791-4d35-99c4-cf32a8d63bf1",
+          "name": "Dark Til Daylight",
+          "track_number": 23,
+          "disc_number": 1,
+          "duration_ms": 235566
+        },
+        {
+          "id": "883569eb-c10c-4527-bd9f-13236657ec33",
+          "name": "The Dealer",
+          "track_number": 24,
+          "disc_number": 1,
+          "duration_ms": 183849
+        },
+        {
+          "id": "c589d728-b806-418c-b414-85505be946ec",
+          "name": "Leavin’s the Least I Could Do",
+          "track_number": 25,
+          "disc_number": 1,
+          "duration_ms": 187545
+        },
+        {
+          "id": "1912a621-397b-4ec9-89af-9412c976469a",
+          "name": "Jack and Jill",
+          "track_number": 26,
+          "disc_number": 1,
+          "duration_ms": 220159
+        },
+        {
+          "id": "d8818155-f207-4d59-aaf9-45bce9d82806",
+          "name": "I Ain’t Comin’ Back",
+          "track_number": 27,
+          "disc_number": 1,
+          "duration_ms": 175271
+        },
+        {
+          "id": "095bddba-fbd2-4708-b5f8-10047a410340",
+          "name": "Nothin’ Left",
+          "track_number": 28,
+          "disc_number": 1,
+          "duration_ms": 162814
+        },
+        {
+          "id": "40f3f2cc-a989-4e36-99dd-7878cd992839",
+          "name": "Drinking Til It Does",
+          "track_number": 29,
+          "disc_number": 1,
+          "duration_ms": 190973
+        },
+        {
+          "id": "64a0cb90-25ea-4f01-9546-797150dbad5b",
+          "name": "Smile",
+          "track_number": 30,
+          "disc_number": 1,
+          "duration_ms": 224127
+        },
+        {
+          "id": "5e657f32-7e3b-47d8-ab71-f6ab26ee857d",
+          "name": "Working Man’s Song",
+          "track_number": 31,
+          "disc_number": 1,
+          "duration_ms": 256659
+        },
+        {
+          "id": "1a5fb543-2e9e-4e6f-948a-41cac553f6e5",
+          "name": "Whiskey in Reverse",
+          "track_number": 32,
+          "disc_number": 1,
+          "duration_ms": 237690
+        },
+        {
+          "id": "0abb9494-9893-4204-8eff-bdc84ba47c36",
+          "name": "Crazy Eyes",
+          "track_number": 33,
+          "disc_number": 1,
+          "duration_ms": 198280
+        },
+        {
+          "id": "245afc54-80c6-44b9-a51b-25ab461cf267",
+          "name": "LA Night",
+          "track_number": 34,
+          "disc_number": 1,
+          "duration_ms": 169150
+        },
+        {
+          "id": "a0fb3739-2c7f-4545-808d-f39c92d1ed7e",
+          "name": "Miami",
+          "track_number": 35,
+          "disc_number": 1,
+          "duration_ms": 205256
+        },
+        {
+          "id": "87b0dc09-62a8-498d-a6c2-1ce1fde39aaa",
+          "name": "Lies Lies Lies",
+          "track_number": 36,
+          "disc_number": 1,
+          "duration_ms": 198068
+        },
+        {
+          "id": "175a74c9-af32-4b16-8bff-7222f59b179a",
+          "name": "I’m a Little Crazy",
+          "track_number": 37,
+          "disc_number": 1,
+          "duration_ms": 199060
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:53bb5ba1-8889-4d6a-8350-f9d9d5d55dea",
+    "name": "The 20/20 Experience (2 of 2)",
+    "artists": [
+      {
+        "name": "Justin Timberlake"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/53bb5ba1-8889-4d6a-8350-f9d9d5d55dea.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/53bb5ba1-8889-4d6a-8350-f9d9d5d55dea.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2013-09-27",
+    "album_type": "Album",
+    "total_tracks": 13,
+    "tracks": {
+      "items": [
+        {
+          "id": "bd255fba-9621-48d2-9e38-6b616d7cf5c1",
+          "name": "Gimme What I Don’t Know (I Want)",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 315000
+        },
+        {
+          "id": "17f0cfdb-d53e-4879-837e-601ab523a109",
+          "name": "True Blood",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 571000
+        },
+        {
+          "id": "fdae1add-570d-4869-b7e7-fdfb1bcfabc4",
+          "name": "Cabaret",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 273000
+        },
+        {
+          "id": "1cd56799-2398-4bb9-98b7-5967a293c6de",
+          "name": "TKO",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 424000
+        },
+        {
+          "id": "777d3196-e606-44fc-bdc5-8bfc07b64d1c",
+          "name": "Take Back the Night",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 353000
+        },
+        {
+          "id": "f12eb36e-7e2b-4cfb-bf2e-88089500cfb8",
+          "name": "Murder",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 308000
+        },
+        {
+          "id": "f6884228-3a58-4b23-a8a3-46e6d1580790",
+          "name": "Drink You Away",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 331000
+        },
+        {
+          "id": "6ceb16bf-8bd7-4601-8d8b-374cbc7c7c3b",
+          "name": "You Got It On",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 356000
+        },
+        {
+          "id": "25c4070c-bab9-496f-a304-7cad1ba908b0",
+          "name": "Amnesia",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 425000
+        },
+        {
+          "id": "fd3b8a85-0bf3-4128-8975-82a648b8d0bb",
+          "name": "Only When I Walk Away",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 426000
+        },
+        {
+          "id": "bbb4e425-394e-43ed-974d-a322d4e6fc70",
+          "name": "Not a Bad Thing",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 692000
+        },
+        {
+          "id": "5e8e244d-b4e4-44ef-9d95-365aa553894a",
+          "name": "Blindness",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 289000
+        },
+        {
+          "id": "d9a67aed-ab62-48bc-bfc0-b6c04b1a64c1",
+          "name": "Electric Lady",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 261000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:8c49dfaf-e9b8-4d29-a313-9c305c1b14de",
+    "name": "The 20/20 Experience",
+    "artists": [
+      {
+        "name": "Justin Timberlake"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/8c49dfaf-e9b8-4d29-a313-9c305c1b14de.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/8c49dfaf-e9b8-4d29-a313-9c305c1b14de.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2013-03-15",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "f10ce3b4-d079-471a-9d0d-0cd0a1ff018b",
+          "name": "Pusher Love Girl",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 482000
+        },
+        {
+          "id": "70003461-a6b3-4780-98e2-e1897cee0a7a",
+          "name": "Suit & Tie",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 326000
+        },
+        {
+          "id": "461d2301-850e-4bc4-a57d-e7845561b9e6",
+          "name": "Don’t Hold the Wall",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 431000
+        },
+        {
+          "id": "dda36fa4-ba55-42ca-9261-4540d7e9448f",
+          "name": "Strawberry Bubblegum",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 480000
+        },
+        {
+          "id": "59ff3d3f-2119-4109-812b-902f09b0ca49",
+          "name": "Tunnel Vision",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 407000
+        },
+        {
+          "id": "9dbacfba-4866-4bab-8bd6-f92aca6c6995",
+          "name": "Spaceship Coupe",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 437000
+        },
+        {
+          "id": "93794c0f-6178-4ad0-978e-e763ef3d5a04",
+          "name": "That Girl",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 288000
+        },
+        {
+          "id": "0e9fc58d-b993-4ca6-b2d1-c98128a6b7f8",
+          "name": "Let the Groove Get In",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 432000
+        },
+        {
+          "id": "c01bd40c-5f23-4c34-9238-7a5f226f6c0e",
+          "name": "Mirrors",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 486000
+        },
+        {
+          "id": "3211de36-287f-415b-9285-3c88dfda2d3a",
+          "name": "Blue Ocean Floor",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 443000
+        },
+        {
+          "id": "4edb329c-baae-4da7-94f4-8c4c03c55a66",
+          "name": "Dress On",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 279000
+        },
+        {
+          "id": "548304a4-8fab-407b-98ef-578b197cbdb9",
+          "name": "Body Count",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 282000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:ba7ea8eb-85db-4168-8f59-0603fe6a8633",
+    "name": "Southern Nights",
+    "artists": [
+      {
+        "name": "Glen Campbell"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/ba7ea8eb-85db-4168-8f59-0603fe6a8633.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/ba7ea8eb-85db-4168-8f59-0603fe6a8633.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1977-02",
+    "album_type": "Album",
+    "total_tracks": 10,
+    "tracks": {
+      "items": [
+        {
+          "id": "308f0e69-3ee4-4558-bf70-5cefc0e9c7dd",
+          "name": "Southern Nights",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 180027
+        },
+        {
+          "id": "7fefb1b2-1b05-452a-90da-6ffd9e884416",
+          "name": "This Is Sarah’s Song",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 155733
+        },
+        {
+          "id": "3616bfbe-daa4-4014-8b9b-83e6132c008d",
+          "name": "For Cryin’ Out Loud",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 185240
+        },
+        {
+          "id": "6f6cf3e3-ec76-4ccf-9041-c1c4530b8cd1",
+          "name": "God Only Knows",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 200573
+        },
+        {
+          "id": "fbc6f248-75f7-4bc4-a49d-3777ab0963fc",
+          "name": "Sunflower",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 171333
+        },
+        {
+          "id": "8e44efc5-1861-4b97-afc5-05ebaa4bd9c8",
+          "name": "Guide Me",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 146680
+        },
+        {
+          "id": "06adc267-ee46-425f-854c-efad73e26e54",
+          "name": "Early Morning Song",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 213480
+        },
+        {
+          "id": "66694412-2b2e-4480-a19a-fe88981a6aa9",
+          "name": "(I’m Getting) Used to the Crying",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 168427
+        },
+        {
+          "id": "709578dd-ac26-4e2d-9e6e-78be257a65fd",
+          "name": "Let Go",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 210107
+        },
+        {
+          "id": "82482fb0-c2ca-426a-978d-4fa0b5483407",
+          "name": "How High Did We Go",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 184240
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:472bfb49-6c91-44a8-9c61-661e0efead15",
+    "name": "It's Hard",
+    "artists": [
+      {
+        "name": "The Who"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/472bfb49-6c91-44a8-9c61-661e0efead15.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/472bfb49-6c91-44a8-9c61-661e0efead15.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1982-09-04",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "7cc42fcd-25a7-4d55-9011-2eeaa9236eec",
+          "name": "Athena",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 228666
+        },
+        {
+          "id": "ed5ba557-bd3d-4c81-a525-414d2d537682",
+          "name": "It’s Your Turn",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 221200
+        },
+        {
+          "id": "117889c1-551e-44c3-ad09-374f07abae6b",
+          "name": "Cooks County",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 230040
+        },
+        {
+          "id": "6e275644-479f-43f5-b806-73f4da09b22c",
+          "name": "It’s Hard",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 226426
+        },
+        {
+          "id": "7e510199-aa2f-412c-b0ae-e13a6e15d8e7",
+          "name": "Dangerous",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 200306
+        },
+        {
+          "id": "44004f32-d97e-4a81-924c-ba916e24491e",
+          "name": "Eminence Front",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 339533
+        },
+        {
+          "id": "bdb97fdf-4bb4-44a1-999f-7ccf503dc83a",
+          "name": "I’ve Known No War",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 358533
+        },
+        {
+          "id": "3b11a765-ff06-4ae3-a56a-5b5ff1ba0f5a",
+          "name": "One Life’s Enough",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 141426
+        },
+        {
+          "id": "775b4531-3aa0-47c1-b27b-d29ddad4bda5",
+          "name": "One at a Time",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 183400
+        },
+        {
+          "id": "c311199f-2c14-49e6-bb32-6bff9e451926",
+          "name": "Why Did I Fall for That",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 205173
+        },
+        {
+          "id": "087d419f-f68c-42cd-b1e2-e8bcc629b8f7",
+          "name": "A Man Is a Man",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 236133
+        },
+        {
+          "id": "cc048af6-4e93-48f2-8b4b-a32297e4961b",
+          "name": "Cry If You Want",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 279226
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:587a4f2d-73a5-3b4e-b68b-95787bf91c9d",
+    "name": "Continuum",
+    "artists": [
+      {
+        "name": "John Mayer"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/587a4f2d-73a5-3b4e-b68b-95787bf91c9d.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/587a4f2d-73a5-3b4e-b68b-95787bf91c9d.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2006-09-09",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "946f3c29-5f34-429c-8ab6-a4259bad2343",
+          "name": "Waiting on the World to Change",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 201173
+        },
+        {
+          "id": "b3506ffc-6bee-4f86-a5c1-e5b34e4cfac2",
+          "name": "I Don't Trust Myself (With Loving You)",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 292013
+        },
+        {
+          "id": "2746eabf-0335-41a3-bc16-357564cc719e",
+          "name": "Belief",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 242333
+        },
+        {
+          "id": "39f556d9-ef1c-4773-a937-5dc222389b25",
+          "name": "Gravity",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 245826
+        },
+        {
+          "id": "199faf67-3190-463b-8185-e7a7c6205d91",
+          "name": "The Heart of Life",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 199146
+        },
+        {
+          "id": "6896f27d-2b19-43fa-8753-048c1900ce5b",
+          "name": "Vultures",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 251826
+        },
+        {
+          "id": "86e85d93-1a85-4d24-a4d6-82ffdd36ba53",
+          "name": "Stop This Train",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 285053
+        },
+        {
+          "id": "df4f1310-e99c-488a-8c30-74d0f97524fe",
+          "name": "Slow Dancing in a Burning Room",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 242000
+        },
+        {
+          "id": "04363875-dce1-4a91-b21b-39e1b323a24f",
+          "name": "Bold as Love",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 258160
+        },
+        {
+          "id": "ccba89c1-9b4b-4e46-b7bd-b6612e1c99e8",
+          "name": "Dreaming With a Broken Heart",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 247813
+        },
+        {
+          "id": "e57d7a5d-f2a3-4ab4-bef2-02cac7335f29",
+          "name": "In Repair",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 369813
+        },
+        {
+          "id": "e25b7502-958d-44d4-9c88-51f8bb14d720",
+          "name": "I'm Gonna Find Another You",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 163026
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:02dfefa0-5c08-4ebb-8c21-a0836c704676",
+    "name": "Room for Squares",
+    "artists": [
+      {
+        "name": "John Mayer"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/02dfefa0-5c08-4ebb-8c21-a0836c704676.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/02dfefa0-5c08-4ebb-8c21-a0836c704676.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2001-06-05",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "df560f3e-800a-47da-aa8c-7096b476c765",
+          "name": "No Such Thing",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 231466
+        },
+        {
+          "id": "17cc8778-4453-406e-9615-766582be2466",
+          "name": "Why Georgia",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 268960
+        },
+        {
+          "id": "9a968393-21f5-4694-8089-839450f7761d",
+          "name": "My Stupid Mouth",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 225000
+        },
+        {
+          "id": "c9f6ee14-1566-49b1-bd4b-9364313e5b7d",
+          "name": "Your Body Is a Wonderland",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 249640
+        },
+        {
+          "id": "b7edcd4e-0edf-4a75-a796-2b39584cadfd",
+          "name": "Neon",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 262093
+        },
+        {
+          "id": "0f9d1a82-1a29-4929-b32f-b3497757cec7",
+          "name": "City Love",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 240200
+        },
+        {
+          "id": "1e765113-28c4-4db3-a0b3-3f931fadf858",
+          "name": "83",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 290933
+        },
+        {
+          "id": "4fdb9f6d-ae3e-40e9-8b35-a7833cac5d9d",
+          "name": "3x5",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 290400
+        },
+        {
+          "id": "2ea34500-7c86-4d57-9ad5-a2e9e5a0cd3f",
+          "name": "Love Song for No One",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 201573
+        },
+        {
+          "id": "09bcd96c-75b5-4225-8b21-29ad3e5516e0",
+          "name": "Back to You",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 241626
+        },
+        {
+          "id": "d24102b3-da93-4bd8-a43c-8c75a0340bd4",
+          "name": "Great Indoors",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 216373
+        },
+        {
+          "id": "32599473-5449-4d86-82f9-611de7e5372a",
+          "name": "Not Myself",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 220266
+        },
+        {
+          "id": "cc6fda93-bfd4-4e9f-ba18-d9f82b947e81",
+          "name": "[untitled]",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 293
+        },
+        {
+          "id": "9d4cf34b-7ebd-4577-89dd-4e18c375a5ef",
+          "name": "St. Patrick’s Day",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 321106
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:139a2674-e215-4a02-85c1-7d61dfc49b44",
+    "name": "Free Spirit",
+    "artists": [
+      {
+        "name": "Khalid"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/139a2674-e215-4a02-85c1-7d61dfc49b44.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/139a2674-e215-4a02-85c1-7d61dfc49b44.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2019-04-05",
+    "album_type": "Album",
+    "total_tracks": 17,
+    "tracks": {
+      "items": [
+        {
+          "id": "9c8355cc-4119-45b4-9509-84216eab5db0",
+          "name": "Intro",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 212000
+        },
+        {
+          "id": "3f382fc3-fbd7-4701-a9af-89ea98961156",
+          "name": "Bad Luck",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 231000
+        },
+        {
+          "id": "af7ced6c-a518-403e-adf8-7977e526fc86",
+          "name": "My Bad",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 163000
+        },
+        {
+          "id": "28e56bf8-01af-40e9-9733-6ddcec8300d9",
+          "name": "Better",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 229000
+        },
+        {
+          "id": "c4405e77-15ad-456c-b413-166a672a1b96",
+          "name": "Talk",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 197000
+        },
+        {
+          "id": "a08b20b3-5c54-43c9-85e8-e473e5cef227",
+          "name": "Right Back",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 215000
+        },
+        {
+          "id": "464983fc-9423-4b1e-8658-75fea835c50f",
+          "name": "Don't Pretend",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 165000
+        },
+        {
+          "id": "23cbcddb-efde-4b11-888c-8e5638ecc709",
+          "name": "Paradise",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 174000
+        },
+        {
+          "id": "d10cfbdc-bf79-4ec9-b7ce-d255084082d0",
+          "name": "Hundred",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 277000
+        },
+        {
+          "id": "910aec85-b165-4e8c-83c5-7e0bb8e7fa57",
+          "name": "Outta My Head",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 177000
+        },
+        {
+          "id": "50629e1d-52b1-4bc3-85c4-86bf9df9bd73",
+          "name": "Free Spirit",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 182000
+        },
+        {
+          "id": "955592bc-9af9-43c3-88ef-5ac567fef3ac",
+          "name": "Twenty One",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 184000
+        },
+        {
+          "id": "c37027d6-a9a8-4ab9-a755-355e33729960",
+          "name": "Bluffin'",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 199000
+        },
+        {
+          "id": "e50bfe11-ecaa-4e95-be60-7c97f53654f0",
+          "name": "Self",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 229000
+        },
+        {
+          "id": "bbdb7eb6-a6ee-4ba9-a079-ed209a907afd",
+          "name": "Alive",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 177000
+        },
+        {
+          "id": "69e35885-b787-42f2-a904-c80e649749a0",
+          "name": "Heaven",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 213000
+        },
+        {
+          "id": "cb9e20ad-072c-4d11-b8ce-18c40a07d586",
+          "name": "Saturday Nights",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 209000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:02a340ab-7e6d-4c04-b0e1-612433ec1481",
+    "name": "Goodbye Yellow Brick Road",
+    "artists": [
+      {
+        "name": "Elton John"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/02a340ab-7e6d-4c04-b0e1-612433ec1481.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/02a340ab-7e6d-4c04-b0e1-612433ec1481.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1973-10-05",
+    "album_type": "Album",
+    "total_tracks": 17,
+    "tracks": {
+      "items": [
+        {
+          "id": "c9143dc3-0858-4410-98d2-709d75366f1e",
+          "name": "Funeral for a Friend / Love Lies Bleeding (remastered 2014 / medley)",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 667000
+        },
+        {
+          "id": "adde8b66-b004-4f93-916f-17ca5420873b",
+          "name": "Candle in the Wind (remastered 2014)",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 229000
+        },
+        {
+          "id": "5df9640d-217a-4480-bdc8-8173d137dd54",
+          "name": "Bennie and the Jets (remastered 2014)",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 323000
+        },
+        {
+          "id": "63c94b9b-2dde-4116-b470-44c72d4ca761",
+          "name": "Goodbye Yellow Brick Road (remastered 2014)",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 193000
+        },
+        {
+          "id": "3f6bca63-6640-47e5-99cd-99c3846b50ef",
+          "name": "This Song Has No Title (remastered 2014)",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 143000
+        },
+        {
+          "id": "aaded5b0-8b5d-4193-a2ae-26fd652850fd",
+          "name": "Grey Seal (remastered 2014)",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 240000
+        },
+        {
+          "id": "20faf17f-f400-4e65-bb5c-3950e06697ed",
+          "name": "Jamaica Jerk‐Off (remastered 2014)",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 218000
+        },
+        {
+          "id": "12b63fd9-9566-4c91-9b4d-f3724bfa8522",
+          "name": "I’ve Seen That Movie Too (remastered 2014)",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 358000
+        },
+        {
+          "id": "fa5b988c-3da7-48e3-96c0-9deee53001f7",
+          "name": "Sweet Painted Lady (remastered 2014)",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 234000
+        },
+        {
+          "id": "01c36115-08ae-43e5-85d3-93d833146b84",
+          "name": "The Ballad of Danny Bailey (1909–1934) (remastered 2014)",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 263000
+        },
+        {
+          "id": "8b9029c1-f193-4d8d-8500-ba48b59669b8",
+          "name": "Dirty Little Girl (remastered 2014)",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 300000
+        },
+        {
+          "id": "e1648b22-2df8-4057-bfa2-7b20b5370204",
+          "name": "All the Girls Love Alice (remastered 2014)",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 308000
+        },
+        {
+          "id": "87796b4c-ca10-47bc-a608-299401674653",
+          "name": "Your Sister Can’t Twist (but She Can Rock’n’ Roll) (remastered 2014)",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 162000
+        },
+        {
+          "id": "85905370-0587-409a-a784-4be847daa804",
+          "name": "Saturday Night’s Alright (for Fighting) (remastered 2014)",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 295000
+        },
+        {
+          "id": "061a0b63-4bbf-414c-912a-470e649f03b3",
+          "name": "Roy Rogers (remastered 2014)",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 247000
+        },
+        {
+          "id": "ea691277-042f-439f-9939-af3d8fce870d",
+          "name": "Social Disease (remastered 2014)",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 223000
+        },
+        {
+          "id": "95bc97da-d67c-4de6-9e27-c2fc4b8dd5bd",
+          "name": "Harmony (remastered 2014)",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 165000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:d1dc25f2-9e66-4270-b2a1-eb095febac9a",
+    "name": "Don’t Shoot Me I’m Only the Piano Player",
+    "artists": [
+      {
+        "name": "Elton John"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/d1dc25f2-9e66-4270-b2a1-eb095febac9a.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/d1dc25f2-9e66-4270-b2a1-eb095febac9a.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1973-01-26",
+    "album_type": "Album",
+    "total_tracks": 10,
+    "tracks": {
+      "items": [
+        {
+          "id": "d373ce6a-d746-4516-9950-7ed3835982f1",
+          "name": "Daniel",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 235000
+        },
+        {
+          "id": "5a6d1ddd-7cab-40f0-8159-bb2163c9a2a9",
+          "name": "Teacher I Need You",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 250626
+        },
+        {
+          "id": "8a3a7b76-6118-4f7e-b106-0415535e0d4e",
+          "name": "Elderberry Wine",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 212706
+        },
+        {
+          "id": "c06a91ad-2c4f-4be5-a212-ad12defb9753",
+          "name": "Blues for My Baby and Me",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 342600
+        },
+        {
+          "id": "85df7138-ad5c-4ca5-8801-f9da250a44da",
+          "name": "Midnight Creeper",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 233733
+        },
+        {
+          "id": "11e01cbc-ae29-403f-9e3b-13fa16b2ddbc",
+          "name": "Have Mercy on the Criminal",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 358026
+        },
+        {
+          "id": "bd77bf84-d68e-418b-8c8c-062ecd293a75",
+          "name": "I’m Going to Be a Teenage Idol",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 236373
+        },
+        {
+          "id": "cecb201a-88c9-4c87-ad32-3b385e86d1d5",
+          "name": "Texan Love Song",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 214000
+        },
+        {
+          "id": "8388fed5-e41f-44d1-b6b5-a5b04ffffbd5",
+          "name": "Crocodile Rock",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 237826
+        },
+        {
+          "id": "050613f7-0938-4b2b-a14e-9731ccf0f08b",
+          "name": "High Flying Bird",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 252000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:e4d13602-d7de-4a8f-9215-813198a6cc87",
+    "name": "Fly Like an Eagle",
+    "artists": [
+      {
+        "name": "Steve Miller Band"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/e4d13602-d7de-4a8f-9215-813198a6cc87.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/e4d13602-d7de-4a8f-9215-813198a6cc87.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1976-01-01",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "0d9e3816-19e1-4db8-9da7-9ce9fee3038d",
+          "name": "Space Intro",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 75063
+        },
+        {
+          "id": "3fde8368-3c90-4692-9b01-2f1ca090d7fc",
+          "name": "Fly Like An Eagle",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 282693
+        },
+        {
+          "id": "418bd859-e050-4f13-8b60-3f74b397c896",
+          "name": "Wild Mountain Honey",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 289973
+        },
+        {
+          "id": "6367cd73-0729-44c0-9184-12c2379eda5d",
+          "name": "Serenade",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 191067
+        },
+        {
+          "id": "8ebf935d-f0a3-41a8-ac30-a0df44bcf7a7",
+          "name": "Dance, Dance, Dance",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 137400
+        },
+        {
+          "id": "d6d1fe72-6540-4e23-8dca-a134815ed280",
+          "name": "Mercury Blues",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 223027
+        },
+        {
+          "id": "ba8215e4-afe9-4856-9d60-404766b3a1e6",
+          "name": "Take The Money And Run",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 170173
+        },
+        {
+          "id": "878c1503-d59f-4b0a-8bc3-3744f1cd1411",
+          "name": "Rock'n Me",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 187067
+        },
+        {
+          "id": "31442dc4-9295-4f1a-8002-6bc7053d42dd",
+          "name": "You Send Me",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 162360
+        },
+        {
+          "id": "8385c453-449e-460a-b697-60346547060f",
+          "name": "Blue Odyssey",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 50431
+        },
+        {
+          "id": "21d8f91e-7fd2-452d-86b5-08d1b46c159d",
+          "name": "Sweet Maree",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 256807
+        },
+        {
+          "id": "a8c940a8-bd32-4289-8b0a-a569cad74dd2",
+          "name": "The Window",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 256933
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:1eb87512-3270-4397-9613-bad98d018558",
+    "name": "Big Shot",
+    "artists": [
+      {
+        "name": "Briston Maroney"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/1eb87512-3270-4397-9613-bad98d018558.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/1eb87512-3270-4397-9613-bad98d018558.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2017-12-08",
+    "album_type": "EP",
+    "total_tracks": 4,
+    "tracks": {
+      "items": [
+        {
+          "id": "706b5ddb-ae1f-45f3-a4c7-eba552287f69",
+          "name": "June",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 284226
+        },
+        {
+          "id": "8ae1ff21-425b-4ed3-a3cd-25d51bc6c5bc",
+          "name": "Virginia",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 261093
+        },
+        {
+          "id": "613f4b65-0661-4332-999b-028ad3ac7c10",
+          "name": "Hangin Round",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 329026
+        },
+        {
+          "id": "6ee8bcd7-8f15-428a-be12-e28c29b37b7e",
+          "name": "It’s Not My Fault",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 211695
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:aff3a5b5-5689-4e6e-83d3-21300bb50c28",
+    "name": "Puppy Love",
+    "artists": [
+      {
+        "name": "Mom Jeans."
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/aff3a5b5-5689-4e6e-83d3-21300bb50c28.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/aff3a5b5-5689-4e6e-83d3-21300bb50c28.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2018-07-03",
+    "album_type": "Album",
+    "total_tracks": 10,
+    "tracks": {
+      "items": [
+        {
+          "id": "e06206b1-d3f3-46cd-b3a7-da1f63f15804",
+          "name": "near death fail comp (must watch until end)",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 206000
+        },
+        {
+          "id": "c1bc8721-8912-4c5d-947b-0fd6f73daf39",
+          "name": "sponsor me tape",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 236000
+        },
+        {
+          "id": "d04af89b-4fc6-45e4-8c6c-46769396dff2",
+          "name": "glamorous",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 249000
+        },
+        {
+          "id": "1f386058-cdc8-4576-a5ae-2b6afa898056",
+          "name": "I left my towel at my friend's house and then they moved PT1",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 155000
+        },
+        {
+          "id": "2f759102-0a1e-4333-9a2d-dc6d37caf42e",
+          "name": "PT 2",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 172000
+        },
+        {
+          "id": "2adf0e59-6cb2-48c3-831e-e1886c4d6ddf",
+          "name": "season 9 ep 2-3",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 129000
+        },
+        {
+          "id": "ba7d00ae-afb1-4a24-9537-a6570d88e38a",
+          "name": "you can't eat cats Kevin",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 166000
+        },
+        {
+          "id": "48a0f173-51f8-4d48-8554-8e8e06a22885",
+          "name": "jon bong jovi",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 271000
+        },
+        {
+          "id": "e5fddeb6-1c66-480c-ba25-bae5f66742b1",
+          "name": "PICKLE BART",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 237000
+        },
+        {
+          "id": "d807d8f1-626f-469b-9e9c-befd3ad4a769",
+          "name": "now THIS is podracing",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 153000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:17d2fc0a-15c2-4582-b52d-a84520145056",
+    "name": "Best Buds",
+    "artists": [
+      {
+        "name": "Mom Jeans."
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/17d2fc0a-15c2-4582-b52d-a84520145056.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/17d2fc0a-15c2-4582-b52d-a84520145056.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2016-07-03",
+    "album_type": "Album",
+    "total_tracks": 10,
+    "tracks": {
+      "items": [
+        {
+          "id": "2f2db43e-c752-49a4-af5e-7dbff559105f",
+          "name": "Death Cup",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 276000
+        },
+        {
+          "id": "df7cfa95-c402-41e5-80c9-b6f5bd3aefb9",
+          "name": "Danger Can't",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 215000
+        },
+        {
+          "id": "29f387fd-4ed6-46c0-bb74-09f9de42fd50",
+          "name": "Movember",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 217000
+        },
+        {
+          "id": "369ed659-b6d3-4c0e-87f9-6e01a95acde4",
+          "name": "Edward 40hands",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 266000
+        },
+        {
+          "id": "3b82c6ff-2d55-40c4-9c24-68b86e2f04c3",
+          "name": "*Sobs Quietly*",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 118000
+        },
+        {
+          "id": "9975b26a-272a-4b18-9611-c68716420e26",
+          "name": "Poor Boxer Shorts",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 233000
+        },
+        {
+          "id": "2dff3c46-2a62-4098-ac01-5ff477639681",
+          "name": "Remy's Boys",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 180000
+        },
+        {
+          "id": "90a70f92-7439-47a8-9cce-6800926a4028",
+          "name": "Girl Scout Cookies",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 226000
+        },
+        {
+          "id": "e25b9564-b3e5-4c36-88bb-3c5e8e915f52",
+          "name": "Scott Pilgrim v. My GPA",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 240000
+        },
+        {
+          "id": "f389c3ca-4057-4958-a6d1-d956c9c4d834",
+          "name": "Vape Nation",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 185000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:553f2332-f27d-4627-9e7c-03ec74b79c0d",
+    "name": "When We Were Friends",
+    "artists": [
+      {
+        "name": "The Backseat Lovers"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/553f2332-f27d-4627-9e7c-03ec74b79c0d.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/553f2332-f27d-4627-9e7c-03ec74b79c0d.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2019-01-27",
+    "album_type": "Album",
+    "total_tracks": 9,
+    "tracks": {
+      "items": [
+        {
+          "id": "39aad929-7bbb-4d9b-a374-1cc6e959614e",
+          "name": "Watch Your Mouth",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 271176
+        },
+        {
+          "id": "c16c52be-7fcf-46e9-a20c-d40a2e132ea8",
+          "name": "Pool House",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 269411
+        },
+        {
+          "id": "dd2c732b-228a-41b1-809e-46ba8ecd3692",
+          "name": "Intuition",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 210588
+        },
+        {
+          "id": "896a3a78-518c-46af-864b-1a6103c7b2d7",
+          "name": "Kilby Girl",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 282205
+        },
+        {
+          "id": "f288dd6f-9579-44f6-bf1d-7050cd8142d5",
+          "name": "Dugout",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 290588
+        },
+        {
+          "id": "1282dcf6-852d-4a2c-b5d8-3953195b9017",
+          "name": "Davy Crochet",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 176617
+        },
+        {
+          "id": "e54ca2ac-eeb3-4496-872e-8e30d5b0bf67",
+          "name": "Maple Syrup",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 243529
+        },
+        {
+          "id": "f3dae70f-08d2-40ae-95dd-bc5282b5c221",
+          "name": "Olivia",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 192205
+        },
+        {
+          "id": "3c6c4973-99ef-484c-82c2-f223acfcd0c9",
+          "name": "Sinking Ship",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 307941
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:57fe7adf-4eb9-446f-a502-90e70e3c307c",
+    "name": "More Life",
+    "artists": [
+      {
+        "name": "Drake"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/57fe7adf-4eb9-446f-a502-90e70e3c307c.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/57fe7adf-4eb9-446f-a502-90e70e3c307c.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2017-03-18",
+    "album_type": "Album",
+    "total_tracks": 22,
+    "tracks": {
+      "items": [
+        {
+          "id": "a64142b6-8208-410b-be70-1d8cea669807",
+          "name": "Free Smoke",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "866f7dcd-a6fe-4eb9-9961-7b841956f6db",
+          "name": "No Long Talk",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "8eccc484-bba1-4ca0-8600-41c8be9976a9",
+          "name": "Passionfruit",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "d9849651-5e88-4334-9eba-d194db6a12dc",
+          "name": "Jorja Interlude",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "fcb5c779-9e7b-472c-b121-dd5f7bc8b31a",
+          "name": "Get It Together",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "a1725118-e23e-4982-b506-6334bbcea4e9",
+          "name": "Mabida Riddim",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "f4d006a6-54b6-494a-93ec-bfdb52e5dc2b",
+          "name": "Blem",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "c45aa034-6f24-46a3-8d68-b4c55283d9dc",
+          "name": "4422",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "19f457b0-0f8c-40df-bd9e-f394c294a928",
+          "name": "Gyalchester",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "cbdd5561-3b0d-4038-b937-bf01424e13c8",
+          "name": "Skepta Interlude",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "ff4360c5-b360-42cc-ba08-0f111dc9a2d6",
+          "name": "Portland",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "fbc64a43-f45a-40dd-b0a8-c921f2564f2e",
+          "name": "Sacrifices",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "4aaafecb-ddb0-445b-9214-6d1c5b0c86fc",
+          "name": "Nothings Into Somethings",
+          "track_number": 1,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "e7f7d59d-54bc-49cf-b83e-c78510eb9117",
+          "name": "Teenage Fever",
+          "track_number": 2,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "ef48a18c-15d2-4325-b449-9e973c184e25",
+          "name": "KMT",
+          "track_number": 3,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "7ae83a5b-7c5b-4f64-b1e5-55e7dc242143",
+          "name": "Lose You",
+          "track_number": 4,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "02ee15cc-bd49-44ef-ba0a-9b1eedab1e3e",
+          "name": "Can't Have Everything",
+          "track_number": 5,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "76c0fb32-c829-4c8b-bd6e-bd55c5959964",
+          "name": "Glow",
+          "track_number": 6,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "7dbde024-2fa3-4c23-a8ab-5a6c248b4818",
+          "name": "Since Way Back",
+          "track_number": 7,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "9108e99f-2008-4ee8-90f3-e769fb0be389",
+          "name": "Fake Love",
+          "track_number": 8,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "d4d57d83-bb96-4865-a7ea-5d7c05110435",
+          "name": "Ice Melts",
+          "track_number": 9,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "ed0d814a-634f-413e-a810-a79523850649",
+          "name": "Do Not Disturb",
+          "track_number": 10,
+          "disc_number": 2,
+          "duration_ms": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:e63577e8-cf2e-4006-911d-3f616e0c2036",
+    "name": "Live From Space",
+    "artists": [
+      {
+        "name": "Mac Miller"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/e63577e8-cf2e-4006-911d-3f616e0c2036.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/e63577e8-cf2e-4006-911d-3f616e0c2036.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2013-12-17",
+    "album_type": "Album",
+    "total_tracks": 14,
+    "tracks": {
+      "items": [
+        {
+          "id": "bd11841d-cd17-4dfe-a560-62ba1a714457",
+          "name": "S.D.S.",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 210933
+        },
+        {
+          "id": "2982438d-b91b-4bf2-8bcd-0b8085b4615b",
+          "name": "The Star Room / Killin' Time",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 333120
+        },
+        {
+          "id": "959fa04e-fa84-44c1-9a6c-4b4f228946b4",
+          "name": "BDE (Best Day Ever)",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 321960
+        },
+        {
+          "id": "ad37c761-3f62-449d-be5c-fc151f300417",
+          "name": "Bird Call",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 161773
+        },
+        {
+          "id": "9a8f718d-87e0-4314-b819-60664dbe96e6",
+          "name": "Watching Movies",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 213107
+        },
+        {
+          "id": "55171efc-1f14-4539-a1f0-abdd569902fd",
+          "name": "Remember",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 271133
+        },
+        {
+          "id": "1948f85c-a3ef-4d1a-8a26-7b736bbf89e9",
+          "name": "The Question",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 491573
+        },
+        {
+          "id": "2d0c650c-76cb-4fa9-81f9-f482ff97fea8",
+          "name": "Objects in the Mirror",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 389800
+        },
+        {
+          "id": "ac660e3b-657f-43eb-909a-0fe5a920b487",
+          "name": "Youforia",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 246053
+        },
+        {
+          "id": "78bd396f-9cc9-4f4d-a157-4a924847a7a2",
+          "name": "Eggs Aisle",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 160067
+        },
+        {
+          "id": "c6c6c343-f045-42c5-a5f5-c7f8f0efbab4",
+          "name": "Earth",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 256773
+        },
+        {
+          "id": "1363efeb-0ba3-4809-993e-31c5bdd81a83",
+          "name": "Life",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 195453
+        },
+        {
+          "id": "cdf7f493-210a-41f0-90e5-ecd4e888d1d3",
+          "name": "Black Bush",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 190467
+        },
+        {
+          "id": "acfc763f-ced4-401f-aff3-e024f68cf421",
+          "name": "In the Morning",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 265067
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:19bdf9d5-8768-454f-a050-813728b4bf49",
+    "name": "2014 Forest Hills Drive",
+    "artists": [
+      {
+        "name": "J. Cole"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/19bdf9d5-8768-454f-a050-813728b4bf49.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/19bdf9d5-8768-454f-a050-813728b4bf49.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2014-09-14",
+    "album_type": "Album",
+    "total_tracks": 13,
+    "tracks": {
+      "items": [
+        {
+          "id": "2a22604d-9d0f-4081-a3c8-a55e1ce9311c",
+          "name": "Intro",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 129000
+        },
+        {
+          "id": "0ee36c63-c7b6-41d3-98b9-ca444b123b47",
+          "name": "January 28th",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 243000
+        },
+        {
+          "id": "086e2f63-d345-4a9f-890c-80f6bd67fd64",
+          "name": "Wet Dreamz",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 239000
+        },
+        {
+          "id": "f3552920-df90-43ec-b7fe-a0ea8225cf1b",
+          "name": "03’ Adolescence",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 264000
+        },
+        {
+          "id": "5d5f6096-feeb-4e87-ac75-51f1b251268a",
+          "name": "A Tale of 2 Citiez",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 269000
+        },
+        {
+          "id": "29ebd5b4-385c-4c10-a24c-432739ead63a",
+          "name": "Fire Squad",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 288000
+        },
+        {
+          "id": "7d69b059-f93c-4b67-af15-7531a64cd7e8",
+          "name": "St. Tropez",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 258000
+        },
+        {
+          "id": "37223d03-77e0-424e-a8f6-2b939d1365bb",
+          "name": "G.O.M.D",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 301000
+        },
+        {
+          "id": "c4911089-2728-4034-a36b-9a3db7808fc4",
+          "name": "No Role Modelz",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 293000
+        },
+        {
+          "id": "d0c5641d-396d-4afd-a23f-3703d366bdf8",
+          "name": "Hello",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 219000
+        },
+        {
+          "id": "0ab36429-f35b-4aeb-a5b8-ce033a9fb8b7",
+          "name": "Apparently",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 293000
+        },
+        {
+          "id": "2aacad51-5cfe-4ac5-99a6-a172bb2f00a9",
+          "name": "Love Yourz",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 211000
+        },
+        {
+          "id": "8750f12e-f2b4-4fe8-b005-1e444044309c",
+          "name": "Note to Self",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 875000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:fe8666b0-e1e5-4bcc-bf6e-f788e575e7c3",
+    "name": "ye",
+    "artists": [
+      {
+        "name": "Kanye West"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/fe8666b0-e1e5-4bcc-bf6e-f788e575e7c3.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/fe8666b0-e1e5-4bcc-bf6e-f788e575e7c3.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2018-06-01",
+    "album_type": "Album",
+    "total_tracks": 7,
+    "tracks": {
+      "items": [
+        {
+          "id": "a594301f-dc67-4e52-970b-292586cf5b0a",
+          "name": "I Thought About Killing You",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 274186
+        },
+        {
+          "id": "78af9f5c-4773-4aac-ab46-ed6b9e2cb513",
+          "name": "Yikes",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 188773
+        },
+        {
+          "id": "874e02c8-07b9-4c4e-9380-364764060350",
+          "name": "All Mine",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 145506
+        },
+        {
+          "id": "e3f76637-9ded-48b0-b81c-826951f2678d",
+          "name": "Wouldn't Leave",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 205546
+        },
+        {
+          "id": "fb599b24-5422-4e9e-a5e1-0c334fe54185",
+          "name": "No Mistakes",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 123040
+        },
+        {
+          "id": "69a96bec-b69c-482a-95fc-40dfde41f0b2",
+          "name": "Ghost Town",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 271386
+        },
+        {
+          "id": "0796111f-99d4-40c7-92c8-706a5f66a7cd",
+          "name": "Violent Crimes",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 215320
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:9d1e3056-e220-4310-819c-e24822f4a477",
+    "name": "Cracked Rear View",
+    "artists": [
+      {
+        "name": "Hootie & the Blowfish"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/9d1e3056-e220-4310-819c-e24822f4a477.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/9d1e3056-e220-4310-819c-e24822f4a477.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1994-07-05",
+    "album_type": "Album",
+    "total_tracks": 11,
+    "tracks": {
+      "items": [
+        {
+          "id": "1529e3ad-e84f-4397-84ab-b7c2d570d636",
+          "name": "Hannah Jane",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 213000
+        },
+        {
+          "id": "3ed37fe9-edd5-491c-b690-6349f3c5ae4a",
+          "name": "Hold My Hand",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 255000
+        },
+        {
+          "id": "129f4515-15cd-4c34-9c14-a0d7d37e28bb",
+          "name": "Let Her Cry",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 308000
+        },
+        {
+          "id": "e97a92e7-ef42-4feb-937d-bf50b5967442",
+          "name": "Only Wanna Be with You",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 226000
+        },
+        {
+          "id": "cfba88df-7816-48ad-93bc-fce69bb21460",
+          "name": "Running from An Angel",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 217000
+        },
+        {
+          "id": "399a393c-9c12-4fd1-94bd-f18f4cac8129",
+          "name": "I’m Goin’ Home",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 250000
+        },
+        {
+          "id": "08c04b5a-7776-44cd-a416-efadc83aae5a",
+          "name": "Drowning",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 301000
+        },
+        {
+          "id": "28aeff1b-45f1-4e17-9e00-d087f7c954ca",
+          "name": "Time",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 293000
+        },
+        {
+          "id": "b60852e7-bce7-4997-9f05-0a6821199d77",
+          "name": "Look Away",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 158000
+        },
+        {
+          "id": "774d069c-02b6-42f7-ad27-a67a73c72b34",
+          "name": "Not Even the Trees",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "066bd425-0609-43d7-a6c0-d3346ecd5126",
+          "name": "Goodbye",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:6d89a6a7-59dd-4ec7-8d73-444fc5257f05",
+    "name": "Californication",
+    "artists": [
+      {
+        "name": "Red Hot Chili Peppers"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/6d89a6a7-59dd-4ec7-8d73-444fc5257f05.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/6d89a6a7-59dd-4ec7-8d73-444fc5257f05.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "1999-04-30",
+    "album_type": "Album",
+    "total_tracks": 18,
+    "tracks": {
+      "items": [
+        {
+          "id": "40521ea0-cf96-4543-adcf-21dd6ef5c01a",
+          "name": "Around the World",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 239666
+        },
+        {
+          "id": "ec387e15-949c-4fc1-bfbf-d798b37761a4",
+          "name": "Parallel Universe",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 270453
+        },
+        {
+          "id": "1a5febeb-57ec-44fd-8aeb-6c45f69013d8",
+          "name": "Scar Tissue",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 217746
+        },
+        {
+          "id": "89565b6e-2073-4c9f-8fcb-313eaa07dc05",
+          "name": "Otherside",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 255600
+        },
+        {
+          "id": "5abc0674-b589-4313-8ecb-1d2f8fdd146c",
+          "name": "Get on Top",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 198360
+        },
+        {
+          "id": "e190d069-3ea2-42a5-b4d1-78e3e4acedf5",
+          "name": "Californication",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 321493
+        },
+        {
+          "id": "5e5f97d2-f177-4ef9-89d3-a952b094c405",
+          "name": "Easily",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 231586
+        },
+        {
+          "id": "d7cb7b29-f0eb-421d-9636-5587b4989152",
+          "name": "Porcelain",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 163413
+        },
+        {
+          "id": "a2f9e7d6-8cf9-4733-a6f8-67b8e5a52adb",
+          "name": "Emit Remmus",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 240306
+        },
+        {
+          "id": "f3517190-34d7-4cfe-b501-a4dd37ed6ff1",
+          "name": "I Like Dirt",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 157853
+        },
+        {
+          "id": "71d8374d-3ad4-43e8-8ef3-1dda1acb9e69",
+          "name": "This Velvet Glove",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 225013
+        },
+        {
+          "id": "bd10c163-4e7a-4d73-b524-8f62dfac7942",
+          "name": "Savior",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 292613
+        },
+        {
+          "id": "043cfae5-4cfe-4855-91f4-c3f6385ee69c",
+          "name": "Purple Stain",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 253266
+        },
+        {
+          "id": "e2c39464-52c4-4de9-ba57-7b5baeee8e46",
+          "name": "Right on Time",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 112640
+        },
+        {
+          "id": "9c770294-d193-4064-9b16-717f1a2b605d",
+          "name": "Road Trippin’",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 207586
+        },
+        {
+          "id": "51c4e66d-0373-45f2-8de9-5fc165f25cb8",
+          "name": "Gong Li",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 222813
+        },
+        {
+          "id": "6fa7bafc-3804-43f6-9e34-c417dfc526df",
+          "name": "How Strong",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 284080
+        },
+        {
+          "id": "3bd2757a-987f-49b3-907a-50c87be06fe4",
+          "name": "Intrumental #2",
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 152506
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:1642937f-4a69-479d-b447-6fba35d50e30",
+    "name": "El Camino",
+    "artists": [
+      {
+        "name": "The Black Keys"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/1642937f-4a69-479d-b447-6fba35d50e30.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/1642937f-4a69-479d-b447-6fba35d50e30.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2011-12-01",
+    "album_type": "Album",
+    "total_tracks": 11,
+    "tracks": {
+      "items": [
+        {
+          "id": "5fd1ce6b-6c73-4309-b4bb-6b8d9aafa776",
+          "name": "Lonely Boy (2021 Remaster)",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 193000
+        },
+        {
+          "id": "ed8fb2af-dad8-4287-a28d-53bc7f68d6d5",
+          "name": "Dead and Gone (2021 Remaster)",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 221000
+        },
+        {
+          "id": "a3d2d74f-112c-4ca4-94fe-78178bf025eb",
+          "name": "Gold on the Ceiling (2021 Remaster)",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 224000
+        },
+        {
+          "id": "19b3f30a-423a-4799-9f0a-6703ab2943c3",
+          "name": "Little Black Submarines (2021 Remaster)",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 251000
+        },
+        {
+          "id": "e216c091-d5b2-413f-a724-1b59b916e16c",
+          "name": "Money Maker (2021 Remaster)",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 177000
+        },
+        {
+          "id": "423509c8-b3a3-4349-9475-df25eaf0eaba",
+          "name": "Run Right Back (2021 Remaster)",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 197000
+        },
+        {
+          "id": "8892facb-1ec7-49b8-a3e3-38f7b4a69874",
+          "name": "Sister (2021 Remaster)",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 205000
+        },
+        {
+          "id": "8b3a64a2-9867-4943-b4a0-edfef532c569",
+          "name": "Hell of a Season (2021 Remaster)",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 225000
+        },
+        {
+          "id": "17cf58ac-ca27-4fd3-a68b-1c0d56aea0c4",
+          "name": "Stop Stop (2021 Remaster)",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 210000
+        },
+        {
+          "id": "4d8c3eb8-fc17-4f9b-b375-096024def00d",
+          "name": "Nova Baby (2021 Remaster)",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 207000
+        },
+        {
+          "id": "5bcf12a3-f70f-4362-b7cb-28a333bc7e81",
+          "name": "Mind Eraser (2021 Remaster)",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 195000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:c86680d8-7c26-4501-88ed-675ceac59574",
+    "name": "SOS Deluxe: LANA",
+    "artists": [
+      {
+        "name": "SZA"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/c86680d8-7c26-4501-88ed-675ceac59574.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/c86680d8-7c26-4501-88ed-675ceac59574.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2024-12-20",
+    "album_type": "Album",
+    "total_tracks": 38,
+    "tracks": {
+      "items": [
+        {
+          "id": "2d2e35a3-541e-4213-87c6-206628210dbc",
+          "name": "No More Hiding",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "8fa46ee4-c829-4db3-a357-2daa575e95c4",
+          "name": "What Do I Do",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "336a7ab5-422f-4c05-90f5-f09931daaafd",
+          "name": "30 for 30",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "ba8d497a-9075-4991-a821-ccdf63a8a589",
+          "name": "Diamond Boy (DTM)",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "ed76cd3e-1204-4f72-a179-6ac931cf6020",
+          "name": "BMF",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "7366d2e7-7d33-4c77-9707-e4441e497d70",
+          "name": "Scorsese Baby Daddy",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "0e5112a3-f9ec-4c0e-b263-61f3b48ab8d9",
+          "name": "Love Me 4 Me",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "ee526ed8-d54d-4071-bda9-067dcafcda5e",
+          "name": "Chill Baby",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "e391b444-848a-463f-976a-26ff8d108db7",
+          "name": "My Turn",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "819442af-767d-41a3-8cfd-1abbff94d92d",
+          "name": "Crybaby",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "a5b88319-0503-480e-9cf5-749eb222ccdd",
+          "name": "Kitchen",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "5e6b6144-8567-4124-8e28-cfb51b8e020b",
+          "name": "Get Behind Me (interlude)",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "d3703583-6f47-4c2b-96e0-31560d68e6b0",
+          "name": "Drive",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "09d0e72b-350c-4859-9d8f-bc7e996e7441",
+          "name": "Another Life",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "9b6b096f-36d8-4297-b181-ea501c4b41a2",
+          "name": "Saturn",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 0
+        },
+        {
+          "id": "aeac4b51-5b92-4e8e-8aaf-19576895af19",
+          "name": "SOS",
+          "track_number": 1,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "52dc5433-ce6f-4946-8b71-333e66bd37b8",
+          "name": "Kill Bill",
+          "track_number": 2,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "17894247-e585-4c97-83ea-de7047df7639",
+          "name": "Seek & Destroy",
+          "track_number": 3,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "8e7e8b05-a99d-40ef-86df-8c718e906f3e",
+          "name": "Low",
+          "track_number": 4,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "749d6eaf-1222-4700-9283-135837499c05",
+          "name": "Love Language",
+          "track_number": 5,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "e243a9b1-cce4-4790-8b3b-5c1eca7193bc",
+          "name": "Blind",
+          "track_number": 6,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "c13bbaac-b8e1-41fb-8d46-a64c656f6a01",
+          "name": "Used",
+          "track_number": 7,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "6cf2ac53-82d4-4c6d-94ca-083cfd23db6d",
+          "name": "Snooze",
+          "track_number": 8,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "95728361-6383-408f-9611-8d193ab6d638",
+          "name": "Notice Me",
+          "track_number": 9,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "c4a9b84d-3ab8-4b9b-89b4-6833eff5a793",
+          "name": "Gone Girl",
+          "track_number": 10,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "95762af7-9df8-4423-a692-3482238937ad",
+          "name": "Smoking on My Ex Pack",
+          "track_number": 11,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "fc3374ef-831b-4e47-9c72-4688a33710c6",
+          "name": "Ghost in the Machine",
+          "track_number": 12,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "e930b920-de7c-4df0-b046-2d80c1f65596",
+          "name": "F2F",
+          "track_number": 13,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "28d18425-e859-42d6-9eb6-e52665442cb7",
+          "name": "Nobody Gets Me",
+          "track_number": 14,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "2b3818ab-5530-4b14-9901-7ad15f06a03d",
+          "name": "Conceited",
+          "track_number": 15,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "0ee56896-15cf-4baa-8b48-0ad4ca989269",
+          "name": "Special",
+          "track_number": 16,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "0f56ff37-1b90-4328-ac9c-83599c86569b",
+          "name": "Too Late",
+          "track_number": 17,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "238be1c9-7e29-445d-8bbc-f7216afaed95",
+          "name": "Far",
+          "track_number": 18,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "d974be20-b524-490d-bf04-2eb1b0a11ef1",
+          "name": "Shirt",
+          "track_number": 19,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "0a1d4a69-14ce-43aa-b112-5d075b5894e7",
+          "name": "Open Arms",
+          "track_number": 20,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "f5e54962-d384-435f-8006-fbb872790c73",
+          "name": "I Hate U",
+          "track_number": 21,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "dc80e9a0-8282-4bea-8cdb-a7acdeb7f692",
+          "name": "Good Days",
+          "track_number": 22,
+          "disc_number": 2,
+          "duration_ms": 0
+        },
+        {
+          "id": "8d141e6d-9a3b-4450-8593-fcd8c9f356b4",
+          "name": "Forgiveless",
+          "track_number": 23,
+          "disc_number": 2,
+          "duration_ms": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:9a8688cb-f720-47e2-8cb0-7076de704c7f",
+    "name": "Man on the Moon III: The Chosen",
+    "artists": [
+      {
+        "name": "Kid Cudi"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/9a8688cb-f720-47e2-8cb0-7076de704c7f.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/9a8688cb-f720-47e2-8cb0-7076de704c7f.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2020-12-11",
+    "album_type": "Album",
+    "total_tracks": 18,
+    "tracks": {
+      "items": [
+        {
+          "id": "b431d1ec-cc7e-4477-925f-dab73becd0c3",
+          "name": "Beautiful Trip",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 37000
+        },
+        {
+          "id": "c5dd7734-33ff-4149-b4f5-53ae15824f28",
+          "name": "Tequila Shots",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 193000
+        },
+        {
+          "id": "7eeb02be-1e9e-441c-af82-7f7aa414cd7c",
+          "name": "Another Day",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 199000
+        },
+        {
+          "id": "a1c209a1-0605-40ea-a1ab-d9008e8d91b3",
+          "name": "She Knows This",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 216000
+        },
+        {
+          "id": "f9d8c45e-80d8-4c36-b81a-e4f08d98907f",
+          "name": "Dive",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 148000
+        },
+        {
+          "id": "1a8e22fd-9a5b-4ac1-bdf0-987d7b42e635",
+          "name": "Damaged",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 150000
+        },
+        {
+          "id": "0639db1f-b5a0-4599-b078-3f2fcabb8019",
+          "name": "Heaven on Earth",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 201000
+        },
+        {
+          "id": "b6f6a1e4-4379-4fd1-a0ea-eecefd66fdc8",
+          "name": "Show Out",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 174000
+        },
+        {
+          "id": "a632fda9-8147-4237-9011-9141537d799a",
+          "name": "Mr. Solo Dolo III",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 242000
+        },
+        {
+          "id": "5d9b50c0-7f88-469e-9680-d71e03a6c08b",
+          "name": "Sad People",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 176000
+        },
+        {
+          "id": "ffc411cf-4a3b-4e2c-8b8b-6853c67e9a6e",
+          "name": "Elsie's Baby Boy (Flashback)",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 219000
+        },
+        {
+          "id": "1a5555b4-d9f5-4f32-b8c2-b89ccdd5c25b",
+          "name": "Sept. 16",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 249000
+        },
+        {
+          "id": "4668709e-f0db-4327-8d42-f4c5cbf5694d",
+          "name": "The Void",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 325000
+        },
+        {
+          "id": "cd56e17a-5b76-4104-9a3f-0f04c0d58626",
+          "name": "Lovin' Me",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 165000
+        },
+        {
+          "id": "b8d1cfb9-b01b-4dc0-bfd8-083e8516dd1e",
+          "name": "The Pale Moonlight",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 176000
+        },
+        {
+          "id": "d89de837-60db-4c60-a8b7-73aef21ca86e",
+          "name": "Rockstar Knights",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 231000
+        },
+        {
+          "id": "4eff26fe-d155-485f-b30a-0c5662860abf",
+          "name": "4 da Kidz",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 184000
+        },
+        {
+          "id": "848b758a-3f4c-4c5e-99c8-6fadc380b686",
+          "name": "Lord I Know",
+          "track_number": 18,
+          "disc_number": 1,
+          "duration_ms": 212000
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:8cd32a6d-cfcd-43c8-9963-4bea05186791",
+    "name": "pretty",
+    "artists": [
+      {
+        "name": "Artemas"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/8cd32a6d-cfcd-43c8-9963-4bea05186791.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/8cd32a6d-cfcd-43c8-9963-4bea05186791.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2024-02-09",
+    "album_type": "Album",
+    "total_tracks": 13,
+    "tracks": {
+      "items": [
+        {
+          "id": "93edbb14-eceb-4106-9909-41471a4d0239",
+          "name": "if u think i'm pretty",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 128261
+        },
+        {
+          "id": "82c33583-7efe-4257-81f4-f6a617e10aa8",
+          "name": "shall we celebrate?",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 125910
+        },
+        {
+          "id": "94d5f82d-48ab-44a4-9d85-c9fec03c26df",
+          "name": "ur special to me",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 114468
+        },
+        {
+          "id": "1bd68e73-971f-440a-96da-195a0a99f177",
+          "name": "too slow",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 114703
+        },
+        {
+          "id": "6cc3a0c5-0a3e-4610-a03c-730b3c013230",
+          "name": "like an angel",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 111098
+        },
+        {
+          "id": "fcfb13fd-3a3c-46d0-9790-80c67ac952e7",
+          "name": "enemies",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 152685
+        },
+        {
+          "id": "ca02d92a-a652-4f9e-94ea-6957f471bbfc",
+          "name": "cross my heart",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 146259
+        },
+        {
+          "id": "0feca1f6-4f39-4f5b-afa7-3f418e187786",
+          "name": "just want u to feel something",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 170213
+        },
+        {
+          "id": "c29e7ce1-72b1-4b18-a959-91a03d6c670f",
+          "name": "please don't humble me",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 171650
+        },
+        {
+          "id": "69e28419-fdcc-4d16-8529-34c031fecd6d",
+          "name": "breath away",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 166896
+        },
+        {
+          "id": "7c55891e-fa00-4e77-a4ec-4cd8a72936d3",
+          "name": "fucked up kinda dream",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 153077
+        },
+        {
+          "id": "8a9537ac-1a2d-4aa3-8d72-7d295931d767",
+          "name": "alone...",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 114390
+        },
+        {
+          "id": "6bac9b5d-a54f-4a75-bd53-3033a626350e",
+          "name": "al pacino",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 144091
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:7b4e906e-082a-4d70-81bd-d6a12beac0c7",
+    "name": "Call Me Irresponsible",
+    "artists": [
+      {
+        "name": "Michael Bublé"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/7b4e906e-082a-4d70-81bd-d6a12beac0c7.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/7b4e906e-082a-4d70-81bd-d6a12beac0c7.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2007-04-27",
+    "album_type": "Album",
+    "total_tracks": 13,
+    "tracks": {
+      "items": [
+        {
+          "id": "126bcba2-c41a-413b-b98d-40e437aa8002",
+          "name": "The Best Is Yet to Come",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 185160
+        },
+        {
+          "id": "89d11d62-6185-4c34-a3ad-6e533d4913be",
+          "name": "It Had Better Be Tonight (Meglio Stasera)",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 186200
+        },
+        {
+          "id": "7c8508f9-63cb-425d-bfc2-206e7571199a",
+          "name": "Me and Mrs. Jones",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 273840
+        },
+        {
+          "id": "38f07d63-c29f-4460-8704-2f07bc3e3df6",
+          "name": "I’m Your Man",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 299160
+        },
+        {
+          "id": "efb3b2eb-b74b-4372-afca-2efd311e95d4",
+          "name": "Comin’ Home Baby",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 207000
+        },
+        {
+          "id": "8d346bc0-7980-408a-9486-26e415aa1e04",
+          "name": "Lost",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 220640
+        },
+        {
+          "id": "99eaa183-5ea1-46a8-8817-dcba59c5988d",
+          "name": "Call Me Irresponsible",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 196560
+        },
+        {
+          "id": "62e11b9a-c7a2-437b-a9af-c1d3c3b41237",
+          "name": "Wonderful Tonight",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 252640
+        },
+        {
+          "id": "31c79259-3e45-43c4-afec-9639e275481b",
+          "name": "Everything",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 213266
+        },
+        {
+          "id": "82aaf7f9-b518-4ba1-9372-0a6d884bda39",
+          "name": "I’ve Got the World on a String",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 167933
+        },
+        {
+          "id": "1c41716b-fd04-4138-8ec9-2f88e08281a2",
+          "name": "Always on My Mind",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 270360
+        },
+        {
+          "id": "3357e742-2c48-4bbc-880d-7490b965719e",
+          "name": "That’s Life",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 255600
+        },
+        {
+          "id": "fed72ee6-d78c-4507-bddd-4ceef4f37f16",
+          "name": "Dream",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 305506
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:47bd9330-eb9c-4638-ac41-b6870c2624db",
+    "name": "Mind Body & Soul",
+    "artists": [
+      {
+        "name": "Joss Stone"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/47bd9330-eb9c-4638-ac41-b6870c2624db.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/47bd9330-eb9c-4638-ac41-b6870c2624db.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2004-09-15",
+    "album_type": "Album",
+    "total_tracks": 15,
+    "tracks": {
+      "items": [
+        {
+          "id": "940c1546-77d7-405a-9957-9dad9745929d",
+          "name": "Right to Be Wrong",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 281007
+        },
+        {
+          "id": "1ed7215b-1d4f-463d-94cd-83bb01c2fb8b",
+          "name": "Jet Lag",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 240999
+        },
+        {
+          "id": "10e9c5a0-fee4-4e1b-82ad-6d6e89379686",
+          "name": "You Had Me",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 239676
+        },
+        {
+          "id": "1e95bab4-9f3e-45a2-85c2-5e097e6decc2",
+          "name": "Spoiled",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 243159
+        },
+        {
+          "id": "e6046be8-8421-44d3-8917-6aa173a5746b",
+          "name": "Don't Cha Wanna Ride",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 211789
+        },
+        {
+          "id": "b5bcd836-1d7d-493c-98df-0223b3e29715",
+          "name": "Less Is More",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 257764
+        },
+        {
+          "id": "d763ee26-e2b8-420e-a3bb-900387faafb0",
+          "name": "Security",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 270837
+        },
+        {
+          "id": "9a6db540-579b-47cd-8253-5e805c7c2f24",
+          "name": "Young at Heart",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 250403
+        },
+        {
+          "id": "7f225dd7-f540-4b7c-91d1-31b1f2c84562",
+          "name": "Snakes and Ladders",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 215411
+        },
+        {
+          "id": "3d3df8d0-1cf1-4492-ad8b-2e09264e8623",
+          "name": "Understand",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 226998
+        },
+        {
+          "id": "33d83a22-6f07-472b-b578-6fded6168e52",
+          "name": "Don't Know How",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 241092
+        },
+        {
+          "id": "c0ba9628-0330-4c85-aac5-740b034c60db",
+          "name": "Torn and Tattered",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 238515
+        },
+        {
+          "id": "69e24243-afe6-4822-afc6-526b92dc11db",
+          "name": "Killing Time",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 311983
+        },
+        {
+          "id": "6eb6fb41-def7-4d1f-9271-526933011025",
+          "name": "Sleep Like a Child",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 927103
+        },
+        {
+          "id": "79465bf8-c86d-465f-852a-2a46ef85560b",
+          "name": "Holding Out For A Hero [Bonus Track]",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 161053
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:ea6bdb4a-ee0a-41a0-a899-4be5fba5c34d",
+    "name": "Breakaway",
+    "artists": [
+      {
+        "name": "Kelly Clarkson"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/ea6bdb4a-ee0a-41a0-a899-4be5fba5c34d.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/ea6bdb4a-ee0a-41a0-a899-4be5fba5c34d.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2004-11-30",
+    "album_type": "Album",
+    "total_tracks": 12,
+    "tracks": {
+      "items": [
+        {
+          "id": "166b84d6-a912-4534-8de9-248364331c1c",
+          "name": "Breakaway",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 237000
+        },
+        {
+          "id": "1675df7d-f337-4b4a-8ee6-70122723cbcc",
+          "name": "Since U Been Gone",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 188960
+        },
+        {
+          "id": "5205cff6-b2f2-4319-be54-a2b1edc00ee3",
+          "name": "Behind These Hazel Eyes",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 198973
+        },
+        {
+          "id": "cd52b2b1-28d4-4885-9f1d-b44b8caf07f7",
+          "name": "Because of You",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 219493
+        },
+        {
+          "id": "61a3e87e-a892-4f39-a7f8-6d7a84281ba6",
+          "name": "Gone",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 207306
+        },
+        {
+          "id": "763af217-be94-4f45-9422-5e8c82ac2f9d",
+          "name": "Addicted",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 237093
+        },
+        {
+          "id": "a9c93195-4704-48cf-8563-5f37b3544832",
+          "name": "Where Is Your Heart",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 279133
+        },
+        {
+          "id": "e629c195-a6bb-4b59-a92c-e098267fe024",
+          "name": "Walk Away",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 188906
+        },
+        {
+          "id": "aa541c33-a048-46d2-9ddb-1aae2e39df9b",
+          "name": "You Found Me",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 219333
+        },
+        {
+          "id": "31e85c4e-d52a-45ea-b9ab-c36036b2deb7",
+          "name": "I Hate Myself for Losing You",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 200466
+        },
+        {
+          "id": "6a95e974-8442-4c71-9c46-de57cec8ad3c",
+          "name": "Hear Me",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 236560
+        },
+        {
+          "id": "d9f30cf1-8900-46ae-90dd-ce34d63c8a4e",
+          "name": "Beautiful Disaster (live)",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 274600
+        }
+      ]
+    }
+  },
+  {
+    "id": "mb:c9a6e880-61b1-4882-b466-a10f6473ea19",
+    "name": "K.I.D.S.",
+    "artists": [
+      {
+        "name": "Mac Miller"
+      }
+    ],
+    "images": [
+      {
+        "url": "/album-covers/c9a6e880-61b1-4882-b466-a10f6473ea19.jpg",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "url": "/album-covers/c9a6e880-61b1-4882-b466-a10f6473ea19.jpg",
+        "width": 250,
+        "height": 250
+      }
+    ],
+    "release_date": "2010-08-13",
+    "album_type": "Album",
+    "total_tracks": 17,
+    "tracks": {
+      "items": [
+        {
+          "id": "4248c938-23e1-4826-8028-e71a11079479",
+          "name": "Kickin' Incredibly Dope Shit (intro)",
+          "track_number": 1,
+          "disc_number": 1,
+          "duration_ms": 224000
+        },
+        {
+          "id": "1bafb097-2555-4905-9fea-4c6836dd02b3",
+          "name": "Outside",
+          "track_number": 2,
+          "disc_number": 1,
+          "duration_ms": 217000
+        },
+        {
+          "id": "639f4578-629f-4184-b8ee-421eace3e0d4",
+          "name": "Get Em Up",
+          "track_number": 3,
+          "disc_number": 1,
+          "duration_ms": 198000
+        },
+        {
+          "id": "1b60814e-418f-423d-981f-c9688465a5af",
+          "name": "Nikes on My Feet",
+          "track_number": 4,
+          "disc_number": 1,
+          "duration_ms": 164000
+        },
+        {
+          "id": "6b410e49-4b23-468f-8eda-643190d7fa23",
+          "name": "Senior Skip Day",
+          "track_number": 5,
+          "disc_number": 1,
+          "duration_ms": 175000
+        },
+        {
+          "id": "f48c8842-95c7-4fb2-9b3a-82cde7be8bd7",
+          "name": "The Spins",
+          "track_number": 6,
+          "disc_number": 1,
+          "duration_ms": 196000
+        },
+        {
+          "id": "dc1ceb91-b10a-4cec-9754-46b473bc9326",
+          "name": "Traffic in the Sky",
+          "track_number": 7,
+          "disc_number": 1,
+          "duration_ms": 153000
+        },
+        {
+          "id": "3dfd0577-bc0c-4db9-8da8-552288ede366",
+          "name": "Don't Mind If I Do",
+          "track_number": 8,
+          "disc_number": 1,
+          "duration_ms": 138000
+        },
+        {
+          "id": "31315157-ece9-4cd4-936c-7f0d24e5de77",
+          "name": "Paper Route",
+          "track_number": 9,
+          "disc_number": 1,
+          "duration_ms": 180000
+        },
+        {
+          "id": "230c62ba-ed85-43fa-8463-a03423226b63",
+          "name": "Good Evening",
+          "track_number": 10,
+          "disc_number": 1,
+          "duration_ms": 235000
+        },
+        {
+          "id": "1144dadb-1f05-4fba-b536-034fd5dcc237",
+          "name": "Ride Around",
+          "track_number": 11,
+          "disc_number": 1,
+          "duration_ms": 144000
+        },
+        {
+          "id": "0ff1d945-6612-4643-afe7-643e48eb5408",
+          "name": "Knock Knock",
+          "track_number": 12,
+          "disc_number": 1,
+          "duration_ms": 198000
+        },
+        {
+          "id": "98568651-5d91-492b-b3af-38653b4b689e",
+          "name": "Mad Flava, Heavy Flow (interlude)",
+          "track_number": 13,
+          "disc_number": 1,
+          "duration_ms": 26000
+        },
+        {
+          "id": "a6718540-88f8-46e2-8243-f0e5372a0f0f",
+          "name": "Kool Aid & Frozen Pizza",
+          "track_number": 14,
+          "disc_number": 1,
+          "duration_ms": 157000
+        },
+        {
+          "id": "43954c0a-233a-4199-8dbb-e86e77fa9f0c",
+          "name": "All I Want Is You",
+          "track_number": 15,
+          "disc_number": 1,
+          "duration_ms": 222000
+        },
+        {
+          "id": "403f0d2c-23d5-4718-a407-68e176a90c4a",
+          "name": "Poppy",
+          "track_number": 16,
+          "disc_number": 1,
+          "duration_ms": 172000
+        },
+        {
+          "id": "47df405a-b5b9-45fd-a056-3a0c6b96980f",
+          "name": "Face in the Crowd",
+          "track_number": 17,
+          "disc_number": 1,
+          "duration_ms": 209000
+        }
+      ]
+    }
+  }
+]

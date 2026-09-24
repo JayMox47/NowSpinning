@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState, type CSSProperties, type Form
 import Image from "next/image";
 import { getConfig, type MusicFrameConfig } from "./config";
 import { beginSpotifyLogin, completeSpotifyLogin, disconnectSpotify, getAlbum, getCurrentlyPlaying, isSpotifyConnected, type SpotifyAlbum } from "./spotify";
-import { cacheAlbum, loadCatalogAlbum, resolveCurrentlyPlaying, searchCatalog } from "./catalog";
+import { cacheAlbum, defaultAlbumIds, loadCatalogAlbum, resolveCurrentlyPlaying, searchCatalog } from "./catalog";
 
 const demoAlbum: SpotifyAlbum = {
   id: "demo",
@@ -74,6 +74,7 @@ export default function MusicPoster() {
   const resolvedCatalogAlbumId = useRef<string | null>(null);
   const catalogRetryAt = useRef(new Map<string, number>());
   const displayMode = useRef<DisplayMode>("standby");
+  const standbyStarted = useRef(false);
 
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout> | undefined;
@@ -126,6 +127,8 @@ export default function MusicPoster() {
   const showStandby = useCallback(async () => {
     setCurrentTrackId(null);
     setCurrentTrackName(null);
+    setCurrentTrackNumber(null);
+    setCurrentDiscNumber(null);
     if (!standbyIds.length) { showAlbum(demoAlbum, "standby"); return; }
     if (!standbyQueue.current.length) {
       standbyQueue.current = shuffled(standbyIds);
@@ -137,7 +140,10 @@ export default function MusicPoster() {
     lastStandbyId.current = id;
     try {
       const next = await loadCatalogAlbum(id) || (config && connected ? await getAlbum(id, config) : null);
-      if (next) { await cacheAlbum(next); showAlbum(next, "standby"); }
+      if (next) {
+        await cacheAlbum(next);
+        if (!pinned.current && !liveAlbumId.current) showAlbum(next, "standby");
+      }
     } catch { /* Keep the current album on screen when a source is unavailable. */ }
   }, [config, connected, showAlbum, standbyIds]);
 
@@ -145,6 +151,12 @@ export default function MusicPoster() {
     standbyQueue.current = [];
     if (lastStandbyId.current && !standbyIds.includes(lastStandbyId.current)) lastStandbyId.current = null;
   }, [standbyIds]);
+
+  useEffect(() => {
+    if (standbyStarted.current || !standbyIds.length || pinned.current || displayMode.current === "live") return;
+    standbyStarted.current = true;
+    void showStandby();
+  }, [standbyIds, showStandby]);
 
   useEffect(() => {
     if (!config) return;
@@ -255,6 +267,12 @@ export default function MusicPoster() {
   const pinAlbum = (chosen: SpotifyAlbum) => { pinned.current = chosen; setIsPinned(true); showAlbum(chosen, "pinned"); setDrawerOpen(false); };
   const resumeAuto = () => { pinned.current = null; setIsPinned(false); setDrawerOpen(false); showStandby(); };
   const saveStandbyIds = (ids: string[]) => { setStandbyIds(ids); localStorage.setItem(ALBUMS_KEY, JSON.stringify(ids)); };
+  const useDefaultRotation = () => {
+    standbyQueue.current = [];
+    standbyStarted.current = false;
+    saveStandbyIds([...defaultAlbumIds]);
+    setNotice("Built-in album collection loaded. You can still add or remove albums.");
+  };
   const submitSearch = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const term = query.trim();
@@ -331,9 +349,10 @@ export default function MusicPoster() {
         <div className="drawer-head"><div><p className="eyebrow">DISPLAY LIBRARY</p><h2>{drawerView === "rotation" ? "Album rotation" : "Pin an album"}</h2></div><button className="close" onClick={() => setDrawerOpen(false)} aria-label="Close selector">×</button></div>
         <div className="drawer-tabs"><button className={drawerView === "rotation" ? "active" : ""} onClick={() => { setDrawerView("rotation"); setQuery(""); setLastSearch(""); setResults([]); }}>Rotation</button><button className={drawerView === "pin" ? "active" : ""} onClick={() => { setDrawerView("pin"); setQuery(""); setLastSearch(""); setResults([]); }}>Manual pin</button></div>
         {drawerView === "rotation" && <div className="frequency"><label htmlFor="rotation-frequency">Change album every</label><select id="rotation-frequency" value={rotationMs} onChange={event => changeRotation(Number(event.target.value))}><option value={15000}>15 seconds</option><option value={30000}>30 seconds</option><option value={60000}>1 minute</option><option value={120000}>2 minutes</option><option value={300000}>5 minutes</option><option value={600000}>10 minutes</option><option value={3600000}>1 hour</option><option value={10800000}>3 hours</option><option value={43200000}>12 hours</option><option value={86400000}>24 hours</option></select></div>}
-        {drawerView === "rotation" && <div className="rotation-list">{standbyAlbums.length ? standbyAlbums.map(item => <div className="rotation-item" key={item.id}><span className="result-art">{item.images?.[2]?.url && <Image src={item.images[2].url} alt="" width={54} height={54} unoptimized />}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")}</small></span><button onClick={() => removeFromRotation(item.id)} aria-label={`Remove ${item.name} from rotation`}>×</button></div>) : <p className="empty">Your rotation is empty. Add an album below.</p>}</div>}
+        {drawerView === "rotation" && <div className="rotation-list">{standbyAlbums.length ? standbyAlbums.map(item => <div className="rotation-item" key={item.id}><span className="result-art">{item.images?.[0]?.url && <Image src={(item.images[2] || item.images[1] || item.images[0]).url} alt="" width={54} height={54} unoptimized />}</span><span><strong>{item.name}</strong><small>{item.artists.map(a => a.name).join(", ")}</small></span><button onClick={() => removeFromRotation(item.id)} aria-label={`Remove ${item.name} from rotation`}>×</button></div>) : <p className="empty">Your rotation is empty. Add an album below.</p>}</div>}
         <form className="search" onSubmit={submitSearch}><span aria-hidden="true">⌕</span><input aria-label="Search albums" value={query} onChange={e => setQuery(e.target.value)} placeholder={drawerView === "rotation" ? "Add an album or artist…" : "Search albums to pin…"} /><button type="submit" disabled={searching || !query.trim()}>Search</button></form>
         {drawerView === "pin" && isPinned && <button className="resume" onClick={resumeAuto}>Resume automatic display <span>→</span></button>}
+        {drawerView === "rotation" && <button className="resume" onClick={useDefaultRotation}>Use built-in collection ({defaultAlbumIds.length}) <span>↻</span></button>}
         <div className="results">
           {searching && <p className="empty">Searching the shelves…</p>}
           {!searching && !lastSearch && drawerView === "pin" && <p className="empty">Search by album or artist, then pin a record to keep it on screen.</p>}

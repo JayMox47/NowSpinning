@@ -1,4 +1,4 @@
-const CACHE_NAME = "now-spinning-v1";
+const CACHE_NAME = "now-spinning-v2-default-collection";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/config.js", "/icon-192.png", "/icon-512.png"];
 
 self.addEventListener("install", event => {

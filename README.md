@@ -76,6 +76,20 @@ Deploy the generated project to any compatible static/edge host. After deploymen
 
 ## Kiosk notes
 
+### Built-in rotation
+
+The 53 selected albums are bundled in `app/default-albums.json`, including tracklists.
+New devices use this collection automatically. Existing devices keep their saved list;
+choose **Rotation → Use built-in collection (53)** to replace it with the preset.
+Adding/removing albums and changing shuffle frequency still saves per device.
+Omit `standbyAlbumIds` in `public/config.js` to use the built-in defaults, or supply an
+array for a custom default list. An intentionally empty saved rotation remains empty.
+
+Catalog metadata comes from MusicBrainz; covers come from the Cover Art Archive.
+The maintainer scripts in `scripts/` resolve the requested list, build the catalog,
+and cache artwork. They are not run in the browser or during deployment.
+
+
 - Sign into Spotify once on the frame; tokens are stored only in that browser's `localStorage`.
 - Browser privacy cleanup, site-data clearing, or changing the origin will require reconnecting.
 - If Spotify is paused, unreachable, or signed out, the display continues in standby mode.

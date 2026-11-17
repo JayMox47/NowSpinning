@@ -104,6 +104,7 @@ async function musicBrainz<T>(path: string): Promise<T> {
   try {
     const response = await fetch(`https://musicbrainz.org/ws/2${path}${path.includes("?") ? "&" : "?"}fmt=json`, {
       headers: { Accept: "application/json" },
+      signal: AbortSignal.timeout(12000),
     });
     if (!response.ok) throw new Error(`MusicBrainz error ${response.status}`);
     return response.json();

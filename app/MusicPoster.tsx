@@ -5,6 +5,7 @@ import Image from "next/image";
 import { getConfig, type MusicFrameConfig } from "./config";
 import { beginSpotifyLogin, completeSpotifyLogin, disconnectSpotify, getAlbum, getCurrentlyPlaying, isSpotifyConnected, type SpotifyAlbum } from "./spotify";
 import { cacheAlbum, defaultAlbumIds, loadCatalogAlbum, resolveCurrentlyPlaying, searchCatalog } from "./catalog";
+import { createLiveAlbumLoader } from "./live-albums";
 
 const demoAlbum: SpotifyAlbum = {
   id: "demo",
@@ -70,9 +71,9 @@ export default function MusicPoster() {
   const lastStandbyId = useRef<string | null>(null);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const liveAlbumId = useRef<string | null>(null);
-  const catalogLookupId = useRef<string | null>(null);
-  const resolvedCatalogAlbumId = useRef<string | null>(null);
-  const catalogRetryAt = useRef(new Map<string, number>());
+  const liveAlbums = useRef<ReturnType<typeof createLiveAlbumLoader> | null>(null);
+  const displayedLiveDetails = useRef<SpotifyAlbum | null>(null);
+  const [tracklistUnavailable, setTracklistUnavailable] = useState(false);
   const displayMode = useRef<DisplayMode>("standby");
   const standbyStarted = useRef(false);
 
@@ -190,10 +191,17 @@ export default function MusicPoster() {
   useEffect(() => {
     if (!config) return;
     let disposed = false;
+    let polling = false;
+    const loader = liveAlbums.current ||= createLiveAlbumLoader(
+      current => getAlbum(current.id, config),
+      current => resolveCurrentlyPlaying(current.name, current.artists?.[0]?.name || "", current.id),
+    );
     const poll = async () => {
-      if (pinned.current || !isSpotifyConnected()) return;
+      if (polling || pinned.current || !isSpotifyConnected()) return;
+      polling = true;
       try {
         const playing = await getCurrentlyPlaying(config);
+        if (disposed || pinned.current) return;
         const current = playing?.item?.album;
         if (!disposed && playing?.is_playing && current) {
           const trackId = playing.item?.id || null;
@@ -203,33 +211,20 @@ export default function MusicPoster() {
           setCurrentDiscNumber(playing.item?.disc_number || null);
           if (liveAlbumId.current !== current.id) {
             liveAlbumId.current = current.id;
-            showAlbum({ ...current, tracks: current.tracks || { items: [] } }, "live");
+            displayedLiveDetails.current = loader.get(current.id) || null;
+            setTracklistUnavailable(false);
+            showAlbum(displayedLiveDetails.current || { ...current, tracks: current.tracks || { items: [] } }, "live");
           }
-          if (!current.tracks?.items?.length && catalogLookupId.current !== current.id && resolvedCatalogAlbumId.current !== current.id && (catalogRetryAt.current.get(current.id) || 0) <= Date.now()) {
-            catalogLookupId.current = current.id;
-            void getAlbum(current.id, config)
-              .catch(() => null)
-              .then(spotifyAlbum => spotifyAlbum?.tracks?.items?.length
-                ? spotifyAlbum
-                : resolveCurrentlyPlaying(current.name, current.artists?.[0]?.name || "", current.id))
-              .then(full => {
-                if (!full) {
-                  catalogRetryAt.current.set(current.id, Date.now() + 60000);
-                  return;
-                }
-                if (!disposed && full) {
-                  catalogRetryAt.current.delete(current.id);
-                  resolvedCatalogAlbumId.current = current.id;
-                  void cacheAlbum(full);
-                  if (liveAlbumId.current === current.id) showAlbum({ ...full, images: current.images?.length ? current.images : full.images }, "live");
-                }
-              })
-              .catch(() => {
-                catalogRetryAt.current.set(current.id, Date.now() + 60000);
-              })
-              .finally(() => { if (catalogLookupId.current === current.id) catalogLookupId.current = null; });
-          } else if (current.tracks?.items?.length) {
-            showAlbum(current, "live");
+          if (!displayedLiveDetails.current) {
+            void loader.load(current).then(full => {
+              if (disposed || pinned.current || liveAlbumId.current !== current.id) return;
+              setTracklistUnavailable(!full);
+              if (full && displayedLiveDetails.current !== full) {
+                displayedLiveDetails.current = full;
+                void cacheAlbum(full);
+                showAlbum(full, "live");
+              }
+            });
           }
         } else if (!disposed) {
           liveAlbumId.current = null;
@@ -240,6 +235,7 @@ export default function MusicPoster() {
           if (displayMode.current === "live") await showStandby();
         }
       } catch { if (!disposed) setConnected(isSpotifyConnected()); }
+      finally { polling = false; }
     };
     poll(); const interval = window.setInterval(poll, Math.max(config.pollIntervalMs, 5000));
     return () => { disposed = true; window.clearInterval(interval); };
@@ -332,7 +328,7 @@ export default function MusicPoster() {
         </section>
         <section className="track-section">
           <div className="track-heading"><span>TRACKS</span><span>{String(trackCount).padStart(2, "0")}</span></div>
-          {!tracks.length && mode === "live" && <p className="track-loading">Loading tracklist…</p>}
+          {!tracks.length && mode === "live" && <p className="track-loading">{tracklistUnavailable ? "Tracklist temporarily unavailable. Retrying…" : "Loading tracklist…"}</p>}
           <ol className="tracklist">{tracks.map((track, index) => <li className={playingTrack(track) ? "playing" : ""} key={`${track.id}-${index}`}><span className="track-number">{playingTrack(track) ? <span className="playing-glyph" aria-label="Currently playing"><i /><i /><i /></span> : String(track.track_number || index + 1).padStart(2, "0")}</span><span>{track.name}</span></li>)}</ol>
         </section>
       </section>

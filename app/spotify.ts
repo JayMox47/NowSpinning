@@ -45,6 +45,7 @@ const tokenRequest = async (params: URLSearchParams) => {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: params,
+    signal: AbortSignal.timeout(12000),
   });
   if (!response.ok) throw new Error("Spotify token request failed");
   return response.json();
@@ -103,12 +104,12 @@ async function api<T>(path: string, config: MusicFrameConfig): Promise<T | null>
   if (Date.now() < rateLimitedUntil) return null;
   const token = await accessToken(config);
   if (!token) return null;
-  let response = await fetch(`https://api.spotify.com/v1${path}`, { cache: "no-store", headers: { Authorization: `Bearer ${token}` } });
+  let response = await fetch(`https://api.spotify.com/v1${path}`, { signal: AbortSignal.timeout(12000), cache: "no-store", headers: { Authorization: `Bearer ${token}` } });
   if (response.status === 204) return null;
   if (response.status === 401) {
     const refreshed = await accessToken(config, true);
     if (!refreshed) return null;
-    response = await fetch(`https://api.spotify.com/v1${path}`, { cache: "no-store", headers: { Authorization: `Bearer ${refreshed}` } });
+    response = await fetch(`https://api.spotify.com/v1${path}`, { signal: AbortSignal.timeout(12000), cache: "no-store", headers: { Authorization: `Bearer ${refreshed}` } });
     if (response.status === 204) return null;
   }
   if (response.status === 401) { disconnectSpotify(); return null; }
@@ -129,7 +130,7 @@ export async function getAlbum(id: string, config: MusicFrameConfig) {
   const cached = albumCache.get(id);
   if (cached) return cached;
   const album = await api<SpotifyAlbum>(`/albums/${encodeURIComponent(id)}`, config);
-  if (album) albumCache.set(id, album);
+  if (album?.tracks?.items?.length) albumCache.set(id, album);
   return album;
 }
 
